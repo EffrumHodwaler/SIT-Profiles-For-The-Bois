@@ -3554,7 +3554,7 @@
 				},
 				"Production": {
 					"5d8f614c9ea122564c316462": {
-						"Progress": 1195.7699999999845,
+						"Progress": 4866.149999999985,
 						"inProgress": true,
 						"RecipeId": "5d8f614c9ea122564c316462",
 						"StartTimestamp": 1716160912,
@@ -3568,7 +3568,7 @@
 					}
 				},
 				"Seed": 1967507794,
-				"sptUpdateLastRunTimestamp": 1716177832
+				"sptUpdateLastRunTimestamp": 1716230266
 			},
 			"Info": {
 				"AccountType": 0,
@@ -24377,112 +24377,9 @@
 				}
 			],
 			"RagfairInfo": {
-				"isRatingGrowing": true,
-				"offers": [
-					{
-						"_id": "dd115c6e0584034d5d07d06a",
-						"intId": 4,
-						"user": {
-							"id": "663c2d0b0005428d0fc844e5",
-							"memberType": 0,
-							"nickname": "Effrum_Hodwaler",
-							"rating": 6.981251405723482,
-							"isRatingGrowing": true,
-							"avatar": "/files/trader/avatar/unknown.jpg"
-						},
-						"root": "d46ce40c5faa9db682d2386e",
-						"items": [
-							{
-								"_id": "d46ce40c5faa9db682d2386e",
-								"_tpl": "5af0548586f7743a532b7e99",
-								"parentId": "hideout",
-								"slotId": "hideout",
-								"upd": {
-									"SpawnedInSession": true,
-									"MedKit": {
-										"HpResource": 8
-									},
-									"StackObjectsCount": 1,
-									"OriginalStackObjectsCount": 1
-								}
-							}
-						],
-						"itemsCost": 25235,
-						"requirements": [
-							{
-								"_tpl": "5449016a4bdc2d6f028b456f",
-								"count": 130000,
-								"onlyFunctional": false
-							}
-						],
-						"requirementsCost": 130000,
-						"summaryCost": 130000,
-						"startTime": 1716176833,
-						"endTime": 1716220033,
-						"loyaltyLevel": 1,
-						"sellInOnePiece": false,
-						"priority": false,
-						"locked": false,
-						"unlimitedCount": false,
-						"notAvailable": false,
-						"CurrentItemCount": 1,
-						"sellResult": []
-					},
-					{
-						"_id": "db83d2b7f99719dbd6fbb17c",
-						"intId": 5,
-						"user": {
-							"id": "663c2d0b0005428d0fc844e5",
-							"memberType": 0,
-							"nickname": "Effrum_Hodwaler",
-							"rating": 6.981251405723482,
-							"isRatingGrowing": true,
-							"avatar": "/files/trader/avatar/unknown.jpg"
-						},
-						"root": "f75de87dceaf049f1c890686",
-						"items": [
-							{
-								"_id": "f75de87dceaf049f1c890686",
-								"_tpl": "56dee2bdd2720bc8328b4567",
-								"parentId": "hideout",
-								"slotId": "hideout",
-								"upd": {
-									"SpawnedInSession": true,
-									"Repairable": {
-										"MaxDurability": 97,
-										"Durability": 57.7741127
-									},
-									"FireMode": {
-										"FireMode": "single"
-									},
-									"StackObjectsCount": 1,
-									"OriginalStackObjectsCount": 1
-								}
-							}
-						],
-						"itemsCost": 14981,
-						"requirements": [
-							{
-								"_tpl": "5449016a4bdc2d6f028b456f",
-								"count": 80000,
-								"onlyFunctional": false
-							}
-						],
-						"requirementsCost": 80000,
-						"summaryCost": 80000,
-						"startTime": 1716176871,
-						"endTime": 1716220071,
-						"loyaltyLevel": 1,
-						"sellInOnePiece": false,
-						"priority": false,
-						"locked": false,
-						"unlimitedCount": false,
-						"notAvailable": false,
-						"CurrentItemCount": 1,
-						"sellResult": []
-					}
-				],
-				"rating": 6.981251405723482
+				"isRatingGrowing": false,
+				"offers": [],
+				"rating": 6.921251405723481
 			},
 			"Skills": {
 				"Common": [
@@ -33683,10 +33580,7 @@
 						"time": "03:30",
 						"location": "bigmap"
 					},
-					"items": {
-						"stash": "82ef493790563068aac1abb7",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 345600
 				},
 				{
@@ -34816,10 +34710,7 @@
 					"templateId": "5c1234c286f77406fa13baeb successMessageText",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "752e226d3de224a519021596",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 172800
 				},
 				{
@@ -35295,10 +35186,7 @@
 					"templateId": "5ae3270f86f77445ba41d4dd successMessageText",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "2754d2ed139674cc50c440b0",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 172800
 				},
 				{
@@ -36184,10 +36072,7 @@
 					"templateId": "61604635c725987e815b1a46 successMessageText 5c0647fdd443bc2504c2d371 0",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "6b30ad41de41289db15e89eb",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 172800
 				},
 				{
@@ -36199,10 +36084,7 @@
 					"templateId": "5d25d2c186f77443e35162e5 successMessageText",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "678d8fb84f7f93c70a73cfca",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 172800
 				},
 				{
@@ -36214,10 +36096,7 @@
 					"templateId": "616052ea3054fc0e2c24ce6e successMessageText 5c0647fdd443bc2504c2d371 0",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "aaf65a35aa672741b5cca84d",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 172800
 				},
 				{
@@ -36239,10 +36118,7 @@
 					"templateId": "5d25e46e86f77409453bce7c successMessageText",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "2748fdff3631bb66db4a37fa",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 172800
 				},
 				{
@@ -37661,11 +37537,73 @@
 						"data": []
 					},
 					"maxStorageTime": 172800
+				},
+				{
+					"_id": "8820b78257c3397eca3204ce",
+					"uid": "5ac3b934156ae10c4430e83c",
+					"type": 13,
+					"dt": 1716230236,
+					"text": "",
+					"templateId": "5bdabfe486f7743e1665df6e 0",
+					"hasRewards": true,
+					"rewardCollected": false,
+					"items": {
+						"stash": "hideout",
+						"data": [
+							{
+								"_id": "6952b0f4652718431b56c6dd",
+								"_tpl": "5af0548586f7743a532b7e99",
+								"parentId": "hideout",
+								"slotId": "main",
+								"upd": {
+									"SpawnedInSession": true,
+									"MedKit": {
+										"HpResource": 8
+									},
+									"StackObjectsCount": 1
+								}
+							}
+						]
+					},
+					"maxStorageTime": 259200
+				},
+				{
+					"_id": "b9ed49fc34ff40ff56693df6",
+					"uid": "5ac3b934156ae10c4430e83c",
+					"type": 13,
+					"dt": 1716230236,
+					"text": "",
+					"templateId": "5bdabfe486f7743e1665df6e 0",
+					"hasRewards": true,
+					"rewardCollected": false,
+					"items": {
+						"stash": "hideout",
+						"data": [
+							{
+								"_id": "e0b42aa834714a19a230b7a7",
+								"_tpl": "56dee2bdd2720bc8328b4567",
+								"parentId": "hideout",
+								"slotId": "main",
+								"upd": {
+									"SpawnedInSession": true,
+									"Repairable": {
+										"MaxDurability": 97,
+										"Durability": 57.7741127
+									},
+									"FireMode": {
+										"FireMode": "single"
+									},
+									"StackObjectsCount": 1
+								}
+							}
+						]
+					},
+					"maxStorageTime": 259200
 				}
 			],
 			"pinned": false,
-			"new": 0,
-			"attachmentsNew": 0
+			"new": 2,
+			"attachmentsNew": 2
 		},
 		"579dc571d53a0658a154fbec": {
 			"_id": "579dc571d53a0658a154fbec",

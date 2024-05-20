@@ -2775,7 +2775,7 @@
 				},
 				"Production": {
 					"5ffcab66fd851f4b000d61ef": {
-						"Progress": 8977,
+						"Progress": 60000,
 						"inProgress": true,
 						"RecipeId": "5ffcab66fd851f4b000d61ef",
 						"StartTimestamp": 1716168859,
@@ -2797,7 +2797,7 @@
 						]
 					},
 					"5eeca8e327ccd70521107fdc": {
-						"Progress": 8014.530000000012,
+						"Progress": 11684.91000000001,
 						"inProgress": true,
 						"RecipeId": "5eeca8e327ccd70521107fdc",
 						"StartTimestamp": 1716168912,
@@ -2820,7 +2820,7 @@
 					}
 				},
 				"Seed": 1967507699,
-				"sptUpdateLastRunTimestamp": 1716177832
+				"sptUpdateLastRunTimestamp": 1716230266
 			},
 			"Info": {
 				"AccountType": 0,
@@ -30385,10 +30385,7 @@
 						"time": "03:30",
 						"location": "bigmap"
 					},
-					"items": {
-						"stash": "a39ed0db61db4b0e7b770b89",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 345600
 				},
 				{
@@ -34749,19 +34746,9 @@
 	],
 	"traderPurchases": {
 		"5c0647fdd443bc2504c2d371": {},
-		"54cb50c76803fa8b248b4571": {
-			"65d8ffada459fcfeac0ce41d": {
-				"count": 200,
-				"purchaseTimestamp": 1716172751
-			}
-		},
+		"54cb50c76803fa8b248b4571": {},
 		"58330581ace78e27b8b10cee": {},
-		"5a7c2eca46aef81a7ca2145d": {
-			"65cb82257e8e8aec5b087633": {
-				"count": 1,
-				"purchaseTimestamp": 1716172785
-			}
-		},
+		"5a7c2eca46aef81a7ca2145d": {},
 		"5935c25fb3acc3127c3d8cd9": {},
 		"54cb57776803fa99248b456e": {},
 		"5ac3b934156ae10c4430e83c": {}

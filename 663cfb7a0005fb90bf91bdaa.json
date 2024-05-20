@@ -3,7 +3,7 @@
 		"id": "663cfb7a0005fb90bf91bdaa",
 		"scavId": "663cfb7a0000bd15ccc0543c",
 		"aid": 1942370,
-		"username": "Bingobango",
+		"username": "BingoBongo",
 		"password": "1234",
 		"wipe": false,
 		"edition": "Edge Of Darkness"
@@ -3123,7 +3123,7 @@
 				},
 				"Production": {
 					"603cf23a420e7f487e175d7f": {
-						"Progress": 1218.9699999999857,
+						"Progress": 4889.349999999986,
 						"inProgress": true,
 						"RecipeId": "603cf23a420e7f487e175d7f",
 						"StartTimestamp": 1716162237,
@@ -3146,7 +3146,7 @@
 					}
 				},
 				"Seed": 1967560899,
-				"sptUpdateLastRunTimestamp": 1716177832
+				"sptUpdateLastRunTimestamp": 1716230266
 			},
 			"Info": {
 				"AccountType": 0,
@@ -25603,56 +25603,9 @@
 				}
 			],
 			"RagfairInfo": {
-				"isRatingGrowing": true,
-				"offers": [
-					{
-						"_id": "ca0678e1eee58d35e7a89656",
-						"intId": 6,
-						"user": {
-							"id": "663cfb7a0005fb90bf91bdaa",
-							"memberType": 0,
-							"nickname": "BingoBongo",
-							"rating": 7.395233429689707,
-							"isRatingGrowing": true,
-							"avatar": "/files/trader/avatar/unknown.jpg"
-						},
-						"root": "2da4001483f9431f3b035d00",
-						"items": [
-							{
-								"_id": "2da4001483f9431f3b035d00",
-								"_tpl": "62a09d3bcf4a99369e262447",
-								"parentId": "",
-								"slotId": "hideout",
-								"upd": {
-									"SpawnedInSession": true,
-									"StackObjectsCount": 1,
-									"OriginalStackObjectsCount": 1
-								}
-							}
-						],
-						"itemsCost": 80000,
-						"requirements": [
-							{
-								"_tpl": "5449016a4bdc2d6f028b456f",
-								"count": 100000,
-								"onlyFunctional": false
-							}
-						],
-						"requirementsCost": 100000,
-						"summaryCost": 100000,
-						"startTime": 1716161327,
-						"endTime": 1716204527,
-						"loyaltyLevel": 1,
-						"sellInOnePiece": false,
-						"priority": false,
-						"locked": false,
-						"unlimitedCount": false,
-						"notAvailable": false,
-						"CurrentItemCount": 1,
-						"sellResult": []
-					}
-				],
-				"rating": 7.915233429689708
+				"isRatingGrowing": false,
+				"offers": [],
+				"rating": 7.885233429689707
 			},
 			"Skills": {
 				"Common": [
@@ -32918,10 +32871,25 @@
 					"templateId": "5edab736cc183c769d778bc2 description",
 					"hasRewards": false,
 					"rewardCollected": false
+				},
+				{
+					"_id": "1bed447b59b34b0a9e33365f",
+					"uid": "54cb57776803fa99248b456e",
+					"type": 8,
+					"dt": 1716230236,
+					"text": "",
+					"templateId": "595f996586f774767d03cbea 1",
+					"hasRewards": false,
+					"rewardCollected": false,
+					"systemData": {
+						"date": "19.05.2024",
+						"time": "17:45",
+						"location": "Shoreline"
+					}
 				}
 			],
 			"pinned": true,
-			"new": 0,
+			"new": 1,
 			"attachmentsNew": 0
 		},
 		"54cb50c76803fa8b248b4571": {
@@ -34188,10 +34156,7 @@
 						"time": "02:23",
 						"location": "Woods"
 					},
-					"items": {
-						"stash": "eef72be4d23759af7ff1dd0d",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 345600
 				},
 				{
@@ -34208,10 +34173,7 @@
 						"time": "03:29",
 						"location": "bigmap"
 					},
-					"items": {
-						"stash": "4d8219e10a882e77df2d5d9a",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 345600
 				},
 				{
@@ -36510,11 +36472,37 @@
 						"data": []
 					},
 					"maxStorageTime": 172800
+				},
+				{
+					"_id": "886ab7cd0640b59be2c5e018",
+					"uid": "5ac3b934156ae10c4430e83c",
+					"type": 13,
+					"dt": 1716230236,
+					"text": "",
+					"templateId": "5bdabfe486f7743e1665df6e 0",
+					"hasRewards": true,
+					"rewardCollected": false,
+					"items": {
+						"stash": "2a63cb9e9467266347e1878b",
+						"data": [
+							{
+								"_id": "012dab14b9ff758b4578ac88",
+								"_tpl": "62a09d3bcf4a99369e262447",
+								"parentId": "2a63cb9e9467266347e1878b",
+								"slotId": "main",
+								"upd": {
+									"SpawnedInSession": true,
+									"StackObjectsCount": 1
+								}
+							}
+						]
+					},
+					"maxStorageTime": 259200
 				}
 			],
 			"pinned": true,
-			"new": 0,
-			"attachmentsNew": 0
+			"new": 1,
+			"attachmentsNew": 1
 		},
 		"Digi": {
 			"_id": "Digi",
@@ -37031,32 +37019,6 @@
 					},
 					"parentId": "d474a600647caa2715a3518e",
 					"slotId": "mod_scope"
-				}
-			]
-		},
-		{
-			"scheduledTime": 1716211800,
-			"traderId": "54cb57776803fa99248b456e",
-			"maxStorageTime": 518400,
-			"systemData": {
-				"date": "19.05.2024",
-				"time": "17:45",
-				"location": "Shoreline"
-			},
-			"messageType": 8,
-			"messageTemplateId": "58fe0e3486f77471f772c3f2 1",
-			"items": [
-				{
-					"_id": "56223095ad672c9ca852bd77",
-					"_tpl": "656fa99800d62bcd2e024088",
-					"parentId": "316cd12c4322033e81453c8c",
-					"slotId": "hideout",
-					"upd": {
-						"Repairable": {
-							"MaxDurability": 65,
-							"Durability": 38.2014732
-						}
-					}
 				}
 			]
 		},
