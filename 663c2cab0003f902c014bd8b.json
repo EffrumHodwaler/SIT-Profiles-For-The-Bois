@@ -2484,8 +2484,8 @@
 										"upd": {
 											"StackObjectsCount": 1,
 											"Resource": {
-												"Value": 0.3067,
-												"UnitsConsumed": 9.6933
+												"Value": 0.0214,
+												"UnitsConsumed": 9.9786
 											},
 											"SpawnedInSession": true
 										}
@@ -2963,7 +2963,7 @@
 					}
 				},
 				"Seed": 1967507699,
-				"sptUpdateLastRunTimestamp": 1716279422
+				"sptUpdateLastRunTimestamp": 1716279657
 			},
 			"Info": {
 				"AccountType": 0,
