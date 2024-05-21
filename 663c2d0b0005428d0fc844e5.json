@@ -3554,7 +3554,7 @@
 				},
 				"Production": {
 					"5d8f614c9ea122564c316462": {
-						"Progress": 4866.149999999985,
+						"Progress": 6900,
 						"inProgress": true,
 						"RecipeId": "5d8f614c9ea122564c316462",
 						"StartTimestamp": 1716160912,
@@ -3568,7 +3568,7 @@
 					}
 				},
 				"Seed": 1967507794,
-				"sptUpdateLastRunTimestamp": 1716230266
+				"sptUpdateLastRunTimestamp": 1716260143
 			},
 			"Info": {
 				"AccountType": 0,
@@ -33751,10 +33751,7 @@
 					"templateId": "59c50a9e86f7745fef66f4ff successMessageText",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "c5e8084c40596870df70d0b3",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 172800
 				},
 				{
@@ -33766,10 +33763,7 @@
 					"templateId": "5eda19f0edce541157209cee successMessageText",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "61fabc5be01010a28a0b1ef3",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 172800
 				},
 				{
@@ -33791,10 +33785,7 @@
 					"templateId": "59c50c8886f7745fed3193bf description",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "ae8cc59d79dfeae5c137c4e6",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 172800
 				},
 				{
@@ -33916,11 +33907,365 @@
 						"time": "03:15",
 						"location": "bigmap"
 					}
+				},
+				{
+					"_id": "b54355b16c16d3e220bd992b",
+					"uid": "54cb50c76803fa8b248b4571",
+					"type": 8,
+					"dt": 1716259238,
+					"text": "",
+					"templateId": "58fe0e4586f774728248ca13 2",
+					"hasRewards": true,
+					"rewardCollected": false,
+					"systemData": {
+						"date": "19.05.2024",
+						"time": "20:50",
+						"location": "factory4_day"
+					},
+					"items": {
+						"stash": "5606980593d86c0dc68b5d14",
+						"data": [
+							{
+								"_id": "d94b8822d67a1ac10cbb7283",
+								"_tpl": "59e763f286f7742ee57895da",
+								"parentId": "5606980593d86c0dc68b5d14",
+								"slotId": "main",
+								"upd": {}
+							},
+							{
+								"_id": "12e9405642d659107b4fb99b",
+								"_tpl": "656fb21fa0dce000a2020f7c",
+								"parentId": "0d0adefb66e1cbe471aaaa9d",
+								"slotId": "Back_plate",
+								"upd": {
+									"Repairable": {
+										"MaxDurability": 45,
+										"Durability": 45
+									}
+								}
+							},
+							{
+								"_id": "0d0adefb66e1cbe471aaaa9d",
+								"_tpl": "61bcc89aef0f505f0c6cd0fc",
+								"parentId": "5606980593d86c0dc68b5d14",
+								"slotId": "main",
+								"upd": {}
+							},
+							{
+								"_id": "a2c0ef3f333d0332e1a7bc51",
+								"_tpl": "6572eb0e55beba16bc04079f",
+								"parentId": "0d0adefb66e1cbe471aaaa9d",
+								"slotId": "Soft_armor_front",
+								"upd": {
+									"Repairable": {
+										"MaxDurability": 36,
+										"Durability": 36
+									}
+								}
+							},
+							{
+								"_id": "10ff5546b09405332f57fae6",
+								"_tpl": "6572eb1b04ee6483ef039882",
+								"parentId": "0d0adefb66e1cbe471aaaa9d",
+								"slotId": "Soft_armor_back",
+								"upd": {
+									"Repairable": {
+										"MaxDurability": 36,
+										"Durability": 36
+									}
+								}
+							},
+							{
+								"_id": "d2a6ab7ebda4809968b48743",
+								"_tpl": "6572eb3004ee6483ef039886",
+								"parentId": "0d0adefb66e1cbe471aaaa9d",
+								"slotId": "Soft_armor_left",
+								"upd": {
+									"Repairable": {
+										"MaxDurability": 9,
+										"Durability": 9
+									}
+								}
+							},
+							{
+								"_id": "30efb6084ae7a5d78fc3e77c",
+								"_tpl": "6572eb3b04ee6483ef03988a",
+								"parentId": "0d0adefb66e1cbe471aaaa9d",
+								"slotId": "soft_armor_right",
+								"upd": {
+									"Repairable": {
+										"MaxDurability": 9,
+										"Durability": 9
+									}
+								}
+							},
+							{
+								"_id": "122bcb0851c36bfedb191be3",
+								"_tpl": "6572eb865b5eac12f10a03ee",
+								"parentId": "0d0adefb66e1cbe471aaaa9d",
+								"slotId": "Groin",
+								"upd": {
+									"Repairable": {
+										"MaxDurability": 18,
+										"Durability": 18
+									}
+								}
+							},
+							{
+								"_id": "aa4f19bb21b7adf060556d33",
+								"_tpl": "5ea17ca01412a1425304d1c0",
+								"parentId": "5606980593d86c0dc68b5d14",
+								"slotId": "main",
+								"upd": {}
+							},
+							{
+								"_id": "fbbe79f2b4a86408518cb96d",
+								"_tpl": "657f9a55c6679fefb3051e19",
+								"parentId": "aa4f19bb21b7adf060556d33",
+								"slotId": "Helmet_top",
+								"upd": {
+									"Repairable": {
+										"MaxDurability": 22.08,
+										"Durability": 13.08
+									}
+								}
+							},
+							{
+								"_id": "0f70675e13f7ce3c1cf558ba",
+								"_tpl": "657f9a94ada5fadd1f07a589",
+								"parentId": "aa4f19bb21b7adf060556d33",
+								"slotId": "Helmet_back",
+								"upd": {
+									"Repairable": {
+										"MaxDurability": 24,
+										"Durability": 23
+									}
+								}
+							},
+							{
+								"_id": "e98e27632a894616b54721be",
+								"_tpl": "5bf3e0490db83400196199af",
+								"parentId": "5606980593d86c0dc68b5d14",
+								"slotId": "main",
+								"upd": {
+									"Repairable": {
+										"MaxDurability": 100,
+										"Durability": 98.77713
+									},
+									"Foldable": {
+										"Folded": false
+									},
+									"FireMode": {
+										"FireMode": "single"
+									}
+								}
+							},
+							{
+								"_id": "7883f3c470e7fae02b2e004d",
+								"_tpl": "59c6633186f7740cf0493bb9",
+								"parentId": "e98e27632a894616b54721be",
+								"slotId": "mod_gas_block",
+								"upd": {}
+							},
+							{
+								"_id": "a85f3389bd399e0a3ab3d284",
+								"_tpl": "5649aa744bdc2ded0b8b457e",
+								"parentId": "e98e27632a894616b54721be",
+								"slotId": "mod_muzzle",
+								"upd": {}
+							},
+							{
+								"_id": "31fc503f733f78e2cb460c9b",
+								"_tpl": "57e3dba62459770f0c32322b",
+								"parentId": "e98e27632a894616b54721be",
+								"slotId": "mod_pistol_grip",
+								"upd": {}
+							},
+							{
+								"_id": "d88552f7503c5d7794319371",
+								"_tpl": "5d2c76ed48f03532f2136169",
+								"parentId": "e98e27632a894616b54721be",
+								"slotId": "mod_reciever",
+								"upd": {}
+							},
+							{
+								"_id": "3e9201e6193d0a069eee2b75",
+								"_tpl": "5ab626e4d8ce87272e4c6e43",
+								"parentId": "e98e27632a894616b54721be",
+								"slotId": "mod_stock",
+								"upd": {}
+							},
+							{
+								"_id": "ac8bee928dacba617c900087",
+								"_tpl": "5648b0744bdc2d363b8b4578",
+								"parentId": "7883f3c470e7fae02b2e004d",
+								"slotId": "mod_handguard",
+								"upd": {}
+							},
+							{
+								"_id": "7b73b80b12feb712730503c7",
+								"_tpl": "57ae0171245977343c27bfcf",
+								"parentId": "d88552f7503c5d7794319371",
+								"slotId": "mod_scope",
+								"upd": {
+									"Sight": {
+										"ScopesCurrentCalibPointIndexes": [
+											0
+										],
+										"ScopesSelectedModes": [
+											0
+										],
+										"SelectedScope": 0
+									}
+								}
+							}
+						]
+					},
+					"maxStorageTime": 345600
+				},
+				{
+					"_id": "41409d4395ce71b5467769ef",
+					"uid": "54cb50c76803fa8b248b4571",
+					"type": 8,
+					"dt": 1716259238,
+					"text": "",
+					"templateId": "58fe0e4586f774728248ca13 2",
+					"hasRewards": true,
+					"rewardCollected": false,
+					"systemData": {
+						"date": "19.05.2024",
+						"time": "23:19",
+						"location": "Shoreline"
+					},
+					"items": {
+						"stash": "b96a6309b79bcf31a82cf089",
+						"data": [
+							{
+								"_id": "4b8fb041cf793d9d5db673c1",
+								"_tpl": "618a5d5852ecee1505530b2a",
+								"parentId": "117642bdfe17838b9caab9e4",
+								"slotId": "mod_mount_000",
+								"upd": {
+									"Sight": {
+										"ScopesCurrentCalibPointIndexes": [
+											0
+										],
+										"ScopesSelectedModes": [
+											0
+										],
+										"SelectedScope": 0
+									}
+								}
+							},
+							{
+								"_id": "0765dc1834c6ad3de59ed065",
+								"_tpl": "576169e62459773c69055191",
+								"parentId": "117642bdfe17838b9caab9e4",
+								"slotId": "mod_handguard",
+								"upd": {}
+							},
+							{
+								"_id": "1f9337c320e15f72c8434742",
+								"_tpl": "5649ade84bdc2d1b2b8b4587",
+								"parentId": "117642bdfe17838b9caab9e4",
+								"slotId": "mod_pistol_grip",
+								"upd": {}
+							},
+							{
+								"_id": "19765f284d524456ac8b9671",
+								"_tpl": "57616c112459773cce774d66",
+								"parentId": "117642bdfe17838b9caab9e4",
+								"slotId": "mod_reciever",
+								"upd": {}
+							},
+							{
+								"_id": "78b8a0bf786ddc9ba2aaa595",
+								"_tpl": "57a9b9ce2459770ee926038d",
+								"parentId": "117642bdfe17838b9caab9e4",
+								"slotId": "mod_sight_rear",
+								"upd": {
+									"Sight": {
+										"ScopesCurrentCalibPointIndexes": [
+											0
+										],
+										"ScopesSelectedModes": [
+											0
+										],
+										"SelectedScope": 0
+									}
+								}
+							},
+							{
+								"_id": "5e9b536b8c6b1ccee2b4115a",
+								"_tpl": "57616ca52459773c69055192",
+								"parentId": "117642bdfe17838b9caab9e4",
+								"slotId": "mod_stock",
+								"upd": {}
+							},
+							{
+								"_id": "117642bdfe17838b9caab9e4",
+								"_tpl": "576165642459773c7a400233",
+								"parentId": "b96a6309b79bcf31a82cf089",
+								"slotId": "main",
+								"upd": {
+									"Repairable": {
+										"MaxDurability": 100,
+										"Durability": 98.730835
+									},
+									"Foldable": {
+										"Folded": false
+									},
+									"FireMode": {
+										"FireMode": "single"
+									}
+								}
+							},
+							{
+								"_id": "ef595cb75593f2db1d95f4c0",
+								"_tpl": "61bca7cda0eae612383adf57",
+								"parentId": "b96a6309b79bcf31a82cf089",
+								"slotId": "main",
+								"upd": {}
+							},
+							{
+								"_id": "e49da96128ed9afedb74b913",
+								"_tpl": "657bbcc9a1c61ee0c3036327",
+								"parentId": "ef595cb75593f2db1d95f4c0",
+								"slotId": "Helmet_top",
+								"upd": {
+									"Repairable": {
+										"MaxDurability": 36.66,
+										"Durability": 29.9797249
+									}
+								}
+							},
+							{
+								"_id": "30f5200ae00148528a721733",
+								"_tpl": "657bbcffbbd440df880b2dd5",
+								"parentId": "ef595cb75593f2db1d95f4c0",
+								"slotId": "Helmet_back",
+								"upd": {
+									"Repairable": {
+										"MaxDurability": 37.83,
+										"Durability": 27.83
+									}
+								}
+							},
+							{
+								"_id": "0eb2db7aa8859f6b5383222b",
+								"_tpl": "5aa2ba71e5b5b000137b758f",
+								"parentId": "b96a6309b79bcf31a82cf089",
+								"slotId": "main",
+								"upd": {}
+							}
+						]
+					},
+					"maxStorageTime": 345600
 				}
 			],
 			"pinned": false,
-			"new": 0,
-			"attachmentsNew": 0
+			"new": 2,
+			"attachmentsNew": 2
 		},
 		"54cb57776803fa99248b456e": {
 			"_id": "54cb57776803fa99248b456e",
@@ -34251,10 +34596,7 @@
 					"templateId": "5a68661a86f774500f48afb0 successMessageText",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "60eba90f12b9621b72e74420",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 172800
 				},
 				{
@@ -34286,10 +34628,7 @@
 					"templateId": "5a68663e86f774501078f78a successMessageText",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "7d75169d4858a07cf65492db",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 172800
 				},
 				{
@@ -34742,10 +35081,7 @@
 					"templateId": "597a0f5686f774273b74f676 description",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "1c58769b4aebeb4c93d6f3c9",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 172800
 				},
 				{
@@ -34757,10 +35093,7 @@
 					"templateId": "5edabd13218d181e29451442 description",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "b6a94035adbfd7ba8793d582",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 172800
 				},
 				{
@@ -34772,10 +35105,7 @@
 					"templateId": "5edabd13218d181e29451442 successMessageText",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "f45fda0863ad8ac0cf08c9f8",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 172800
 				},
 				{
@@ -35208,10 +35538,7 @@
 					"templateId": "5ac3467986f7741d6224abc2 successMessageText",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "40cf27decf77b5bb667da972",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 172800
 				},
 				{
@@ -35243,10 +35570,7 @@
 					"templateId": "5ac3479086f7742880308199 successMessageText",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "a0478dc2de5d98853f5e0224",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 172800
 				},
 				{
@@ -35258,10 +35582,7 @@
 					"templateId": "5ac346a886f7744e1b083d67 successMessageText",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "78637b36899fbc423ccf9604",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 172800
 				},
 				{
@@ -35273,10 +35594,7 @@
 					"templateId": "5ac346cf86f7741d63233a02 description",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "08181acb932422cb03f32bcb",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 172800
 				},
 				{
@@ -35308,10 +35626,7 @@
 					"templateId": "5ac244eb86f7741356335af1 successMessageText",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "7ceee86a575c6fb755821544",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 172800
 				},
 				{
@@ -35333,10 +35648,7 @@
 					"templateId": "5ae3277186f7745973054106 successMessageText",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "badc1f12b8b154412988bd75",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 172800
 				},
 				{
@@ -35358,10 +35670,7 @@
 					"templateId": "5ac346cf86f7741d63233a02 successMessageText",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "9f6d0657dcb1e995fb790698",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 172800
 				},
 				{
@@ -35383,10 +35692,7 @@
 					"templateId": "5ac346e886f7741d6118b99b successMessageText",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "62fda2eb62d10568e7bb9049",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 172800
 				},
 				{
@@ -35673,10 +35979,7 @@
 					"templateId": "5a27b7d686f77460d847e6a6 successMessageText",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "2b7617a146505e1dcdda7b91",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 172800
 				},
 				{
@@ -35708,10 +36011,7 @@
 					"templateId": "5a27b80086f774429a5d7e20 successMessageText",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "43863578c9753e1ec7f64fd3",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 172800
 				},
 				{
@@ -36130,10 +36430,7 @@
 					"templateId": "5bc47dbf86f7741ee74e93b9 successMessageText",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "6471108ab8ba58ce138bd2ae",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 172800
 				},
 				{
@@ -36282,10 +36579,7 @@
 					"text": "Your Car battery 1 items were bought by Jester_Stacks.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "c817b5d23332a3409bb548f1",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 172800
 				},
 				{
@@ -36296,10 +36590,7 @@
 					"text": "Your Car battery 1 items were bought by jbs4bmx.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "cef92c716949aac227abbbf7",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 172800
 				},
 				{
@@ -36310,10 +36601,7 @@
 					"text": "Your Car battery 2 items were bought by Tyrian.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "de7dd0330226daffb2dc2219",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 172800
 				},
 				{
@@ -36324,10 +36612,7 @@
 					"text": "Your 6-STEN-140-M military battery 2 items were bought by CheekiBreeki.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "1639d27cc497a8b056948ae6",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 172800
 				},
 				{
@@ -36338,10 +36623,7 @@
 					"text": "Your Geiger-Muller counter 1 items were bought by pplatinumssEU.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "784049b34061a26456a43d6f",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 172800
 				},
 				{
@@ -36352,10 +36634,7 @@
 					"text": "Your Geiger-Muller counter 2 items were bought by Skwizzy.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "5189cb6f90df32cf76307d78",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 172800
 				},
 				{
@@ -36366,10 +36645,7 @@
 					"text": "Your Geiger-Muller counter 1 items were bought by BrandoTheDev.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "79748092947a9c745785a5c9",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 172800
 				},
 				{
@@ -36380,10 +36656,7 @@
 					"text": "Your Geiger-Muller counter 1 items were bought by McDewgle.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "1ff9ad686f4f190c2f5914d8",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 172800
 				},
 				{
@@ -36394,10 +36667,7 @@
 					"text": "Your Geiger-Muller counter 1 items were bought by Holynevil.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "32c175e4b3adf83fabac1d74",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 172800
 				},
 				{
@@ -36408,10 +36678,7 @@
 					"text": "Your Screw nuts 13 items were bought by Jeo.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "2fe1c03013e1c53e68039347",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 172800
 				},
 				{
@@ -36422,10 +36689,7 @@
 					"text": "Your Screw nuts 4 items were bought by Senko.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "8b0fb7d7bff9657a0561f27e",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 172800
 				},
 				{
@@ -36436,10 +36700,7 @@
 					"text": "Your Screw nuts 2 items were bought by SlejmUr.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "41ed081b686531e395d3cccb",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 172800
 				},
 				{
@@ -36450,10 +36711,7 @@
 					"text": "Your Light bulb 6 items were bought by ChiNoel.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "6ef3e6b142cd13fd82af1c5b",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 172800
 				},
 				{
@@ -36464,10 +36722,7 @@
 					"text": "Your Light bulb 2 items were bought by kwebber321.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "1db0986b5d97f8b294924b93",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 172800
 				},
 				{
@@ -36478,10 +36733,7 @@
 					"text": "Your Secure magnetic tape cassette 1 items were bought by Belzedar.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "68a689d01c09f7be957fd0c6",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 172800
 				},
 				{
@@ -36492,10 +36744,7 @@
 					"text": "Your Secure magnetic tape cassette 1 items were bought by WillDaPope.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "2dc3c4206802bffa49ef7236",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 172800
 				},
 				{
@@ -36506,10 +36755,7 @@
 					"text": "Your Secure magnetic tape cassette 1 items were bought by kova.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "6ab088846e3c20550d3bdec3",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 172800
 				},
 				{
@@ -36520,10 +36766,7 @@
 					"text": "Your Video cassette with the Cyborg Killer movie 1 items were bought by DrakiaXYZ.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "0d25160cdbc7afa1cc4a4f40",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 172800
 				},
 				{
@@ -36534,10 +36777,7 @@
 					"text": "Your SSD drive 7 items were bought by Helldiver.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "16ea211f404632b2bd13ba46",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 172800
 				},
 				{
@@ -36548,10 +36788,7 @@
 					"text": "Your SSD drive 1 items were bought by r2go.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "2446dd4193542ba059970e10",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 172800
 				},
 				{
@@ -36562,10 +36799,7 @@
 					"text": "Your Secure Flash drive 1 items were bought by STUOKD.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "69a1e87c1afa8613a3897419",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 172800
 				},
 				{
@@ -36576,10 +36810,7 @@
 					"text": "Your Broken GPhone X smartphone 1 items were bought by 大熊.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "5aa631ad624a2175eea734de",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 172800
 				},
 				{
@@ -36590,10 +36821,7 @@
 					"text": "Your Broken GPhone X smartphone 1 items were bought by Wrecker.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "adb7b636b388397b91c83524",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 172800
 				},
 				{
@@ -36604,10 +36832,7 @@
 					"text": "Your Dry fuel 2 items were bought by adudewithbadaim.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "9054923e7472d5911b4b386e",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 172800
 				},
 				{
@@ -36618,10 +36843,7 @@
 					"text": "Your Dry fuel 1 items were bought by Hicchy.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "971fb969e585ea72eb6a9c62",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 172800
 				},
 				{
@@ -36632,10 +36854,7 @@
 					"text": "Your WD-40 (100ml) 2 items were bought by NugentGL.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "9eff75f8f09d32de5a3736d7",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 172800
 				},
 				{
@@ -36646,10 +36865,7 @@
 					"text": "Your Dry fuel 1 items were bought by jehree.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "e2e907daa4cb8a59c1d43ac7",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 172800
 				},
 				{
@@ -36660,10 +36876,7 @@
 					"text": "Your Fuel conditioner 1 items were bought by kwebber321.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "567c80ad78ff78007e552941",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 172800
 				},
 				{
@@ -36674,10 +36887,7 @@
 					"text": "Your Fuel conditioner 1 items were bought by Faupi.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "8ab9865dc5c0128620942e27",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 172800
 				},
 				{
@@ -36688,10 +36898,7 @@
 					"text": "Your Bottle of OLOLO Multivitamins 1 items were bought by Miraki.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "61aa1068b75a42fe52b0dacd",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 172800
 				},
 				{
@@ -36702,10 +36909,7 @@
 					"text": "Your Bottle of OLOLO Multivitamins 2 items were bought by dushaoan.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "e756f287439c0a95b9e1952a",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 172800
 				},
 				{
@@ -36716,10 +36920,7 @@
 					"text": "Your Bottle of OLOLO Multivitamins 1 items were bought by TechHappy.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "0f599c44920bf6c2a4113beb",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 172800
 				},
 				{
@@ -36730,10 +36931,7 @@
 					"text": "Your Broken LCD 3 items were bought by Amands2Mello.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "3ba893fa9a8712c459c6d668",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 172800
 				},
 				{
@@ -36744,10 +36942,7 @@
 					"text": "Your Broken LCD 2 items were bought by ViolentAmbush.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "6703478a10d8522de09b35e6",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 172800
 				},
 				{
@@ -36788,10 +36983,7 @@
 					"text": "Your Salewa first aid kit 2 items were bought by DevilFlippy.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "9702518e3d551e561d77a4f8",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 172800
 				},
 				{
@@ -36802,10 +36994,7 @@
 					"text": "Your Salewa first aid kit 2 items were bought by MrSarkasm.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "c00964721b1d6dff3028a07d",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 172800
 				},
 				{
@@ -36816,10 +37005,7 @@
 					"text": "Your Salewa first aid kit 2 items were bought by DeadLeaves.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "cd923f84df9b793148eb2cdc",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 172800
 				},
 				{
@@ -36830,10 +37016,7 @@
 					"text": "Your Salewa first aid kit 2 items were bought by ItsRenke.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "e7c0632e219b0732936b24e3",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 172800
 				},
 				{
@@ -36844,10 +37027,7 @@
 					"text": "Your Salewa first aid kit 1 items were bought by GGaulin.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "51be8987bc68db1c10bc08f4",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 172800
 				},
 				{
@@ -36858,10 +37038,7 @@
 					"text": "Your Pack of Arseniy buckwheat 3 items were bought by Effrum_Hodwaler.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "9845cccf8abde09e7440c35d",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 172800
 				},
 				{
@@ -36872,10 +37049,7 @@
 					"text": "Your Pack of Arseniy buckwheat 1 items were bought by Drill.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "aa898e4ca84a4bc1bd5ecc40",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 172800
 				},
 				{
@@ -36886,10 +37060,7 @@
 					"text": "Your Electric motor 1 items were bought by RainbowPC.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "dc68a5ecb0622260758b2755",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 172800
 				},
 				{
@@ -36900,10 +37071,7 @@
 					"text": "Your Salewa first aid kit 2 items were bought by Pettan.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "55a9ee9d439ce70532ec1646",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 172800
 				},
 				{
@@ -36914,10 +37082,7 @@
 					"text": "Your Salewa first aid kit 1 items were bought by Yakhmet.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "dc4d5b9c66a44bab6dfd90d7",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 172800
 				},
 				{
@@ -36928,10 +37093,7 @@
 					"text": "Your Tech manual 1 items were bought by notGreg.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "d6e4e66642edd04db408c2db",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 172800
 				},
 				{
@@ -36942,10 +37104,7 @@
 					"text": "Your Propane tank (5L) 1 items were bought by Kilgor616.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "7374e4add060b8e6bf6d39e1",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 172800
 				},
 				{
@@ -36956,10 +37115,7 @@
 					"text": "Your Fortis Shift tactical foregrip 1 items were bought by Arys.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "a93299a285dd5750ffd67f8c",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 172800
 				},
 				{
@@ -36970,10 +37126,7 @@
 					"text": "Your Fuel conditioner 1 items were bought by Styrr.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "9d09049a1afb66e9274f9786",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 172800
 				},
 				{
@@ -36984,10 +37137,7 @@
 					"text": "Your Bottle of OLOLO Multivitamins 1 items were bought by alias.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "86dbd1a9e0d7d0a82a0f6a38",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 172800
 				},
 				{
@@ -36998,10 +37148,7 @@
 					"text": "Your Bottle of OLOLO Multivitamins 1 items were bought by Lave.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "71f1a3c66f3b426eb1287094",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 172800
 				},
 				{
@@ -37012,10 +37159,7 @@
 					"text": "Your Smoked Chimney drain cleaner 1 items were bought by PhantomInTime.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "e6f989ab35462e0dba1d5667",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 172800
 				},
 				{
@@ -37842,529 +37986,6 @@
 		"character": "scav"
 	},
 	"insurance": [
-		{
-			"scheduledTime": 1716240624,
-			"traderId": "54cb50c76803fa8b248b4571",
-			"maxStorageTime": 345600,
-			"systemData": {
-				"date": "19.05.2024",
-				"time": "20:50",
-				"location": "factory4_day"
-			},
-			"messageType": 8,
-			"messageTemplateId": "58fe0e4586f774728248ca13 2",
-			"items": [
-				{
-					"_id": "7d1473e31e1e493e333b3bc6",
-					"_tpl": "5b432b965acfc47a8774094e",
-					"parentId": "5606980593d86c0dc68b5d14",
-					"slotId": "hideout",
-					"upd": {}
-				},
-				{
-					"_id": "47c10775b02aead5d91d96b4",
-					"_tpl": "59e763f286f7742ee57895da",
-					"parentId": "5606980593d86c0dc68b5d14",
-					"slotId": "hideout",
-					"upd": {}
-				},
-				{
-					"_id": "2712ec8c6cc47933e5958fe6",
-					"_tpl": "656fb21fa0dce000a2020f7c",
-					"parentId": "1f5ea3c99d263b55a5c81de2",
-					"slotId": "Front_plate",
-					"upd": {
-						"Repairable": {
-							"MaxDurability": 45,
-							"Durability": 43.74918
-						}
-					}
-				},
-				{
-					"_id": "cb203effe1661f971ded7d2d",
-					"_tpl": "656fb21fa0dce000a2020f7c",
-					"parentId": "1f5ea3c99d263b55a5c81de2",
-					"slotId": "Back_plate",
-					"upd": {
-						"Repairable": {
-							"MaxDurability": 45,
-							"Durability": 45
-						}
-					}
-				},
-				{
-					"_id": "1f5ea3c99d263b55a5c81de2",
-					"_tpl": "61bcc89aef0f505f0c6cd0fc",
-					"parentId": "5606980593d86c0dc68b5d14",
-					"slotId": "hideout",
-					"upd": {}
-				},
-				{
-					"_id": "720e8ed3a8a767d763ae3397",
-					"_tpl": "6572eb0e55beba16bc04079f",
-					"parentId": "1f5ea3c99d263b55a5c81de2",
-					"slotId": "Soft_armor_front",
-					"upd": {
-						"Repairable": {
-							"MaxDurability": 36,
-							"Durability": 36
-						}
-					}
-				},
-				{
-					"_id": "7a494fb01b07b1505aa890ff",
-					"_tpl": "6572eb1b04ee6483ef039882",
-					"parentId": "1f5ea3c99d263b55a5c81de2",
-					"slotId": "Soft_armor_back",
-					"upd": {
-						"Repairable": {
-							"MaxDurability": 36,
-							"Durability": 36
-						}
-					}
-				},
-				{
-					"_id": "7a71b2a0744ce627a94454fe",
-					"_tpl": "6572eb3004ee6483ef039886",
-					"parentId": "1f5ea3c99d263b55a5c81de2",
-					"slotId": "Soft_armor_left",
-					"upd": {
-						"Repairable": {
-							"MaxDurability": 9,
-							"Durability": 9
-						}
-					}
-				},
-				{
-					"_id": "f0f0872b3ca15400b4b202c9",
-					"_tpl": "6572eb3b04ee6483ef03988a",
-					"parentId": "1f5ea3c99d263b55a5c81de2",
-					"slotId": "soft_armor_right",
-					"upd": {
-						"Repairable": {
-							"MaxDurability": 9,
-							"Durability": 9
-						}
-					}
-				},
-				{
-					"_id": "c369ff02018ac93050684757",
-					"_tpl": "6572eb865b5eac12f10a03ee",
-					"parentId": "1f5ea3c99d263b55a5c81de2",
-					"slotId": "Groin",
-					"upd": {
-						"Repairable": {
-							"MaxDurability": 18,
-							"Durability": 18
-						}
-					}
-				},
-				{
-					"_id": "56dc6a692b48218b4fabfce9",
-					"_tpl": "5ea17ca01412a1425304d1c0",
-					"parentId": "5606980593d86c0dc68b5d14",
-					"slotId": "hideout",
-					"upd": {}
-				},
-				{
-					"_id": "dae8a3fc5fe64a2c9a7b8b91",
-					"_tpl": "657f9a55c6679fefb3051e19",
-					"parentId": "56dc6a692b48218b4fabfce9",
-					"slotId": "Helmet_top",
-					"upd": {
-						"Repairable": {
-							"MaxDurability": 22.08,
-							"Durability": 13.08
-						}
-					}
-				},
-				{
-					"_id": "9d5dfa9fe98219c80b4a7f64",
-					"_tpl": "657f9a94ada5fadd1f07a589",
-					"parentId": "56dc6a692b48218b4fabfce9",
-					"slotId": "Helmet_back",
-					"upd": {
-						"Repairable": {
-							"MaxDurability": 24,
-							"Durability": 23
-						}
-					}
-				},
-				{
-					"_id": "68f2ec65948d51db7a881f94",
-					"_tpl": "5bf3e0490db83400196199af",
-					"parentId": "5606980593d86c0dc68b5d14",
-					"slotId": "hideout",
-					"upd": {
-						"Repairable": {
-							"MaxDurability": 100,
-							"Durability": 98.77713
-						},
-						"Foldable": {
-							"Folded": false
-						},
-						"FireMode": {
-							"FireMode": "single"
-						}
-					}
-				},
-				{
-					"_id": "c5c5c35dc319d822188cbbfb",
-					"_tpl": "564ca9df4bdc2d35148b4569",
-					"parentId": "1f5ea3c99d263b55a5c81de2",
-					"slotId": "1",
-					"location": {
-						"x": 0,
-						"y": 0,
-						"r": "Horizontal",
-						"isSearched": true
-					},
-					"upd": {}
-				},
-				{
-					"_id": "5b4c3085c98706f68630bddf",
-					"_tpl": "59c6633186f7740cf0493bb9",
-					"parentId": "68f2ec65948d51db7a881f94",
-					"slotId": "mod_gas_block",
-					"upd": {}
-				},
-				{
-					"_id": "e1d804f98bc649f5ab0b67d5",
-					"_tpl": "5649aa744bdc2ded0b8b457e",
-					"parentId": "68f2ec65948d51db7a881f94",
-					"slotId": "mod_muzzle",
-					"upd": {}
-				},
-				{
-					"_id": "f3c05a5984df316cf0b29679",
-					"_tpl": "57e3dba62459770f0c32322b",
-					"parentId": "68f2ec65948d51db7a881f94",
-					"slotId": "mod_pistol_grip",
-					"upd": {}
-				},
-				{
-					"_id": "6ac6b76e043145059250f8fc",
-					"_tpl": "5d2c76ed48f03532f2136169",
-					"parentId": "68f2ec65948d51db7a881f94",
-					"slotId": "mod_reciever",
-					"upd": {}
-				},
-				{
-					"_id": "cdefb43371a11e8162043fd6",
-					"_tpl": "5ab626e4d8ce87272e4c6e43",
-					"parentId": "68f2ec65948d51db7a881f94",
-					"slotId": "mod_stock",
-					"upd": {}
-				},
-				{
-					"_id": "4a1bd42f9d20e150ed39b375",
-					"_tpl": "564ca9df4bdc2d35148b4569",
-					"parentId": "68f2ec65948d51db7a881f94",
-					"slotId": "mod_magazine",
-					"upd": {}
-				},
-				{
-					"_id": "9354da9aba5196b0856bc63d",
-					"_tpl": "5648b0744bdc2d363b8b4578",
-					"parentId": "5b4c3085c98706f68630bddf",
-					"slotId": "mod_handguard",
-					"upd": {}
-				},
-				{
-					"_id": "e063029ada5e3baec4345648",
-					"_tpl": "57ae0171245977343c27bfcf",
-					"parentId": "6ac6b76e043145059250f8fc",
-					"slotId": "mod_scope",
-					"upd": {
-						"Sight": {
-							"ScopesCurrentCalibPointIndexes": [
-								0
-							],
-							"ScopesSelectedModes": [
-								0
-							],
-							"SelectedScope": 0
-						}
-					}
-				}
-			]
-		},
-		{
-			"scheduledTime": 1716255569.2,
-			"traderId": "54cb50c76803fa8b248b4571",
-			"maxStorageTime": 345600,
-			"systemData": {
-				"date": "19.05.2024",
-				"time": "23:19",
-				"location": "Shoreline"
-			},
-			"messageType": 8,
-			"messageTemplateId": "58fe0e4586f774728248ca13 2",
-			"items": [
-				{
-					"_id": "fc9057fc543f34672915f561",
-					"_tpl": "656fb21fa0dce000a2020f7c",
-					"parentId": "63b1b854b6607f1c9e57bdc8",
-					"slotId": "Front_plate",
-					"upd": {
-						"Repairable": {
-							"MaxDurability": 45,
-							"Durability": 43.4248
-						}
-					}
-				},
-				{
-					"_id": "567868377a72d3bf00798a28",
-					"_tpl": "656fb21fa0dce000a2020f7c",
-					"parentId": "63b1b854b6607f1c9e57bdc8",
-					"slotId": "Back_plate",
-					"upd": {
-						"Repairable": {
-							"MaxDurability": 45,
-							"Durability": 32.6274872
-						}
-					}
-				},
-				{
-					"_id": "63b1b854b6607f1c9e57bdc8",
-					"_tpl": "61bcc89aef0f505f0c6cd0fc",
-					"parentId": "b96a6309b79bcf31a82cf089",
-					"slotId": "hideout",
-					"upd": {}
-				},
-				{
-					"_id": "384bcd5d42ba22a473cde793",
-					"_tpl": "6572eb0e55beba16bc04079f",
-					"parentId": "63b1b854b6607f1c9e57bdc8",
-					"slotId": "Soft_armor_front",
-					"upd": {
-						"Repairable": {
-							"MaxDurability": 36,
-							"Durability": 36
-						}
-					}
-				},
-				{
-					"_id": "c3e563c1225defae5cee9de3",
-					"_tpl": "6572eb1b04ee6483ef039882",
-					"parentId": "63b1b854b6607f1c9e57bdc8",
-					"slotId": "Soft_armor_back",
-					"upd": {
-						"Repairable": {
-							"MaxDurability": 36,
-							"Durability": 36
-						}
-					}
-				},
-				{
-					"_id": "7ddf71b591225502b2f6431b",
-					"_tpl": "6572eb3004ee6483ef039886",
-					"parentId": "63b1b854b6607f1c9e57bdc8",
-					"slotId": "Soft_armor_left",
-					"upd": {
-						"Repairable": {
-							"MaxDurability": 9,
-							"Durability": 9
-						}
-					}
-				},
-				{
-					"_id": "2df2bd90e3e677fe1dbb31f9",
-					"_tpl": "6572eb3b04ee6483ef03988a",
-					"parentId": "63b1b854b6607f1c9e57bdc8",
-					"slotId": "soft_armor_right",
-					"upd": {
-						"Repairable": {
-							"MaxDurability": 9,
-							"Durability": 7.40797424
-						}
-					}
-				},
-				{
-					"_id": "8fc071f85f2eb15a00cfbea9",
-					"_tpl": "6572eb865b5eac12f10a03ee",
-					"parentId": "63b1b854b6607f1c9e57bdc8",
-					"slotId": "Groin",
-					"upd": {
-						"Repairable": {
-							"MaxDurability": 18,
-							"Durability": 18
-						}
-					}
-				},
-				{
-					"_id": "5d1c38e10bd01e19e19c3a4b",
-					"_tpl": "618a5d5852ecee1505530b2a",
-					"parentId": "d203408d4376c67615cd0963",
-					"slotId": "mod_mount_000",
-					"upd": {
-						"Sight": {
-							"ScopesCurrentCalibPointIndexes": [
-								0
-							],
-							"ScopesSelectedModes": [
-								0
-							],
-							"SelectedScope": 0
-						}
-					}
-				},
-				{
-					"_id": "353e27ce19ca4112a3cb6729",
-					"_tpl": "576169e62459773c69055191",
-					"parentId": "d203408d4376c67615cd0963",
-					"slotId": "mod_handguard",
-					"upd": {}
-				},
-				{
-					"_id": "7a80944118aefb195aa34cfd",
-					"_tpl": "576167ab2459773cad038c43",
-					"parentId": "d203408d4376c67615cd0963",
-					"slotId": "mod_muzzle",
-					"upd": {}
-				},
-				{
-					"_id": "b6d35d22991214e259812203",
-					"_tpl": "5649ade84bdc2d1b2b8b4587",
-					"parentId": "d203408d4376c67615cd0963",
-					"slotId": "mod_pistol_grip",
-					"upd": {}
-				},
-				{
-					"_id": "7be4ac0d4b309c03a3f81dff",
-					"_tpl": "57616c112459773cce774d66",
-					"parentId": "d203408d4376c67615cd0963",
-					"slotId": "mod_reciever",
-					"upd": {}
-				},
-				{
-					"_id": "dd18c2596a89406d49decb16",
-					"_tpl": "57a9b9ce2459770ee926038d",
-					"parentId": "d203408d4376c67615cd0963",
-					"slotId": "mod_sight_rear",
-					"upd": {
-						"Sight": {
-							"ScopesCurrentCalibPointIndexes": [
-								0
-							],
-							"ScopesSelectedModes": [
-								0
-							],
-							"SelectedScope": 0
-						}
-					}
-				},
-				{
-					"_id": "908beecfeaae414933b29852",
-					"_tpl": "57616ca52459773c69055192",
-					"parentId": "d203408d4376c67615cd0963",
-					"slotId": "mod_stock",
-					"upd": {}
-				},
-				{
-					"_id": "42e677dd46bda30b72380dea",
-					"_tpl": "5cf8f3b0d7f00c00217872ef",
-					"parentId": "63b1b854b6607f1c9e57bdc8",
-					"slotId": "8",
-					"location": {
-						"x": 0,
-						"y": 0,
-						"r": "Horizontal",
-						"isSearched": true
-					},
-					"upd": {}
-				},
-				{
-					"_id": "d203408d4376c67615cd0963",
-					"_tpl": "576165642459773c7a400233",
-					"parentId": "b96a6309b79bcf31a82cf089",
-					"slotId": "hideout",
-					"upd": {
-						"Repairable": {
-							"MaxDurability": 100,
-							"Durability": 98.730835
-						},
-						"Foldable": {
-							"Folded": false
-						},
-						"FireMode": {
-							"FireMode": "single"
-						}
-					}
-				},
-				{
-					"_id": "ee7aa233de7a697d9234e33b",
-					"_tpl": "5cf8f3b0d7f00c00217872ef",
-					"parentId": "d203408d4376c67615cd0963",
-					"slotId": "mod_magazine",
-					"upd": {}
-				},
-				{
-					"_id": "9a980c8f921bf86804f661f7",
-					"_tpl": "5b44c6ae86f7742d1627baea",
-					"parentId": "b96a6309b79bcf31a82cf089",
-					"slotId": "hideout",
-					"upd": {}
-				},
-				{
-					"_id": "678a116988a6d296ab23fd43",
-					"_tpl": "61bca7cda0eae612383adf57",
-					"parentId": "b96a6309b79bcf31a82cf089",
-					"slotId": "hideout",
-					"upd": {}
-				},
-				{
-					"_id": "c1ca42dd0aea6124fa0ea22d",
-					"_tpl": "657bbcc9a1c61ee0c3036327",
-					"parentId": "678a116988a6d296ab23fd43",
-					"slotId": "Helmet_top",
-					"upd": {
-						"Repairable": {
-							"MaxDurability": 36.66,
-							"Durability": 29.9797249
-						}
-					}
-				},
-				{
-					"_id": "0ac750de0a90c7853f4645e6",
-					"_tpl": "657bbcffbbd440df880b2dd5",
-					"parentId": "678a116988a6d296ab23fd43",
-					"slotId": "Helmet_back",
-					"upd": {
-						"Repairable": {
-							"MaxDurability": 37.83,
-							"Durability": 27.83
-						}
-					}
-				},
-				{
-					"_id": "81844f9c517e8c28ff474c22",
-					"_tpl": "5aa2ba71e5b5b000137b758f",
-					"parentId": "b96a6309b79bcf31a82cf089",
-					"slotId": "hideout",
-					"upd": {}
-				},
-				{
-					"_id": "557ba3dc18515868568a2157",
-					"_tpl": "5a16b7e1fcdbcb00165aa6c9",
-					"parentId": "678a116988a6d296ab23fd43",
-					"slotId": "mod_equipment_000",
-					"upd": {
-						"Togglable": {
-							"On": true
-						},
-						"FaceShield": {
-							"HitSeed": 144,
-							"Hits": 0
-						},
-						"Repairable": {
-							"MaxDurability": 38.4,
-							"Durability": 30.4
-						}
-					}
-				}
-			]
-		},
 		{
 			"scheduledTime": 1716265365.4,
 			"traderId": "54cb50c76803fa8b248b4571",
