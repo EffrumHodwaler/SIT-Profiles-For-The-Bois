@@ -2696,8 +2696,8 @@
 										"upd": {
 											"StackObjectsCount": 1,
 											"Resource": {
-												"Value": 565.0091,
-												"UnitsConsumed": 4.9909
+												"Value": 563.5452,
+												"UnitsConsumed": 6.4548
 											},
 											"SpawnedInSession": false
 										}
@@ -3140,7 +3140,7 @@
 				},
 				"Production": {},
 				"Seed": 1967560899,
-				"sptUpdateLastRunTimestamp": 1716319944
+				"sptUpdateLastRunTimestamp": 1716321529
 			},
 			"Info": {
 				"AccountType": 0,
@@ -40183,10 +40183,7 @@
 					"text": "Your Factory emergency exit key 1 items were bought by Hubert.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "8925841dec7ed5a4d2184426",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 172800
 				},
 				{
@@ -40197,10 +40194,7 @@
 					"text": "Your WZ Wallet 1 items were bought by PaPaSamBuBu.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "e8ced2ea8f1634f32559c14b",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 172800
 				},
 				{
