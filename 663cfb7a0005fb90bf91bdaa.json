@@ -2696,8 +2696,8 @@
 										"upd": {
 											"StackObjectsCount": 1,
 											"Resource": {
-												"Value": 552.1238,
-												"UnitsConsumed": 7.8762
+												"Value": 551.5789,
+												"UnitsConsumed": 8.4211
 											},
 											"SpawnedInSession": false
 										}
@@ -3140,7 +3140,7 @@
 				},
 				"Production": {},
 				"Seed": 1967560899,
-				"sptUpdateLastRunTimestamp": 1716333889
+				"sptUpdateLastRunTimestamp": 1716334479
 			},
 			"Info": {
 				"AccountType": 0,
@@ -40274,10 +40274,7 @@
 					"text": "Your Factory emergency exit key 1 items were bought by civiciam.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "f1df156edf99b38a7f298a9b",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 172800
 				},
 				{
