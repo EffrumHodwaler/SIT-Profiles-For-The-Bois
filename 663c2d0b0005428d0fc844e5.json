@@ -3568,7 +3568,7 @@
 					}
 				},
 				"Seed": 1967507794,
-				"sptUpdateLastRunTimestamp": 1716279657
+				"sptUpdateLastRunTimestamp": 1716260143
 			},
 			"Info": {
 				"AccountType": 0,
@@ -34261,241 +34261,11 @@
 						]
 					},
 					"maxStorageTime": 345600
-				},
-				{
-					"_id": "e33938608aef601c97a1e052",
-					"uid": "54cb50c76803fa8b248b4571",
-					"type": 8,
-					"dt": 1716279407,
-					"text": "",
-					"templateId": "58fe0e4586f774728248ca13 3",
-					"hasRewards": true,
-					"rewardCollected": false,
-					"systemData": {
-						"date": "20.05.2024",
-						"time": "03:15",
-						"location": "bigmap"
-					},
-					"items": {
-						"stash": "206f3e604800a115f0ef85c7",
-						"data": [
-							{
-								"_id": "df15a0c5f66d9a2549f30a8c",
-								"_tpl": "656fa0fb498d1b7e3e071d9c",
-								"parentId": "d2c0016c517608ee3ba971e5",
-								"slotId": "Front_plate",
-								"upd": {
-									"Repairable": {
-										"MaxDurability": 45,
-										"Durability": 45
-									}
-								}
-							},
-							{
-								"_id": "d2c0016c517608ee3ba971e5",
-								"_tpl": "5c0e722886f7740458316a57",
-								"parentId": "206f3e604800a115f0ef85c7",
-								"slotId": "main",
-								"upd": {}
-							},
-							{
-								"_id": "49307e19ea36c57842402906",
-								"_tpl": "65730c0e292ecadbfa09ad49",
-								"parentId": "d2c0016c517608ee3ba971e5",
-								"slotId": "Soft_armor_front",
-								"upd": {
-									"Repairable": {
-										"MaxDurability": 40,
-										"Durability": 40
-									}
-								}
-							},
-							{
-								"_id": "86e96c7333d69649f18aeed2",
-								"_tpl": "65730c2213a2f660f60bea96",
-								"parentId": "d2c0016c517608ee3ba971e5",
-								"slotId": "Soft_armor_back",
-								"upd": {
-									"Repairable": {
-										"MaxDurability": 40,
-										"Durability": 40
-									}
-								}
-							},
-							{
-								"_id": "54bcc4c1a498c4252313f671",
-								"_tpl": "65730c2b292ecadbfa09ad50",
-								"parentId": "d2c0016c517608ee3ba971e5",
-								"slotId": "Soft_armor_left",
-								"upd": {
-									"Repairable": {
-										"MaxDurability": 12,
-										"Durability": 12
-									}
-								}
-							},
-							{
-								"_id": "e9b7bc50aec086c8a58d5a49",
-								"_tpl": "65730c35292ecadbfa09ad54",
-								"parentId": "d2c0016c517608ee3ba971e5",
-								"slotId": "soft_armor_right",
-								"upd": {
-									"Repairable": {
-										"MaxDurability": 12,
-										"Durability": 12
-									}
-								}
-							},
-							{
-								"_id": "f5c73813916a517576988d4a",
-								"_tpl": "5ae08f0a5acfc408fb1398a1",
-								"parentId": "206f3e604800a115f0ef85c7",
-								"slotId": "main",
-								"upd": {
-									"Repairable": {
-										"MaxDurability": 100,
-										"Durability": 99.8650055
-									},
-									"FireMode": {
-										"FireMode": "single"
-									}
-								}
-							},
-							{
-								"_id": "b9f8cc1bc824b4206cc0acf4",
-								"_tpl": "5bae13ded4351e44f824bf38",
-								"parentId": "d2c0016c517608ee3ba971e5",
-								"slotId": "7",
-								"location": {
-									"x": 0,
-									"y": 0,
-									"r": "Horizontal",
-									"isSearched": true
-								},
-								"upd": {}
-							},
-							{
-								"_id": "2a522cb03213663299a609d5",
-								"_tpl": "5bae13ded4351e44f824bf38",
-								"parentId": "d2c0016c517608ee3ba971e5",
-								"slotId": "8",
-								"location": {
-									"x": 0,
-									"y": 0,
-									"r": "Horizontal",
-									"isSearched": true
-								},
-								"upd": {}
-							},
-							{
-								"_id": "8c236c2fc4fb7e4e69ea4c89",
-								"_tpl": "5bae13bad4351e00320204af",
-								"parentId": "f5c73813916a517576988d4a",
-								"slotId": "mod_stock",
-								"upd": {}
-							},
-							{
-								"_id": "b4c9de456968d7c61440583e",
-								"_tpl": "5ae09bff5acfc4001562219d",
-								"parentId": "f5c73813916a517576988d4a",
-								"slotId": "mod_barrel",
-								"upd": {}
-							},
-							{
-								"_id": "c984ca5e6bea6f81fe105061",
-								"_tpl": "5b3f7bf05acfc433000ecf6b",
-								"parentId": "f5c73813916a517576988d4a",
-								"slotId": "mod_mount",
-								"upd": {}
-							},
-							{
-								"_id": "7316e0e67f9c463ecd645218",
-								"_tpl": "5ae099875acfc4001714e593",
-								"parentId": "b4c9de456968d7c61440583e",
-								"slotId": "mod_sight_front",
-								"upd": {
-									"Sight": {
-										"ScopesCurrentCalibPointIndexes": [
-											0
-										],
-										"ScopesSelectedModes": [
-											0
-										],
-										"SelectedScope": 0
-									}
-								}
-							},
-							{
-								"_id": "2104609e4d69a919ca57e0db",
-								"_tpl": "5ae099925acfc4001a5fc7b3",
-								"parentId": "b4c9de456968d7c61440583e",
-								"slotId": "mod_sight_rear",
-								"upd": {
-									"Sight": {
-										"ScopesCurrentCalibPointIndexes": [
-											0
-										],
-										"ScopesSelectedModes": [
-											0
-										],
-										"SelectedScope": 0
-									}
-								}
-							},
-							{
-								"_id": "52bfdca1b6b54b0704513e9a",
-								"_tpl": "5b3f7c005acfc4704b4a1de8",
-								"parentId": "c984ca5e6bea6f81fe105061",
-								"slotId": "mod_mount",
-								"upd": {}
-							},
-							{
-								"_id": "1c783f735a689be185c48fa2",
-								"_tpl": "5b3f7c1c5acfc40dc5296b1d",
-								"parentId": "52bfdca1b6b54b0704513e9a",
-								"slotId": "mod_scope",
-								"upd": {
-									"Sight": {
-										"ScopesCurrentCalibPointIndexes": [
-											0
-										],
-										"ScopesSelectedModes": [
-											0
-										],
-										"SelectedScope": 0
-									}
-								}
-							},
-							{
-								"_id": "320b17cbee4e8c6d833eadfc",
-								"_tpl": "5cf79389d7f00c10941a0c4d",
-								"parentId": "b4c9de456968d7c61440583e",
-								"slotId": "mod_muzzle",
-								"upd": {
-									"StackObjectsCount": 1
-								}
-							},
-							{
-								"_id": "fe60ed54d74a3d9048754fbc",
-								"_tpl": "5a0d63621526d8dba31fe3bf",
-								"upd": {
-									"StackObjectsCount": 1,
-									"Repairable": {
-										"Durability": 100,
-										"MaxDurability": 100
-									}
-								},
-								"parentId": "320b17cbee4e8c6d833eadfc",
-								"slotId": "mod_muzzle"
-							}
-						]
-					},
-					"maxStorageTime": 345600
 				}
 			],
 			"pinned": false,
-			"new": 3,
-			"attachmentsNew": 3
+			"new": 2,
+			"attachmentsNew": 2
 		},
 		"54cb57776803fa99248b456e": {
 			"_id": "54cb57776803fa99248b456e",
@@ -36263,7 +36033,10 @@
 					"templateId": "5a27b87686f77460de0252a8 successMessageText",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {},
+					"items": {
+						"stash": "31ff49123641848ac57c7519",
+						"data": []
+					},
 					"maxStorageTime": 172800
 				},
 				{
@@ -37412,7 +37185,10 @@
 					"text": "Your Secure Flash drive 1 items were bought by RaiRaiTheRaichu.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {},
+					"items": {
+						"stash": "93fa0593f34bc6d476240a93",
+						"data": []
+					},
 					"maxStorageTime": 172800
 				},
 				{
@@ -37423,7 +37199,10 @@
 					"text": "Your Can of Majaica coffee beans 2 items were bought by BrandoTheDev.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {},
+					"items": {
+						"stash": "332841d994cff85849fb8388",
+						"data": []
+					},
 					"maxStorageTime": 172800
 				},
 				{
@@ -37434,7 +37213,10 @@
 					"text": "Your Can of Majaica coffee beans 1 items were bought by Agnotology.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {},
+					"items": {
+						"stash": "057b9103fab83b1cf8546519",
+						"data": []
+					},
 					"maxStorageTime": 172800
 				},
 				{
@@ -37445,7 +37227,10 @@
 					"text": "Your Repellent 1 items were bought by Gatsu66.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {},
+					"items": {
+						"stash": "418b9f08514e71b951e72082",
+						"data": []
+					},
 					"maxStorageTime": 172800
 				},
 				{
@@ -37456,7 +37241,10 @@
 					"text": "Your PAID AntiRoach spray 1 items were bought by Victor_Two.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {},
+					"items": {
+						"stash": "274e6be0f29c7e3e02586284",
+						"data": []
+					},
 					"maxStorageTime": 172800
 				},
 				{
@@ -37467,7 +37255,10 @@
 					"text": "Your Ortodontox toothpaste 1 items were bought by CheekiBreeki.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {},
+					"items": {
+						"stash": "07b45a0205a447e349acc9af",
+						"data": []
+					},
 					"maxStorageTime": 172800
 				},
 				{
@@ -37478,7 +37269,10 @@
 					"text": "Your Can of sprats 1 items were bought by SlejmUr.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {},
+					"items": {
+						"stash": "2bd99e150349bb0a691d8c58",
+						"data": []
+					},
 					"maxStorageTime": 172800
 				},
 				{
@@ -37489,7 +37283,10 @@
 					"text": "Your AK-74 5.45x39 6L31 60-round magazine 1 items were bought by jfetko.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {},
+					"items": {
+						"stash": "3432dd5702b95be412160737",
+						"data": []
+					},
 					"maxStorageTime": 172800
 				},
 				{
@@ -37500,7 +37297,10 @@
 					"text": "Your Electric motor 1 items were bought by Kronzky.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {},
+					"items": {
+						"stash": "d334767ef1883311544e2145",
+						"data": []
+					},
 					"maxStorageTime": 172800
 				},
 				{
@@ -37511,7 +37311,10 @@
 					"text": "Your Electric motor 1 items were bought by JustNU.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {},
+					"items": {
+						"stash": "401af0dc3a61959dba1ddfaf",
+						"data": []
+					},
 					"maxStorageTime": 172800
 				},
 				{
@@ -37522,7 +37325,10 @@
 					"text": "Your Surv12 field surgical kit 1 items were bought by PaPaSamBuBu.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {},
+					"items": {
+						"stash": "3b6a634cc5b8ed3fc5773c96",
+						"data": []
+					},
 					"maxStorageTime": 172800
 				},
 				{
@@ -37533,7 +37339,10 @@
 					"text": "Your Surv12 field surgical kit 1 items were bought by igorir3.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {},
+					"items": {
+						"stash": "bd229101f1fbbc03a2f748c4",
+						"data": []
+					},
 					"maxStorageTime": 172800
 				},
 				{
@@ -37544,7 +37353,10 @@
 					"text": "Your Cyclon rechargeable battery 1 items were bought by GrooveypenguinX.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {},
+					"items": {
+						"stash": "9081d207cadaa4f1aa9d47fa",
+						"data": []
+					},
 					"maxStorageTime": 172800
 				},
 				{
@@ -37555,7 +37367,10 @@
 					"text": "Your KEKTAPE duct tape 1 items were bought by Brin.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {},
+					"items": {
+						"stash": "5b6dc21b3d96f55a798b9946",
+						"data": []
+					},
 					"maxStorageTime": 172800
 				},
 				{
@@ -37566,7 +37381,10 @@
 					"text": "Your KEKTAPE duct tape 1 items were bought by Effrum_Hodwaler.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {},
+					"items": {
+						"stash": "882894dd071bf5078f9b6eec",
+						"data": []
+					},
 					"maxStorageTime": 172800
 				},
 				{
@@ -37577,7 +37395,10 @@
 					"text": "Your Leupold Mark 4 HAMR 4x24 DeltaPoint hybrid assault scope 1 items were bought by Devraccoon.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {},
+					"items": {
+						"stash": "5fcd4fced0ea2479f722abeb",
+						"data": []
+					},
 					"maxStorageTime": 172800
 				},
 				{
@@ -37603,7 +37424,10 @@
 					"text": "Your Geiger-Muller counter 1 items were bought by Digi.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {},
+					"items": {
+						"stash": "262c78f9edb6999438bbc841",
+						"data": []
+					},
 					"maxStorageTime": 172800
 				},
 				{
@@ -37614,7 +37438,10 @@
 					"text": "Your Can of RatCola soda 1 items were bought by 红衣抚琴染绛天涯.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {},
+					"items": {
+						"stash": "d451eb1556f1aa4d2caa2949",
+						"data": []
+					},
 					"maxStorageTime": 172800
 				},
 				{
@@ -38158,7 +37985,295 @@
 		"location": "none",
 		"character": "scav"
 	},
-	"insurance": [],
+	"insurance": [
+		{
+			"scheduledTime": 1716265365.4,
+			"traderId": "54cb50c76803fa8b248b4571",
+			"maxStorageTime": 345600,
+			"systemData": {
+				"date": "20.05.2024",
+				"time": "03:15",
+				"location": "bigmap"
+			},
+			"messageType": 8,
+			"messageTemplateId": "58fe0e4586f774728248ca13 3",
+			"items": [
+				{
+					"_id": "ed509e91793d81584471da0e",
+					"_tpl": "656fa0fb498d1b7e3e071d9c",
+					"parentId": "47dff3af65c281a83a4b94ee",
+					"slotId": "Front_plate",
+					"upd": {
+						"Repairable": {
+							"MaxDurability": 45,
+							"Durability": 45
+						}
+					}
+				},
+				{
+					"_id": "47dff3af65c281a83a4b94ee",
+					"_tpl": "5c0e722886f7740458316a57",
+					"parentId": "206f3e604800a115f0ef85c7",
+					"slotId": "hideout",
+					"upd": {}
+				},
+				{
+					"_id": "cacb79cc72699ece0d795d2e",
+					"_tpl": "65730c0e292ecadbfa09ad49",
+					"parentId": "47dff3af65c281a83a4b94ee",
+					"slotId": "Soft_armor_front",
+					"upd": {
+						"Repairable": {
+							"MaxDurability": 40,
+							"Durability": 40
+						}
+					}
+				},
+				{
+					"_id": "61acad106b1cfd9a197d5a55",
+					"_tpl": "65730c2213a2f660f60bea96",
+					"parentId": "47dff3af65c281a83a4b94ee",
+					"slotId": "Soft_armor_back",
+					"upd": {
+						"Repairable": {
+							"MaxDurability": 40,
+							"Durability": 40
+						}
+					}
+				},
+				{
+					"_id": "c302221a5f8a2d3c25ae0d82",
+					"_tpl": "65730c2b292ecadbfa09ad50",
+					"parentId": "47dff3af65c281a83a4b94ee",
+					"slotId": "Soft_armor_left",
+					"upd": {
+						"Repairable": {
+							"MaxDurability": 12,
+							"Durability": 12
+						}
+					}
+				},
+				{
+					"_id": "9256a7a8014ee998388a24d4",
+					"_tpl": "65730c35292ecadbfa09ad54",
+					"parentId": "47dff3af65c281a83a4b94ee",
+					"slotId": "soft_armor_right",
+					"upd": {
+						"Repairable": {
+							"MaxDurability": 12,
+							"Durability": 12
+						}
+					}
+				},
+				{
+					"_id": "303f81dd6dac68b2358a78b3",
+					"_tpl": "5ac8d6885acfc400180ae7b0",
+					"parentId": "206f3e604800a115f0ef85c7",
+					"slotId": "hideout",
+					"upd": {}
+				},
+				{
+					"_id": "78e9a4a20fe97901758eb0a5",
+					"_tpl": "657f8ec5f4c82973640b234c",
+					"parentId": "303f81dd6dac68b2358a78b3",
+					"slotId": "Helmet_top",
+					"upd": {
+						"Repairable": {
+							"MaxDurability": 24,
+							"Durability": 24
+						}
+					}
+				},
+				{
+					"_id": "ba57f3af42df28d43252952d",
+					"_tpl": "657f8f10f4c82973640b2350",
+					"parentId": "303f81dd6dac68b2358a78b3",
+					"slotId": "Helmet_back",
+					"upd": {
+						"Repairable": {
+							"MaxDurability": 24,
+							"Durability": 24
+						}
+					}
+				},
+				{
+					"_id": "ad6c9f3083a311cb489d9eba",
+					"_tpl": "59e763f286f7742ee57895da",
+					"parentId": "206f3e604800a115f0ef85c7",
+					"slotId": "hideout",
+					"upd": {}
+				},
+				{
+					"_id": "79ee3d9bc455e0c800641bd2",
+					"_tpl": "5ae08f0a5acfc408fb1398a1",
+					"parentId": "206f3e604800a115f0ef85c7",
+					"slotId": "hideout",
+					"upd": {
+						"Repairable": {
+							"MaxDurability": 100,
+							"Durability": 99.8650055
+						},
+						"FireMode": {
+							"FireMode": "single"
+						}
+					}
+				},
+				{
+					"_id": "04a46af148779f369a1c9717",
+					"_tpl": "5a16b672fcdbcb001912fa83",
+					"parentId": "303f81dd6dac68b2358a78b3",
+					"slotId": "mod_equipment_000",
+					"upd": {
+						"Togglable": {
+							"On": true
+						},
+						"FaceShield": {
+							"HitSeed": 224,
+							"Hits": 0
+						},
+						"Repairable": {
+							"MaxDurability": 20,
+							"Durability": 20
+						}
+					}
+				},
+				{
+					"_id": "463f44ce5510a82528a67eda",
+					"_tpl": "5bae13ded4351e44f824bf38",
+					"parentId": "79ee3d9bc455e0c800641bd2",
+					"slotId": "mod_magazine",
+					"upd": {}
+				},
+				{
+					"_id": "e1296cce1fd06f135dc0f1a1",
+					"_tpl": "5bae13ded4351e44f824bf38",
+					"parentId": "47dff3af65c281a83a4b94ee",
+					"slotId": "7",
+					"location": {
+						"x": 0,
+						"y": 0,
+						"r": "Horizontal",
+						"isSearched": true
+					},
+					"upd": {}
+				},
+				{
+					"_id": "d2a6a463c29760e58029984c",
+					"_tpl": "5bae13ded4351e44f824bf38",
+					"parentId": "47dff3af65c281a83a4b94ee",
+					"slotId": "8",
+					"location": {
+						"x": 0,
+						"y": 0,
+						"r": "Horizontal",
+						"isSearched": true
+					},
+					"upd": {}
+				},
+				{
+					"_id": "413515e3f362db304ad40693",
+					"_tpl": "5bae13bad4351e00320204af",
+					"parentId": "79ee3d9bc455e0c800641bd2",
+					"slotId": "mod_stock",
+					"upd": {}
+				},
+				{
+					"_id": "7a817b74d33d76a5946cbb1b",
+					"_tpl": "5ae09bff5acfc4001562219d",
+					"parentId": "79ee3d9bc455e0c800641bd2",
+					"slotId": "mod_barrel",
+					"upd": {}
+				},
+				{
+					"_id": "0d5804a7e28850eba8374fa9",
+					"_tpl": "5b3f7bf05acfc433000ecf6b",
+					"parentId": "79ee3d9bc455e0c800641bd2",
+					"slotId": "mod_mount",
+					"upd": {}
+				},
+				{
+					"_id": "5bb39ac2322a913c6788280d",
+					"_tpl": "5ae099875acfc4001714e593",
+					"parentId": "7a817b74d33d76a5946cbb1b",
+					"slotId": "mod_sight_front",
+					"upd": {
+						"Sight": {
+							"ScopesCurrentCalibPointIndexes": [
+								0
+							],
+							"ScopesSelectedModes": [
+								0
+							],
+							"SelectedScope": 0
+						}
+					}
+				},
+				{
+					"_id": "457b4c09e4b2abd6967a2d8e",
+					"_tpl": "5ae099925acfc4001a5fc7b3",
+					"parentId": "7a817b74d33d76a5946cbb1b",
+					"slotId": "mod_sight_rear",
+					"upd": {
+						"Sight": {
+							"ScopesCurrentCalibPointIndexes": [
+								0
+							],
+							"ScopesSelectedModes": [
+								0
+							],
+							"SelectedScope": 0
+						}
+					}
+				},
+				{
+					"_id": "4dbb8cddfeccd0e2c162de5f",
+					"_tpl": "5b3f7c005acfc4704b4a1de8",
+					"parentId": "0d5804a7e28850eba8374fa9",
+					"slotId": "mod_mount",
+					"upd": {}
+				},
+				{
+					"_id": "e416d940fa35addd02eef556",
+					"_tpl": "5b3f7c1c5acfc40dc5296b1d",
+					"parentId": "4dbb8cddfeccd0e2c162de5f",
+					"slotId": "mod_scope",
+					"upd": {
+						"Sight": {
+							"ScopesCurrentCalibPointIndexes": [
+								0
+							],
+							"ScopesSelectedModes": [
+								0
+							],
+							"SelectedScope": 0
+						}
+					}
+				},
+				{
+					"_id": "f631d5789766d512c2691f88",
+					"_tpl": "5cf79389d7f00c10941a0c4d",
+					"parentId": "7a817b74d33d76a5946cbb1b",
+					"slotId": "mod_muzzle",
+					"upd": {
+						"StackObjectsCount": 1
+					}
+				},
+				{
+					"_id": "85dac2173d51d0415a25ebff",
+					"_tpl": "5a0d63621526d8dba31fe3bf",
+					"upd": {
+						"StackObjectsCount": 1,
+						"Repairable": {
+							"Durability": 100,
+							"MaxDurability": 100
+						}
+					},
+					"parentId": "f631d5789766d512c2691f88",
+					"slotId": "mod_muzzle"
+				}
+			]
+		}
+	],
 	"traderPurchases": {
 		"54cb50c76803fa8b248b4571": {},
 		"5935c25fb3acc3127c3d8cd9": {},

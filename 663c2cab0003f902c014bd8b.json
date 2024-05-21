@@ -2484,8 +2484,8 @@
 										"upd": {
 											"StackObjectsCount": 1,
 											"Resource": {
-												"Value": 0.0214,
-												"UnitsConsumed": 9.9786
+												"Value": 11.6335,
+												"UnitsConsumed": 8.3665
 											},
 											"SpawnedInSession": true
 										}
@@ -2963,7 +2963,7 @@
 					}
 				},
 				"Seed": 1967507699,
-				"sptUpdateLastRunTimestamp": 1716279657
+				"sptUpdateLastRunTimestamp": 1716270091
 			},
 			"Info": {
 				"AccountType": 0,
@@ -26951,9 +26951,9 @@
 					},
 					{
 						"Id": "HideoutManagement",
-						"Progress": 607,
+						"Progress": 606,
 						"PointsEarnedDuringSession": 0,
-						"LastAccess": 1716279407
+						"LastAccess": 1716256158
 					}
 				],
 				"Mastering": [
