@@ -3568,7 +3568,7 @@
 					}
 				},
 				"Seed": 1967507794,
-				"sptUpdateLastRunTimestamp": 1716330024
+				"sptUpdateLastRunTimestamp": 1716333737
 			},
 			"Info": {
 				"AccountType": 0,
@@ -33854,10 +33854,7 @@
 					"templateId": "5c0d190cd09282029f5390d8 successMessageText",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "4a340e995b1fdc0fd9a5c5e6",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 172800
 				},
 				{
@@ -36311,10 +36308,7 @@
 					"templateId": "5a27b9de86f77464e5044585 successMessageText",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "fca923d1066c4a39a6874034",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 172800
 				},
 				{
@@ -37732,10 +37726,7 @@
 					"text": "Your Video cassette with the Cyborg Killer movie 1 items were bought by Borkel.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "718a94486e9b9f82814b710e",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 172800
 				},
 				{
@@ -37746,10 +37737,7 @@
 					"text": "Your Electric drill 1 items were bought by Conqueror_Alex.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "fed955f9b9e9789a4cd80dec",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 172800
 				},
 				{

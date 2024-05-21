@@ -2696,8 +2696,8 @@
 										"upd": {
 											"StackObjectsCount": 1,
 											"Resource": {
-												"Value": 555.6982,
-												"UnitsConsumed": 4.3018
+												"Value": 552.2642,
+												"UnitsConsumed": 7.7358
 											},
 											"SpawnedInSession": false
 										}
@@ -3140,7 +3140,7 @@
 				},
 				"Production": {},
 				"Seed": 1967560899,
-				"sptUpdateLastRunTimestamp": 1716330024
+				"sptUpdateLastRunTimestamp": 1716333737
 			},
 			"Info": {
 				"AccountType": 0,
@@ -38871,10 +38871,7 @@
 					"templateId": "5d25bfd086f77442734d3007 successMessageText",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "ff8dcb3bdc21d04d1289f480",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 172800
 				},
 				{
@@ -40255,10 +40252,7 @@
 					"text": "Your Ratchet wrench 1 items were bought by Jiro.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "00dca4201dffa4d222f34380",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 172800
 				},
 				{
@@ -40269,10 +40263,7 @@
 					"text": "Your Molot Arms Simonov OP-SKS 7.62x39 carbine 1 items were bought by Skwizzy.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "93bf8a74fcdd90bf265d4244",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 172800
 				},
 				{
