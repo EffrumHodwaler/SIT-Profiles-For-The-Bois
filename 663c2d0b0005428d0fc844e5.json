@@ -3568,7 +3568,7 @@
 					}
 				},
 				"Seed": 1967507794,
-				"sptUpdateLastRunTimestamp": 1716311349
+				"sptUpdateLastRunTimestamp": 1716319944
 			},
 			"Info": {
 				"AccountType": 0,
@@ -34903,10 +34903,7 @@
 					"templateId": "596a1e6c86f7741ddc2d3206 successMessageText",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "b22feb3b82b27edf7f4ceceb",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 172800
 				},
 				{
@@ -35967,10 +35964,7 @@
 					"templateId": "639872fa9b4fb827b200d8e5 successMessageText",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "7e6d28dc376390b14ac3f2ae",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 172800
 				},
 				{
@@ -35992,10 +35986,7 @@
 					"templateId": "5ae327c886f7745c7b3f2f3f successMessageText",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "9ecf4780318a7215246850f5",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 172800
 				},
 				{
@@ -36017,10 +36008,7 @@
 					"templateId": "639872fc93ae507d5858c3a6 successMessageText",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "3f30cedeeba49f2297845d74",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 172800
 				},
 				{
@@ -36042,10 +36030,7 @@
 					"templateId": "5b47799d86f7746c5d6a5fd8 successMessageText",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "10c2db482ebbb881aa43db5d",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 172800
 				},
 				{
@@ -36067,10 +36052,7 @@
 					"templateId": "5ac244c486f77413e12cf945 successMessageText",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "2aee86fbe169686733c9ed3b",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 172800
 				},
 				{
@@ -37649,10 +37631,7 @@
 					"text": "Your 5.56x45 SureFire MAG5-100 STANAG 100-round magazine 1 items were bought by Props.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "e4747ef4fe69c93d679870e4",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 172800
 				},
 				{
@@ -37663,10 +37642,7 @@
 					"text": "Your FN P90 Attenuator 5.7x28 sound suppressor 1 items were bought by Mako.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "9e807aadc49b492f23eff8df",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 172800
 				},
 				{

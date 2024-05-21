@@ -2696,8 +2696,8 @@
 										"upd": {
 											"StackObjectsCount": 1,
 											"Resource": {
-												"Value": 572.9475,
-												"UnitsConsumed": 7.052499999999998
+												"Value": 565.0091,
+												"UnitsConsumed": 4.9909
 											},
 											"SpawnedInSession": false
 										}
@@ -3140,7 +3140,7 @@
 				},
 				"Production": {},
 				"Seed": 1967560899,
-				"sptUpdateLastRunTimestamp": 1716311349
+				"sptUpdateLastRunTimestamp": 1716319944
 			},
 			"Info": {
 				"AccountType": 0,
@@ -27571,7 +27571,7 @@
 						"Id": "HideoutManagement",
 						"Progress": 5100,
 						"PointsEarnedDuringSession": 0,
-						"LastAccess": 1716311349
+						"LastAccess": 1716319944
 					}
 				],
 				"Mastering": [
@@ -36443,10 +36443,7 @@
 					"templateId": "596a1e6c86f7741ddc2d3206 successMessageText",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "0f3b88b398e6c6cf9693c869",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 172800
 				},
 				{
@@ -40142,10 +40139,7 @@
 					"text": "Your Glock 9x19 Big Stick 33-round magazine 2 items were bought by XkaOnslaught.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "39502557f3c45eeb329316a0",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 172800
 				},
 				{
@@ -40156,10 +40150,7 @@
 					"text": "Your GP-7 gas mask 1 items were bought by Thunderbags.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "4ba1930945ef05dedda39ee1",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 172800
 				},
 				{
@@ -40170,10 +40161,7 @@
 					"text": "Your Keycard with a blue marking 1 items were bought by Miraki.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "6644a2c76fe1993824beda8c",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 172800
 				},
 				{
@@ -40184,10 +40172,7 @@
 					"text": "Your Glock 18C 9x19 machine pistol 1 items were bought by hacker228.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "6809562db7d8861c78d446ed",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 172800
 				},
 				{
