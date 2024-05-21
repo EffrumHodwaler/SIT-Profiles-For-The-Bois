@@ -2696,8 +2696,8 @@
 										"upd": {
 											"StackObjectsCount": 1,
 											"Resource": {
-												"Value": 560.8492,
-												"UnitsConsumed": 9.1508
+												"Value": 555.6982,
+												"UnitsConsumed": 4.3018
 											},
 											"SpawnedInSession": false
 										}
@@ -3140,7 +3140,7 @@
 				},
 				"Production": {},
 				"Seed": 1967560899,
-				"sptUpdateLastRunTimestamp": 1716324447
+				"sptUpdateLastRunTimestamp": 1716330024
 			},
 			"Info": {
 				"AccountType": 0,
@@ -27571,7 +27571,7 @@
 						"Id": "HideoutManagement",
 						"Progress": 5100,
 						"PointsEarnedDuringSession": 0,
-						"LastAccess": 1716319944
+						"LastAccess": 1716330024
 					}
 				],
 				"Mastering": [
@@ -35771,10 +35771,7 @@
 					"templateId": "5ac3477486f7741d651d6885 successMessageText",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "c6690f9b1767e3df471baf12",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 172800
 				},
 				{
@@ -38852,10 +38849,7 @@
 					"templateId": "5bc47dbf86f7741ee74e93b9 successMessageText",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "9487e8960c4e9f1a3ac67b00",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 172800
 				},
 				{
@@ -40205,10 +40199,7 @@
 					"text": "Your VOMZ Pilad 4x32 25.4mm riflescope 1 items were bought by Hobbes.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "38157f3485285d876a61629c",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 172800
 				},
 				{
@@ -40219,10 +40210,7 @@
 					"text": "Your Pack of Vita juice 1 items were bought by Stealthsuit.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "dc2395ee7e40cb4ab6ea882e",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 172800
 				},
 				{
@@ -40234,10 +40222,7 @@
 					"templateId": "616052ea3054fc0e2c24ce6e successMessageText 5ac3b934156ae10c4430e83c 0",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "d63e7c9151308b6dac4a9fbe",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 172800
 				},
 				{
@@ -40248,10 +40233,7 @@
 					"text": "Your ADAR 2-15 5.56x45 carbine 1 items were bought by CharlieMike.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "c5d8ee072c78c799cb0d63bc",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 172800
 				},
 				{
@@ -40262,10 +40244,7 @@
 					"text": "Your AR-15 Daniel Defense RIS II FSP 9.5 handguard (Coyote Brown) 1 items were bought by bitwarrior.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "386fd6ca88aba29acf9f7db8",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 172800
 				},
 				{

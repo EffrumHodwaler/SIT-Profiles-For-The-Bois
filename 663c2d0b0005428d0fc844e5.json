@@ -3568,7 +3568,7 @@
 					}
 				},
 				"Seed": 1967507794,
-				"sptUpdateLastRunTimestamp": 1716323239
+				"sptUpdateLastRunTimestamp": 1716330024
 			},
 			"Info": {
 				"AccountType": 0,
@@ -33817,10 +33817,7 @@
 					"templateId": "59675ea386f77414b32bded2 successMessageText",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "9841e300bde1b724265792de",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 172800
 				},
 				{
@@ -34925,10 +34922,7 @@
 					"templateId": "596760e186f7741e11214d58 successMessageText",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "31d4a67091704bfbd360b929",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 172800
 				},
 				{
@@ -36064,10 +36058,7 @@
 					"templateId": "5ac3477486f7741d651d6885 successMessageText",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "b7bc767716b98026daf117f9",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 172800
 				},
 				{
@@ -37653,10 +37644,7 @@
 					"text": "Your Peltor ComTac 4 Hybrid headset (Coyote Brown) 1 items were bought by 1nco.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "93d8c50e88e77258435b62e1",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 172800
 				},
 				{
@@ -37667,10 +37655,7 @@
 					"text": "Your Secure magnetic tape cassette 1 items were bought by 1nco.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "99a6482f5a97d2a6a0127309",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 172800
 				},
 				{
@@ -37681,10 +37666,7 @@
 					"text": "Your Gingy keychain 1 items were bought by Gatsu66.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "9554a5a9902af81a68927aaf",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 172800
 				},
 				{
@@ -37695,10 +37677,7 @@
 					"text": "Your Health Resort west wing room 220 key 1 items were bought by wara.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "058e953629987ca89e14cd5d",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 172800
 				},
 				{
@@ -37709,10 +37688,7 @@
 					"text": "Your Health Resort west wing room 219 key 1 items were bought by TechHappy.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "f4f83d532a139e42b4f0d1f1",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 172800
 				},
 				{
@@ -37723,10 +37699,7 @@
 					"text": "Your Trimadol stimulant injector 1 items were bought by DanCam38.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "04ef8ad1fa8f2e6169c639e1",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 172800
 				},
 				{
@@ -37737,10 +37710,7 @@
 					"text": "Your SJ6 TGLabs combat stimulant injector 1 items were bought by pplatinumssEU.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "34c9a3266dc1737926c9ee98",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 172800
 				},
 				{
@@ -37751,10 +37721,7 @@
 					"text": "Your Can of RatCola soda 1 items were bought by Amands2Mello.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "194fcba1466381a9737e747f",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 172800
 				},
 				{
