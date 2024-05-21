@@ -2679,8 +2679,8 @@
 										"upd": {
 											"StackObjectsCount": 1,
 											"Resource": {
-												"Value": 1.4437,
-												"UnitsConsumed": 8.5563
+												"Value": 0,
+												"UnitsConsumed": 0
 											},
 											"SpawnedInSession": true
 										}
@@ -2694,9 +2694,12 @@
 										"_id": "ceb53626c773ee9d61bbe78d",
 										"_tpl": "5d1b371186f774253763a656",
 										"upd": {
+											"StackObjectsCount": 1,
 											"Resource": {
-												"Value": 600
-											}
+												"Value": 572.9475,
+												"UnitsConsumed": 7.052499999999998
+											},
+											"SpawnedInSession": false
 										}
 									}
 								]
@@ -3137,7 +3140,7 @@
 				},
 				"Production": {},
 				"Seed": 1967560899,
-				"sptUpdateLastRunTimestamp": 1716280496
+				"sptUpdateLastRunTimestamp": 1716311349
 			},
 			"Info": {
 				"AccountType": 0,
@@ -27568,7 +27571,7 @@
 						"Id": "HideoutManagement",
 						"Progress": 5100,
 						"PointsEarnedDuringSession": 0,
-						"LastAccess": 1716280496
+						"LastAccess": 1716311349
 					}
 				],
 				"Mastering": [
@@ -35724,10 +35727,7 @@
 					"templateId": "5ac346a886f7744e1b083d67 successMessageText",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "a641022091e2aefd582b3738",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 172800
 				},
 				{
@@ -35739,10 +35739,7 @@
 					"templateId": "5ac346cf86f7741d63233a02 description",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "eb3d5ea79dfbc2d2ffae4ad6",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 172800
 				},
 				{
@@ -36041,10 +36038,7 @@
 					"templateId": "5979eee086f774311955e614 successMessageText",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "2f67f0bea4cad800b9f93930",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 172800
 				},
 				{
@@ -36422,10 +36416,7 @@
 					"templateId": "61604635c725987e815b1a46 successMessageText 54cb57776803fa99248b456e 0",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "e617390aa980a6c21a7a5974",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 172800
 				},
 				{
@@ -38552,11 +38543,41 @@
 						"time": "05:35",
 						"location": "bigmap"
 					}
+				},
+				{
+					"_id": "9f2802d88789ddca0927ea71",
+					"uid": "54cb50c76803fa8b248b4571",
+					"type": 8,
+					"dt": 1716311334,
+					"text": "",
+					"templateId": "58fe0e4586f774728248ca13 1",
+					"hasRewards": true,
+					"rewardCollected": false,
+					"systemData": {
+						"date": "20.05.2024",
+						"time": "02:15",
+						"location": "bigmap"
+					},
+					"items": {
+						"stash": "f3cb4e349932c0100884f3ef",
+						"data": [
+							{
+								"_id": "fc9dda2157055dd47186131f",
+								"_tpl": "572b7adb24597762ae139821",
+								"parentId": "f3cb4e349932c0100884f3ef",
+								"slotId": "main",
+								"upd": {
+									"SpawnedInSession": false
+								}
+							}
+						]
+					},
+					"maxStorageTime": 345600
 				}
 			],
 			"pinned": true,
-			"new": 1,
-			"attachmentsNew": 0
+			"new": 2,
+			"attachmentsNew": 1
 		},
 		"5935c25fb3acc3127c3d8cd9": {
 			"_id": "5935c25fb3acc3127c3d8cd9",
@@ -40099,10 +40120,7 @@
 					"text": "Your KAC PRS/QDC 7.62x51 sound suppressor 1 items were bought by BingoBongo.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "7d2b17a998e1520ec5572767",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 172800
 				},
 				{
@@ -40113,10 +40131,7 @@
 					"text": "Your AAC 762-SDN-6 multi-caliber sound suppressor 1 items were bought by ChazLTK.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "e12d39faf5873d396c88d146",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 172800
 				},
 				{
@@ -40798,29 +40813,6 @@
 		"character": "pmc"
 	},
 	"insurance": [
-		{
-			"scheduledTime": 1716286393,
-			"traderId": "54cb50c76803fa8b248b4571",
-			"maxStorageTime": 345600,
-			"systemData": {
-				"date": "20.05.2024",
-				"time": "02:15",
-				"location": "bigmap"
-			},
-			"messageType": 8,
-			"messageTemplateId": "58fe0e4586f774728248ca13 1",
-			"items": [
-				{
-					"_id": "eabab3ecee7ac014619df712",
-					"_tpl": "572b7adb24597762ae139821",
-					"parentId": "f3cb4e349932c0100884f3ef",
-					"slotId": "hideout",
-					"upd": {
-						"SpawnedInSession": false
-					}
-				}
-			]
-		},
 		{
 			"scheduledTime": 1716372760,
 			"traderId": "54cb50c76803fa8b248b4571",
