@@ -2696,8 +2696,8 @@
 										"upd": {
 											"StackObjectsCount": 1,
 											"Resource": {
-												"Value": 551.5789,
-												"UnitsConsumed": 8.4211
+												"Value": 548.6915,
+												"UnitsConsumed": 1.3085
 											},
 											"SpawnedInSession": false
 										}
@@ -3140,7 +3140,7 @@
 				},
 				"Production": {},
 				"Seed": 1967560899,
-				"sptUpdateLastRunTimestamp": 1716334479
+				"sptUpdateLastRunTimestamp": 1716337601
 			},
 			"Info": {
 				"AccountType": 0,
@@ -27571,7 +27571,7 @@
 						"Id": "HideoutManagement",
 						"Progress": 5100,
 						"PointsEarnedDuringSession": 0,
-						"LastAccess": 1716330024
+						"LastAccess": 1716336315
 					}
 				],
 				"Mastering": [
@@ -40285,10 +40285,7 @@
 					"text": "Your Water filter 2 items were bought by Arys.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "c42c10660edb3ebf1449f217",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 172800
 				},
 				{
@@ -40299,10 +40296,7 @@
 					"text": "Your Vaseline balm 1 items were bought by Baliston.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "c8e6c884864140e74b3e7db5",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 172800
 				},
 				{
@@ -40313,10 +40307,7 @@
 					"text": "Your Vaseline balm 1 items were bought by DrakiaXYZ.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "747443da12f3e3e1d3feb7c9",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 172800
 				},
 				{
