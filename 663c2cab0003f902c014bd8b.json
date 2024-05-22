@@ -2471,18 +2471,18 @@
 					}
 				},
 				"Energy": {
-					"Current": 74,
+					"Current": 100,
 					"Maximum": 100
 				},
 				"Hydration": {
-					"Current": 32,
+					"Current": 100,
 					"Maximum": 100
 				},
 				"Temperature": {
 					"Current": 40,
 					"Maximum": 40
 				},
-				"UpdateTime": 1716338736
+				"UpdateTime": 1716342483
 			},
 			"Hideout": {
 				"Areas": [
@@ -2560,8 +2560,8 @@
 										"upd": {
 											"StackObjectsCount": 1,
 											"Resource": {
-												"Value": 51.4887,
-												"UnitsConsumed": 8.5113
+												"Value": 46.95,
+												"UnitsConsumed": 3.05
 											},
 											"SpawnedInSession": false
 										}
@@ -3006,7 +3006,7 @@
 				},
 				"Production": {
 					"600aa140090cb63380270290": {
-						"Progress": 1733,
+						"Progress": 2856.5,
 						"inProgress": true,
 						"RecipeId": "600aa140090cb63380270290",
 						"StartTimestamp": 1716337012,
@@ -3054,7 +3054,7 @@
 						]
 					},
 					"619eb0eb56579138ec08fed8": {
-						"Progress": 1643,
+						"Progress": 2905.75,
 						"inProgress": true,
 						"RecipeId": "619eb0eb56579138ec08fed8",
 						"StartTimestamp": 1716337107,
@@ -3067,7 +3067,7 @@
 						"SkipTime": 0
 					},
 					"61c77cc6fcc1673f08540e9b": {
-						"Progress": 1613,
+						"Progress": 3940,
 						"inProgress": true,
 						"RecipeId": "61c77cc6fcc1673f08540e9b",
 						"StartTimestamp": 1716337127,
@@ -3093,7 +3093,7 @@
 					}
 				},
 				"Seed": 1967507699,
-				"sptUpdateLastRunTimestamp": 1716338737
+				"sptUpdateLastRunTimestamp": 1716342476
 			},
 			"Info": {
 				"AccountType": 0,
@@ -3400,7 +3400,7 @@
 				}
 			],
 			"Inventory": {
-				"equipment": "ff6ce4154c4d60ef43aa3466",
+				"equipment": "4aebe4be137330432acf563d",
 				"fastPanel": {},
 				"hideoutAreaStashes": {
 					"16": "5d494a295b56502f18c98a08",
@@ -3409,7 +3409,7 @@
 				},
 				"items": [
 					{
-						"_id": "ff6ce4154c4d60ef43aa3466",
+						"_id": "4aebe4be137330432acf563d",
 						"_tpl": "55d7217a4bdc2d86028b456d"
 					},
 					{
@@ -3423,7 +3423,7 @@
 					{
 						"_id": "c83fc7550fc20f1d3cedfdf6",
 						"_tpl": "5bffdc370db834001d23eca8",
-						"parentId": "ff6ce4154c4d60ef43aa3466",
+						"parentId": "4aebe4be137330432acf563d",
 						"slotId": "Scabbard",
 						"upd": {
 							"Repairable": {
@@ -3435,19 +3435,19 @@
 					{
 						"_id": "2832d6881f75e507f2e0edf5",
 						"_tpl": "5857a8bc2459772bad15db29",
-						"parentId": "ff6ce4154c4d60ef43aa3466",
+						"parentId": "4aebe4be137330432acf563d",
 						"slotId": "SecuredContainer"
 					},
 					{
 						"_id": "d3d00654a2f30ea208a83211",
 						"_tpl": "627a4e6b255f7527fb05a0f6",
-						"parentId": "ff6ce4154c4d60ef43aa3466",
+						"parentId": "4aebe4be137330432acf563d",
 						"slotId": "Pockets"
 					},
 					{
 						"_id": "a5f858f73a918c60bbfd63d0",
 						"_tpl": "59f32bb586f774757e1e8442",
-						"parentId": "ff6ce4154c4d60ef43aa3466",
+						"parentId": "4aebe4be137330432acf563d",
 						"slotId": "Dogtag",
 						"upd": {
 							"Resource": {
@@ -3472,7 +3472,7 @@
 					{
 						"_id": "bf4bf96524158305aea7d7f2",
 						"_tpl": "5b3f16c486f7747c327f55f7",
-						"parentId": "ff6ce4154c4d60ef43aa3466",
+						"parentId": "4aebe4be137330432acf563d",
 						"slotId": "ArmBand"
 					},
 					{
@@ -26580,9 +26580,9 @@
 					},
 					{
 						"Id": "HideoutManagement",
-						"Progress": 649.8,
+						"Progress": 650.8,
 						"PointsEarnedDuringSession": 0,
-						"LastAccess": 1716312562
+						"LastAccess": 1716342375
 					}
 				],
 				"Mastering": [
@@ -30939,7 +30939,7 @@
 									"count": 5000
 								}
 							],
-							"changeStandingCost": 0.01
+							"changeStandingCost": 0
 						}
 					}
 				},

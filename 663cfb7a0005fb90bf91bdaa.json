@@ -2584,18 +2584,18 @@
 					}
 				},
 				"Energy": {
-					"Current": 88,
+					"Current": 100,
 					"Maximum": 100
 				},
 				"Hydration": {
-					"Current": 82,
+					"Current": 100,
 					"Maximum": 100
 				},
 				"Temperature": {
 					"Current": 40,
 					"Maximum": 40
 				},
-				"UpdateTime": 1716338784
+				"UpdateTime": 1716342474
 			},
 			"Hideout": {
 				"Areas": [
@@ -2690,8 +2690,8 @@
 										"upd": {
 											"StackObjectsCount": 1,
 											"Resource": {
-												"Value": 547.595,
-												"UnitsConsumed": 2.405
+												"Value": 544.1856,
+												"UnitsConsumed": 5.8144
 											},
 											"SpawnedInSession": false
 										}
@@ -3134,7 +3134,7 @@
 				},
 				"Production": {},
 				"Seed": 1967560899,
-				"sptUpdateLastRunTimestamp": 1716338785
+				"sptUpdateLastRunTimestamp": 1716342476
 			},
 			"Info": {
 				"AccountType": 0,
@@ -3565,7 +3565,7 @@
 				}
 			],
 			"Inventory": {
-				"equipment": "7e0313ff47eb2a39d0412be1",
+				"equipment": "215ae19e24275c61af4d8d8b",
 				"fastPanel": {
 					"Item8": "c17c20595a8032fbf510ce18"
 				},
@@ -3576,7 +3576,7 @@
 				},
 				"items": [
 					{
-						"_id": "7e0313ff47eb2a39d0412be1",
+						"_id": "215ae19e24275c61af4d8d8b",
 						"_tpl": "55d7217a4bdc2d86028b456d"
 					},
 					{
@@ -3653,7 +3653,7 @@
 					{
 						"_id": "b17316ea923279c3e1de8693",
 						"_tpl": "5bc9c1e2d4351e00367fbcf0",
-						"parentId": "7e0313ff47eb2a39d0412be1",
+						"parentId": "215ae19e24275c61af4d8d8b",
 						"slotId": "Scabbard",
 						"upd": {
 							"Repairable": {
@@ -3665,7 +3665,7 @@
 					{
 						"_id": "12df1065013195ae631f135f",
 						"_tpl": "572b7fa524597762b747ce82",
-						"parentId": "7e0313ff47eb2a39d0412be1",
+						"parentId": "215ae19e24275c61af4d8d8b",
 						"slotId": "FaceCover"
 					},
 					{
@@ -3683,31 +3683,31 @@
 					{
 						"_id": "85314595d6bab56f83ca12f5",
 						"_tpl": "60a3c70cde5f453f634816a3",
-						"parentId": "7e0313ff47eb2a39d0412be1",
+						"parentId": "215ae19e24275c61af4d8d8b",
 						"slotId": "TacticalVest"
 					},
 					{
 						"_id": "d0cd4097baf44ecd35bbe9e1",
 						"_tpl": "5857a8bc2459772bad15db29",
-						"parentId": "7e0313ff47eb2a39d0412be1",
+						"parentId": "215ae19e24275c61af4d8d8b",
 						"slotId": "SecuredContainer"
 					},
 					{
 						"_id": "23bcaeb43057d9307761f696",
 						"_tpl": "56e335e4d2720b6c058b456d",
-						"parentId": "7e0313ff47eb2a39d0412be1",
+						"parentId": "215ae19e24275c61af4d8d8b",
 						"slotId": "Backpack"
 					},
 					{
 						"_id": "5d5739bd8dea6fb70c776d6d",
 						"_tpl": "627a4e6b255f7527fb05a0f6",
-						"parentId": "7e0313ff47eb2a39d0412be1",
+						"parentId": "215ae19e24275c61af4d8d8b",
 						"slotId": "Pockets"
 					},
 					{
 						"_id": "fad616bea281126c0ad39d2b",
 						"_tpl": "59f32bb586f774757e1e8442",
-						"parentId": "7e0313ff47eb2a39d0412be1",
+						"parentId": "215ae19e24275c61af4d8d8b",
 						"slotId": "Dogtag",
 						"upd": {
 							"Resource": {
@@ -3732,13 +3732,13 @@
 					{
 						"_id": "94cbb2e941de7dac5f255f04",
 						"_tpl": "61c18d83b00456371a66814b",
-						"parentId": "7e0313ff47eb2a39d0412be1",
+						"parentId": "215ae19e24275c61af4d8d8b",
 						"slotId": "Eyewear"
 					},
 					{
 						"_id": "65a85ae492445bf81399c31a",
 						"_tpl": "5b3f16c486f7747c327f55f7",
-						"parentId": "7e0313ff47eb2a39d0412be1",
+						"parentId": "215ae19e24275c61af4d8d8b",
 						"slotId": "ArmBand"
 					},
 					{
@@ -26422,21 +26422,6 @@
 					"availableAfter": 0
 				},
 				{
-					"qid": "664410a5f98141adc3000001",
-					"startTime": 0,
-					"status": 4,
-					"statusTimers": {
-						"1": 1715736741.564,
-						"2": 1715736762.86,
-						"3": 1715796355.7919998,
-						"4": 1715796986
-					},
-					"completedConditions": [
-						"664410a5f98141adc3000004"
-					],
-					"availableAfter": 0
-				},
-				{
 					"qid": "596a204686f774576d4c95de",
 					"startTime": 0,
 					"status": 4,
@@ -32215,7 +32200,7 @@
 									"count": 5000
 								}
 							],
-							"changeStandingCost": 0.01
+							"changeStandingCost": 0
 						},
 						"664c0dd51a8f783771000009": {
 							"changeCost": [
@@ -32232,6 +32217,159 @@
 					"id": "618035d38012292db3081bf0",
 					"name": "Weekly",
 					"activeQuests": [
+						{
+							"_id": "664d4e98b464ee24de000001",
+							"traderId": "58330581ace78e27b8b10cee",
+							"location": "any",
+							"image": "/files/quest/icon/616d993bc8c5ad2ab30ff6ba.jpg",
+							"type": "Elimination",
+							"isKey": false,
+							"restartable": false,
+							"instantComplete": false,
+							"secretQuest": false,
+							"canShowNotificationsInGame": true,
+							"rewards": {
+								"Started": [],
+								"Success": [
+									{
+										"value": 32837,
+										"type": "Experience",
+										"index": 0
+									},
+									{
+										"target": "664d4e98d795dba71c000001",
+										"value": 103030,
+										"type": "Item",
+										"index": 1,
+										"items": [
+											{
+												"_id": "664d4e98d795dba71c000001",
+												"_tpl": "5449016a4bdc2d6f028b456f",
+												"upd": {
+													"StackObjectsCount": 103030,
+													"SpawnedInSession": true
+												}
+											}
+										]
+									},
+									{
+										"target": "5841427d24597752602fdcc6",
+										"value": 1,
+										"type": "Item",
+										"index": 2,
+										"items": [
+											{
+												"_id": "5841427d24597752602fdcc6",
+												"_tpl": "57f3c6bd24597738e730fa2f"
+											},
+											{
+												"_id": "09a3daec8c7d9a908c3a0471",
+												"_tpl": "57d152ec245977144076ccdf",
+												"parentId": "5841427d24597752602fdcc6",
+												"slotId": "mod_pistol_grip"
+											},
+											{
+												"_id": "f129d60ba59917ea3a58d400",
+												"_tpl": "57f3c7e024597738ea4ba286",
+												"parentId": "5841427d24597752602fdcc6",
+												"slotId": "mod_muzzle"
+											},
+											{
+												"_id": "4b77e79dea2406e1e89a3361",
+												"_tpl": "57f3c8cc2459773ec4480328",
+												"parentId": "f129d60ba59917ea3a58d400",
+												"slotId": "mod_muzzle"
+											},
+											{
+												"_id": "7604148f9a54ee02daa0af76",
+												"_tpl": "57d1519e24597714373db79d",
+												"parentId": "5841427d24597752602fdcc6",
+												"slotId": "mod_magazine"
+											}
+										]
+									},
+									{
+										"target": "664d4e98d795dba71c000003",
+										"value": 1,
+										"type": "Item",
+										"index": 3,
+										"items": [
+											{
+												"_id": "664d4e98d795dba71c000003",
+												"_tpl": "5c07dd120db834001c39092d",
+												"upd": {
+													"StackObjectsCount": 1,
+													"SpawnedInSession": true
+												}
+											}
+										]
+									},
+									{
+										"target": "58330581ace78e27b8b10cee",
+										"value": 0.02,
+										"type": "TraderStanding",
+										"index": 4
+									}
+								],
+								"Fail": []
+							},
+							"conditions": {
+								"AvailableForStart": [],
+								"AvailableForFinish": [
+									{
+										"id": "664d4e98b464ee24de000004",
+										"index": 0,
+										"dynamicLocale": true,
+										"visibilityConditions": [],
+										"globalQuestCounterId": "",
+										"parentId": "",
+										"value": 17,
+										"type": "Elimination",
+										"oneSessionOnly": false,
+										"doNotResetIfCounterCompleted": false,
+										"counter": {
+											"id": "664d4e98b464ee24de000002",
+											"conditions": [
+												{
+													"target": "Savage",
+													"value": 1,
+													"id": "664d4e98b464ee24de000003",
+													"dynamicLocale": true,
+													"conditionType": "Kills",
+													"bodyPart": [
+														"LeftArm",
+														"RightArm"
+													]
+												}
+											]
+										},
+										"conditionType": "CounterCreator"
+									}
+								],
+								"Fail": []
+							},
+							"side": "Pmc",
+							"name": "616052ea3054fc0e2c24ce6e name 58330581ace78e27b8b10cee",
+							"note": "616052ea3054fc0e2c24ce6e note 58330581ace78e27b8b10cee",
+							"description": "616052ea3054fc0e2c24ce6e description 58330581ace78e27b8b10cee 0",
+							"successMessageText": "616052ea3054fc0e2c24ce6e successMessageText 58330581ace78e27b8b10cee 0",
+							"failMessageText": "616052ea3054fc0e2c24ce6e failMessageText 58330581ace78e27b8b10cee 0",
+							"startedMessageText": "616052ea3054fc0e2c24ce6e startedMessageText 58330581ace78e27b8b10cee 0",
+							"changeQuestMessageText": "616052ea3054fc0e2c24ce6e changeQuestMessageText 58330581ace78e27b8b10cee 0",
+							"acceptPlayerMessage": "616052ea3054fc0e2c24ce6e acceptPlayerMessage 58330581ace78e27b8b10cee",
+							"declinePlayerMessage": "616052ea3054fc0e2c24ce6e declinePlayerMessage 58330581ace78e27b8b10cee",
+							"completePlayerMessage": "616052ea3054fc0e2c24ce6e completePlayerMessage 58330581ace78e27b8b10cee",
+							"templateId": "616052ea3054fc0e2c24ce6e",
+							"changeCost": [
+								{
+									"templateId": "5449016a4bdc2d6f028b456f",
+									"count": 5000
+								}
+							],
+							"changeStandingCost": 0
+						}
+					],
+					"inactiveQuests": [
 						{
 							"_id": "664410a5f98141adc3000001",
 							"traderId": "5ac3b934156ae10c4430e83c",
@@ -32367,10 +32505,18 @@
 							"sptRepatableGroupName": "Weekly"
 						}
 					],
-					"inactiveQuests": [],
-					"endTime": 1716341541,
+					"endTime": 1716947224,
 					"changeRequirement": {
 						"664410a5f98141adc3000001": {
+							"changeCost": [
+								{
+									"templateId": "5449016a4bdc2d6f028b456f",
+									"count": 5000
+								}
+							],
+							"changeStandingCost": 0
+						},
+						"664d4e98b464ee24de000001": {
 							"changeCost": [
 								{
 									"templateId": "5449016a4bdc2d6f028b456f",
@@ -32673,7 +32819,7 @@
 									"count": 5000
 								}
 							],
-							"changeStandingCost": 0
+							"changeStandingCost": 0.01
 						}
 					}
 				}
@@ -40657,7 +40803,7 @@
 				}
 			],
 			"pinned": true,
-			"new": 4,
+			"new": 0,
 			"attachmentsNew": 0
 		},
 		"Digi": {
