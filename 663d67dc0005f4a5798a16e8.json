@@ -1987,11 +1987,11 @@
 				"BannedState": false,
 				"BannedUntil": 0,
 				"Bans": [],
-				"Experience": 148614,
+				"Experience": 168614,
 				"GameVersion": "edge_of_darkness",
 				"IsStreamerModeAvailable": false,
 				"LastTimePlayedAsSavage": 1717119899,
-				"Level": 14,
+				"Level": 15,
 				"LowerNickname": "clitmuncher",
 				"MemberCategory": 2,
 				"NeedWipeOptions": [],
@@ -19059,7 +19059,7 @@
 									"Money",
 									"RUB"
 								],
-								"Value": 5000
+								"Value": 500000
 							}
 						]
 					},
@@ -19516,21 +19516,21 @@
 									"Money",
 									"RUB"
 								],
-								"Value": 109312
+								"Value": 500000
 							},
 							{
 								"Key": [
 									"Money",
 									"EUR"
 								],
-								"Value": 178
+								"Value": 278
 							},
 							{
 								"Key": [
 									"Money",
 									"USD"
 								],
-								"Value": 488
+								"Value": 888
 							},
 							{
 								"Key": [
