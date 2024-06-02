@@ -4074,8 +4074,8 @@
 										"upd": {
 											"StackObjectsCount": 1,
 											"Resource": {
-												"Value": 6.556,
-												"UnitsConsumed": 3.444
+												"Value": 0,
+												"UnitsConsumed": 0
 											},
 											"SpawnedInSession": false
 										}
@@ -4089,7 +4089,12 @@
 										"_id": "e98c6f0679cc6f86cf6f32ac",
 										"_tpl": "5d1b36a186f7742523398433",
 										"upd": {
-											"StackObjectsCount": 1
+											"StackObjectsCount": 1,
+											"Resource": {
+												"Value": 9.9838,
+												"UnitsConsumed": 0.016199999999999548
+											},
+											"SpawnedInSession": false
 										}
 									}
 								]
@@ -4184,8 +4189,8 @@
 										"upd": {
 											"StackObjectsCount": 1,
 											"Resource": {
-												"Value": 15.508,
-												"UnitsConsumed": 4.492
+												"Value": 1.167,
+												"UnitsConsumed": 8.832999999999998
 											},
 											"SpawnedInSession": true
 										}
@@ -4310,20 +4315,7 @@
 						"passiveBonusesEnabled": false,
 						"slots": [
 							{
-								"locationIndex": 0,
-								"item": [
-									{
-										"_id": "4618bde2b1a7733f7cf72198",
-										"_tpl": "5d1b2f3f86f774252167a52c",
-										"upd": {
-											"StackObjectsCount": 1,
-											"Resource": {
-												"Value": 218.1102,
-												"UnitsConsumed": 1.89
-											}
-										}
-									}
-								]
+								"locationIndex": 0
 							},
 							{
 								"locationIndex": 1
@@ -4839,12 +4831,20 @@
 				},
 				"Production": {
 					"5d5c205bd582a50d042a3c0e": {
-						"Progress": 36581,
+						"Progress": 55206,
 						"inProgress": true,
 						"RecipeId": "5d5c205bd582a50d042a3c0e",
-						"StartTimestamp": 1717279194,
+						"StartTimestamp": 1717361432,
 						"ProductionTime": 145000,
-						"Products": [],
+						"Products": [
+							{
+								"_id": "c8da86084c159b8f315f5a72",
+								"_tpl": "59faff1d86f7746c51718c9c",
+								"upd": {
+									"StackObjectsCount": 1
+								}
+							}
+						],
 						"GivenItemsInStart": [],
 						"Interrupted": false,
 						"NeedFuelForAllProductionTime": false,
@@ -4852,7 +4852,7 @@
 						"SkipTime": 0
 					},
 					"5d5589c1f934db045e6c5492": {
-						"Progress": 14688,
+						"Progress": 96596,
 						"inProgress": true,
 						"RecipeId": "5d5589c1f934db045e6c5492",
 						"StartTimestamp": 1717264520,
@@ -4867,7 +4867,7 @@
 						"sptIsContinuous": true
 					},
 					"600ab813d19f85018a7489c4": {
-						"Progress": 13240,
+						"Progress": 17132.5,
 						"inProgress": true,
 						"RecipeId": "600ab813d19f85018a7489c4",
 						"StartTimestamp": 1717265959,
@@ -4893,7 +4893,7 @@
 						]
 					},
 					"5dde60e0e2c8f57eb6465327": {
-						"Progress": 9460,
+						"Progress": 20790,
 						"inProgress": true,
 						"RecipeId": "5dde60e0e2c8f57eb6465327",
 						"StartTimestamp": 1717269745,
@@ -4918,7 +4918,7 @@
 						]
 					},
 					"62710a0e436dcc0b9c55f4ec": {
-						"Progress": 5454,
+						"Progress": 87362,
 						"inProgress": true,
 						"RecipeId": "62710a0e436dcc0b9c55f4ec",
 						"StartTimestamp": 1717273740,
@@ -4932,7 +4932,7 @@
 						"sptIsScavCase": true
 					},
 					"5d5c1fd4d582a500650132f0": {
-						"Progress": 2939,
+						"Progress": 10587.5,
 						"inProgress": true,
 						"RecipeId": "5d5c1fd4d582a500650132f0",
 						"StartTimestamp": 1717276264,
@@ -4945,7 +4945,7 @@
 						"SkipTime": 0
 					},
 					"5ed9fd73f6626f08ef0efec6": {
-						"Progress": 2909,
+						"Progress": 4154.25,
 						"inProgress": true,
 						"RecipeId": "5ed9fd73f6626f08ef0efec6",
 						"StartTimestamp": 1717276289,
@@ -4959,7 +4959,7 @@
 					}
 				},
 				"Seed": 1967507794,
-				"sptUpdateLastRunTimestamp": 1717279194
+				"sptUpdateLastRunTimestamp": 1717361432
 			},
 			"Info": {
 				"AccountType": 0,
@@ -43774,9 +43774,9 @@
 					},
 					{
 						"Id": "HideoutManagement",
-						"Progress": 1252.8,
+						"Progress": 1264.8,
 						"PointsEarnedDuringSession": 0,
-						"LastAccess": 1717278774
+						"LastAccess": 1717361432
 					}
 				],
 				"Mastering": [
@@ -53001,10 +53001,7 @@
 					"templateId": "6391359b9444fb141f4e6ee6 successMessageText",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "1f8022e6028bfae0b3d41f4f",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -53026,10 +53023,7 @@
 					"templateId": "639136d68ba6894d155e77cf successMessageText",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "c767b180ade2083168130e0b",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -53093,10 +53087,7 @@
 						"time": "02:23",
 						"location": "Woods"
 					},
-					"items": {
-						"stash": "202e6f93fa518b6b1f9da06c",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 345600
 				},
 				{
@@ -53148,11 +53139,75 @@
 						"time": "19:11",
 						"location": "bigmap"
 					}
+				},
+				{
+					"_id": "7e3d1532279f2e7029a3d40d",
+					"uid": "54cb50c76803fa8b248b4571",
+					"type": 8,
+					"dt": 1717361102,
+					"text": "",
+					"templateId": "58fe0e4586f774728248ca13 0",
+					"hasRewards": true,
+					"rewardCollected": false,
+					"systemData": {
+						"date": "01.06.2024",
+						"time": "19:11",
+						"location": "bigmap"
+					},
+					"items": {
+						"stash": "120303aac7a90ec8495ac16d",
+						"data": [
+							{
+								"_id": "e9406aff260ac15a8c71f2e3",
+								"_tpl": "5a7c4850e899ef00150be885",
+								"parentId": "120303aac7a90ec8495ac16d",
+								"slotId": "main",
+								"upd": {}
+							},
+							{
+								"_id": "02ac16017de39267b2362ce1",
+								"_tpl": "657baaf0b7e9ca9a02045c02",
+								"parentId": "e9406aff260ac15a8c71f2e3",
+								"slotId": "Helmet_top",
+								"upd": {
+									"Repairable": {
+										"MaxDurability": 13.47,
+										"Durability": 13.47
+									}
+								}
+							},
+							{
+								"_id": "78c492bb052e9226f9262a89",
+								"_tpl": "657bab6ec6f689d3a205b85f",
+								"parentId": "e9406aff260ac15a8c71f2e3",
+								"slotId": "Helmet_back",
+								"upd": {
+									"Repairable": {
+										"MaxDurability": 13.72,
+										"Durability": 13.72
+									}
+								}
+							},
+							{
+								"_id": "99369077237cb1669e290527",
+								"_tpl": "657babc6f58ba5a6250107a2",
+								"parentId": "e9406aff260ac15a8c71f2e3",
+								"slotId": "Helmet_ears",
+								"upd": {
+									"Repairable": {
+										"MaxDurability": 14.04,
+										"Durability": 14.04
+									}
+								}
+							}
+						]
+					},
+					"maxStorageTime": 345600
 				}
 			],
 			"pinned": false,
-			"new": 0,
-			"attachmentsNew": 0
+			"new": 1,
+			"attachmentsNew": 1
 		},
 		"54cb57776803fa99248b456e": {
 			"_id": "54cb57776803fa99248b456e",
@@ -53795,10 +53850,7 @@
 					"templateId": "63ab180c87413d64ae0ac20a successMessageText",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "6d2c78b796470b96c0fd69a0",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -53810,10 +53862,7 @@
 					"templateId": "639135d89444fb141f4e6eea successMessageText",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "80b23e10693c8a14c9d199b8",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -54296,10 +54345,7 @@
 					"templateId": "5b478eca86f7744642012254 successMessageText",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "68adec866b30cb49349757a0",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -54321,10 +54367,7 @@
 					"templateId": "5b478ff486f7744d184ecbbf successMessageText",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "e1d0cd2c28f051419ad60ff0",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -55265,10 +55308,7 @@
 					"templateId": "639873003693c63d86328f25 successMessageText",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "1fb7604f6c39e11ebedb74c9",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -55290,10 +55330,7 @@
 					"templateId": "5b477f7686f7744d1b23c4d2 successMessageText",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "d46edde8f0338819e100d925",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -55305,10 +55342,7 @@
 					"templateId": "5c0be13186f7746f016734aa successMessageText",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "216fa98bf1396f53b3e158a8",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -55330,10 +55364,7 @@
 					"templateId": "63987301e11ec11ff5504036 successMessageText",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "93fd9f4ff911308098470f72",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -55345,10 +55376,7 @@
 					"templateId": "64ee9df4496db64f9b7a4432 successMessageText",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "2ba5282b2784d36cfec09558",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -56136,10 +56164,7 @@
 					"templateId": "5c0d4c12d09282029f539173 successMessageText",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "6ae9f1ea8eeca98ff20a7df6",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -56743,10 +56768,7 @@
 					"templateId": "61604635c725987e815b1a46 successMessageText 5c0647fdd443bc2504c2d371 0",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "3aa605122e17fdaa85a805d8",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -56943,10 +56965,7 @@
 					"templateId": "5eaaaa7c93afa0558f3b5a1c successMessageText",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "ae6f56bbcecbd2b38dcece4b",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 172800
 				},
 				{
@@ -56958,10 +56977,7 @@
 					"templateId": "600302d73b897b11364cd161 successMessageText",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "797714b9937f3a26b75e246f",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 172800
 				}
 			],
@@ -69542,10 +69558,7 @@
 					"text": "Your Topographic survey maps 2 items were bought by LostQuasar.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "25952694a3f3ee0d15efc56c",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -69556,10 +69569,7 @@
 					"text": "Your Topographic survey maps 1 items were bought by Agnotology.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "581179eef6198b4a2d86d9f1",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -69570,10 +69580,7 @@
 					"text": "Your Bulbex cable cutter 1 items were bought by Belzedar.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "f68c9669bc747c115685aa27",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -69584,10 +69591,7 @@
 					"text": "Your Ratchet wrench 1 items were bought by dspider.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "e686d2f9e04aaeb3558e5262",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -69598,10 +69602,7 @@
 					"text": "Your AR-15 Hera Arms CQR pistol grip/buttstock 1 items were bought by nohurry.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "d614e9fc719f0eb014e61545",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -69612,10 +69613,7 @@
 					"text": "Your Hera Arms CQR tactical foregrip 1 items were bought by RubMyRubber.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "01cc379a88d5d1c671c8d3ec",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -69626,10 +69624,7 @@
 					"text": "Your SVDS dust cover 1 items were bought by bllt.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "1b955227d16a1be2c8d2cca4",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -69640,10 +69635,7 @@
 					"text": "Your SVDS front sight 1 items were bought by Helldiver.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "9650552e000924d342e15b07",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -69654,10 +69646,7 @@
 					"text": "Your M1A 7.62x51 10-round magazine 1 items were bought by jfetko.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "a4a8d4ff4883b20ae1b732d8",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -69668,10 +69657,7 @@
 					"text": "Your SVDS pistol grip 1 items were bought by Alex.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "25250c3ec6c0cfa8b273439e",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -69682,10 +69668,7 @@
 					"text": "Your SVDS upper band 1 items were bought by RaiRaiTheRaichu.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "d75b63338c921ced270ddb48",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -69696,10 +69679,7 @@
 					"text": "Your SVDS polymer stock 1 items were bought by Kronzky.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "50bcc131054e6429e2e4d8f1",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -69710,10 +69690,7 @@
 					"text": "Your M1A SOCOM 16 stock 1 items were bought by Gamenator.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "2836d4875ae1a018189d3e47",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -69724,10 +69701,7 @@
 					"text": "Your Antique vase 1 items were bought by Hupfi.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "6a067c36a6370eed9674e93a",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -69738,10 +69712,7 @@
 					"text": "Your Geiger-Muller counter 1 items were bought by Nukey.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "bed5a04157b637e77b54651c",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -69752,10 +69723,7 @@
 					"text": "Your Trijicon ACOG TA11D 3.5x35 scope 1 items were bought by Juncker.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "ac61e1a0a66d3657d98e6c90",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -69766,10 +69734,7 @@
 					"text": "Your RB-MP21 key 1 items were bought by Fin.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "6ab1e1a23bfa366dfe8ee3a4",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -69781,10 +69746,7 @@
 					"templateId": "5ae448e586f7744dcf0c2a67 successMessageText",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "8b46067f8588314d683051de",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -69805,10 +69767,7 @@
 					"text": "Your LBT-1476A 3Day Pack (Woodland) 1 items were bought by ssh.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "7e281f6495712e16a5718936",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -69819,10 +69778,7 @@
 					"text": "Your Splav Tarzan M22 chest rig (Smog) 1 items were bought by jbs4bmx.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "33960745f1d47b99e81b3eaa",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -69833,10 +69789,7 @@
 					"text": "Your SJ6 TGLabs combat stimulant injector 2 items were bought by alias.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "526e198c928b1f5a596d3367",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -69847,10 +69800,7 @@
 					"text": "Your 9x21mm P gzh 7 items were bought by Xsos.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "8bcac70783584ceeade61e75",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -69861,10 +69811,7 @@
 					"text": "Your Can of condensed milk 1 items were bought by Mako.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "1e9f448b746c819733b8d0aa",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -69875,10 +69822,7 @@
 					"text": "Your FN SCAR-H 7.62x51 20-round magazine (FDE) 1 items were bought by MrFandor1n.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "f97fb61eb7bdd29d184cf071",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -69889,10 +69833,7 @@
 					"text": "Your 9x21mm P gzh 2 items were bought by 老人.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "c8229ddcce15b1949f07bb1b",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -69903,10 +69844,7 @@
 					"text": "Your Canister with purified water 1 items were bought by Revingly.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "93559b581c05fd0031857a9b",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -69917,10 +69855,7 @@
 					"text": "Your 9x21mm P gzh 14 items were bought by Boop.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "223ece14b98139e0d1739ff9",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -69931,10 +69866,7 @@
 					"text": "Your 9x21mm P gzh 4 items were bought by !Komino Style!.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "e8349082eb209d1a237f02b4",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -69945,10 +69877,7 @@
 					"text": "Your 9x21mm P gzh 2 items were bought by Waffle.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "4fd3cf674553dba30fb5bff3",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -69959,10 +69888,7 @@
 					"text": "Your Set of files Master 1 items were bought by Hupfi.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "073c982c6894c49654624072",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -69973,10 +69899,7 @@
 					"text": "Your Shustrilo sealing foam 1 items were bought by Doge.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "6efb5cd7f6d0d5cb9ce10823",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -69987,10 +69910,7 @@
 					"text": "Your Morphine injector 3 items were bought by NastyInc.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "0ae55c32ed181a7e287c5c34",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -70001,10 +69921,7 @@
 					"text": "Your Trijicon SRS-02 reflex sight 1 items were bought by Belette.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "59b6314f02b88909cbcb2eda",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -70015,10 +69932,7 @@
 					"text": "Your Morphine injector 1 items were bought by GeorgRavioli.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "91d9b3fd21841c8811c7a8ff",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -70029,10 +69943,7 @@
 					"text": "Your Trijicon SRS-02 reflex sight 1 items were bought by Shiro.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "80518f96820b71b5f1263d7b",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -70043,10 +69954,7 @@
 					"text": "Your Holosun HS401G5 reflex sight 1 items were bought by Katto.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "16aa5381c317583321aa6338",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -70057,10 +69965,7 @@
 					"text": "Your Gunpowder Hawk 1 items were bought by YankeeNoodle742.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "9458781bf980c8e30afd64c9",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -70071,10 +69976,7 @@
 					"text": "Your Holosun HS401G5 reflex sight 2 items were bought by Digi.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "d028872369e3b665a57be612",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -70085,10 +69987,7 @@
 					"text": "Your Oakley Mechanism heavy duty backpack (Black) 1 items were bought by MasterChief.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "359e3ba7d055891f766cc60d",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -70099,10 +69998,7 @@
 					"text": "Your UVSR Taiga-1 survival machete 1 items were bought by jiblet.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "b731320591a77b9dae53239a",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -70113,10 +70009,7 @@
 					"text": "Your UVSR Taiga-1 survival machete 1 items were bought by Bepis.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "30a24c45d99a04a66bae4f88",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -70127,10 +70020,7 @@
 					"text": "Your Peltor Tactical Sport headset 1 items were bought by Effrum_Hodwaler.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "b7516fadff4598aeea83c969",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -70141,10 +70031,7 @@
 					"text": "Your 5.7x28mm SS198LF 140 items were bought by Paulov.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "92eb428b61c0831d23e564fd",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -70155,10 +70042,7 @@
 					"text": "Your 5.45x39mm US gs 91 items were bought by Cheiftan.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "9a4a0994d528f3ba100460a1",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -70169,10 +70053,7 @@
 					"text": "Your 5.7x28mm SS198LF 37 items were bought by Crackbone.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "f80496b023553a71e630c159",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -70183,10 +70064,7 @@
 					"text": "Your TP-200 TNT brick 1 items were bought by MechanicMan396.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "671d6900f7c3ba59b22871a2",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -70197,10 +70075,7 @@
 					"text": "Your 5.45x39mm US gs 4 items were bought by IhanaMies.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "92bc425da56aea442cd3b297",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -70211,10 +70086,7 @@
 					"text": "Your Trijicon ACOG TA01NSN 4x32 scope (Tan) 1 items were bought by Umsirqualquerai.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "0f1b020c8f3e39b38a931cb7",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -70225,10 +70097,7 @@
 					"text": "Your 5.7x28mm SS198LF 12 items were bought by Nootropix.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "57e80fc2837a036b38c70762",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -70239,10 +70108,7 @@
 					"text": "Your SilencerCo Saker ASR 556 5.56x45 sound suppressor 1 items were bought by GGaulin.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "6187eb7b7c517833318ebcf3",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -70253,10 +70119,7 @@
 					"text": "Your FN P90 5.7x28 50-round magazine 3 items were bought by Zmyh.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "6c91a2c506603cef45337af5",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -70267,10 +70130,7 @@
 					"text": "Your 5.7x28mm SS198LF 31 items were bought by TallanX.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "1d06157bc0c964bc4a2482b3",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -70281,10 +70141,7 @@
 					"text": "Your RPK-16 5.45x39 95-round drum magazine 1 items were bought by alias.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "efadc33cb960e261675b6b78",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -70295,10 +70152,7 @@
 					"text": "Your Can of Dr. Lupo's coffee beans 1 items were bought by kmyuhkyuk.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "8510a24072f6f0336db924d2",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -70309,10 +70163,7 @@
 					"text": "Your SSD drive 1 items were bought by InternalError_.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "c63f6be4675b7b784bd74245",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -70323,10 +70174,7 @@
 					"text": "Your 5.7x28mm SS198LF 11 items were bought by skitles55.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "b01fc6be8e75520244fe8390",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -70337,10 +70185,7 @@
 					"text": "Your FN P90 5.7x28 50-round magazine 1 items were bought by Capataina.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "3df5b6c3e4c66c702b684c1b",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -70351,10 +70196,7 @@
 					"text": "Your Can of Dr. Lupo's coffee beans 1 items were bought by Nootropix.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "a264610093ea6d954567d99f",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -70365,10 +70207,7 @@
 					"text": "Your Gingy keychain 2 items were bought by MusicManiac.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "b1d73874a13204656dadad07",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -70379,10 +70218,7 @@
 					"text": "Your 5.7x28mm SS198LF 13 items were bought by Jiro.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "1f2699a9c3f7a35713f21fce",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -70393,10 +70229,7 @@
 					"text": "Your FN P90 5.7x28 50-round magazine 1 items were bought by SovietWalrus.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "da21c488980e31b553f8f8a2",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -70407,10 +70240,7 @@
 					"text": "Your Gas analyzer 1 items were bought by Terkoiz.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "7ff735644c9683b7c19b1646",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -70421,10 +70251,7 @@
 					"text": "Your 5.7x28mm SS198LF 4 items were bought by Umsirqualquerai.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "b85bbb0dbd86f4830c217d22",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -70435,10 +70262,7 @@
 					"text": "Your SSD drive 1 items were bought by Arsanthania.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "78ce37b8aeb3dc61c8f2e93f",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -70449,10 +70273,7 @@
 					"text": "Your Broken GPhone X smartphone 1 items were bought by kova.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "7bded59d9cfe249bb1d1179e",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -70463,10 +70284,7 @@
 					"text": "Your 5.7x28mm SS198LF 1 items were bought by Maxwell the cat.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "cbd8de204829e0802101ce97",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -70477,10 +70295,7 @@
 					"text": "Your Valday Krechet reflex sight 1 items were bought by svbtext.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "abe4bdb78b54ceed14c2c00e",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -70491,10 +70306,7 @@
 					"text": "Your 12/70 flechette 2 items were bought by Bobitec.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "f3d714127305336cce53aaee",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -70505,10 +70317,7 @@
 					"text": "Your Roler Submariner gold wrist watch 1 items were bought by JaydanCan.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "f913ccadbc48d50687460492",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -70519,10 +70328,7 @@
 					"text": "Your 5.7x28mm SS198LF 1 items were bought by Hobbes.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "5a94f98e543ad52f05523124",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -70533,10 +70339,7 @@
 					"text": "Your 12/70 flechette 4 items were bought by IcyClawz.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "7b0d127648cb7d26270e6684",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -70547,10 +70350,7 @@
 					"text": "Your Golden 1GPhone smartphone 1 items were bought by igorir3.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "efa8a710b46d6e0c1c07873c",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -70561,10 +70361,7 @@
 					"text": "Your SJ9 TGLabs combat stimulant injector 1 items were bought by Ereshkigal.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "e973f42c6b902da2219af094",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -70575,10 +70372,7 @@
 					"text": "Your Zagustin hemostatic drug injector 1 items were bought by Singularity.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "a5359c1e8dcd74b352c5dfa1",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -70589,10 +70383,7 @@
 					"text": "Your PNB (Product 16) stimulant injector 1 items were bought by Solarint.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "73b6b7ea7ee94b28808aa14e",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -70603,10 +70394,7 @@
 					"text": "Your 12/70 flechette 6 items were bought by Maksim Petrov.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "d203ddd88c167b9996abe0dd",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -70617,10 +70405,7 @@
 					"text": "Your Obdolbos cocktail injector 1 items were bought by NeCzar.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "cdfeda2be1df41cf5ce797e6",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -70631,10 +70416,7 @@
 					"text": "Your 9x19mm Luger CCI 46 items were bought by DasWulf.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "736e15f603e100810f9428ee",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -70645,10 +70427,7 @@
 					"text": "Your 12/70 flechette 1 items were bought by wara.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "5dff34132e889e660a5b0252",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -70659,10 +70438,7 @@
 					"text": "Your WZ Wallet 1 items were bought by OutsiderH.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "886bb4281f416627d9e168ba",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -70673,10 +70449,7 @@
 					"text": "Your L1 (Norepinephrine) injector 1 items were bought by Drill.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "1c98978fe3b26e760900633a",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -70687,10 +70460,7 @@
 					"text": "Your 12/70 flechette 1 items were bought by The2ndarbiter.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "23cc40ae45bea99f61a6b980",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -70701,10 +70471,7 @@
 					"text": "Your Ibuprofen painkillers 2 items were bought by GodHimself.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "9db277a39f5ab190fdc59f7f",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -70715,10 +70482,7 @@
 					"text": "Your RB-PP key 1 items were bought by Traveler.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "412b7b088ffba2f3035e9464",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -70729,10 +70493,7 @@
 					"text": "Your 9x19mm Luger CCI 3 items were bought by CrocodileJonesy.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "9456c0679c9999e8562489dc",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -70743,10 +70504,7 @@
 					"text": "Your RB-ORB3 key 1 items were bought by 老人.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "f4a203145cfaf0f033bd58c9",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -70757,10 +70515,7 @@
 					"text": "Your Dorm room 206 key 1 items were bought by kikirio.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "70fcf67b027fab8ad1608dc5",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -70771,10 +70526,7 @@
 					"text": "Your 9x19mm Luger CCI 1 items were bought by Kilgor616.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "f4037b3307f6fc7e0d277fc0",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -70785,10 +70537,7 @@
 					"text": "Your Dorm room 214 key 1 items were bought by Bingus.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "655f7b1ea805dc1e743a4497",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -70799,10 +70548,7 @@
 					"text": "Your Dorm room 214 key 1 items were bought by SUPERBUBU3000.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "26f5e47a54eb40d58fe78247",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -70813,10 +70559,7 @@
 					"text": "Your Health Resort west wing room 306 key 1 items were bought by TechHappy.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "8303ec4921921d76f4bfe2c2",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -70827,10 +70570,7 @@
 					"text": "Your Ded Moroz figurine 1 items were bought by aleves.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "9ca6f7b3928d017ed6ff21af",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -70841,10 +70581,7 @@
 					"text": "Your Pistol case 1 items were bought by deathbricks.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "cb30c2337c22aa94ba0c695a",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -70855,10 +70592,7 @@
 					"text": "Your M700 7.62x51 Wyatt's Outdoor 5-round magazine 1 items were bought by Nootropix.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "7cef8b50711eff8e006381bd",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -70869,10 +70603,7 @@
 					"text": "Your M1911A1 side grips 1 items were bought by ThurmanMurman.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "e7b932a66f50f41907c571c7",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -70883,10 +70614,7 @@
 					"text": "Your M700 Hogue Overmolded Ghillie stock 1 items were bought by centollojames.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "eff14166e37d23f6ae147dbb",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -70898,10 +70626,7 @@
 					"templateId": "638fcd23dc65553116701d33 successMessageText",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "bf2e6014296d3b51d6a46230",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -70922,10 +70647,7 @@
 					"text": "Your Aluminum splint 2 items were bought by Hubert.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "fc61ddfec039f9d4d99a22fa",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -70936,10 +70658,7 @@
 					"text": "Your Salewa first aid kit 2 items were bought by MusicManiac.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "41c11495c8e5c23860df0c23",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -70950,10 +70669,7 @@
 					"text": "Your CALOK-B hemostatic applicator 1 items were bought by Hobbes.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "8b352d337c9933284cf9370d",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -70964,10 +70680,7 @@
 					"text": "Your CALOK-B hemostatic applicator 1 items were bought by Terkoiz.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "0cead5f8efe2687e7ce85060",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -70978,10 +70691,7 @@
 					"text": "Your 6B47 Ratnik-BSh helmet (Olive Drab) 1 items were bought by YT_Mark.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "7120a3b9bafce2ac1afcb9da",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -70992,10 +70702,7 @@
 					"text": "Your Grizzly medical kit 1 items were bought by Traveler.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "41ba4bd6a802c1a0f820fb62",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -71006,10 +70713,7 @@
 					"text": "Your Peltor Tactical Sport headset 1 items were bought by Cannabis.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "a130ab8fd95abe458d691fcb",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -71020,10 +70724,7 @@
 					"text": "Your Grizzly medical kit 1 items were bought by OkaMoez.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "d1c181b6c72adfc5e213213f",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -71034,10 +70735,7 @@
 					"text": "Your Dorm room 303 key 1 items were bought by NastyInc.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "bff198398dee48f63dec95a3",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -71048,10 +70746,7 @@
 					"text": "Your Gingy keychain 2 items were bought by TallanX.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "109a7cf90057852e458dea38",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -71062,10 +70757,7 @@
 					"text": "Your Pack of sugar 1 items were bought by jbs4bmx.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "82c512309c7330a415cd8e5a",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -71076,10 +70768,7 @@
 					"text": "Your Axel parrot figurine 1 items were bought by DocYen.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "ba26bcfbd725fdc66106f4d8",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -71090,10 +70779,7 @@
 					"text": "Your Ibuprofen painkillers 1 items were bought by mighty_condor.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "92a55f5d040bab7c1768c0d0",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -71104,10 +70790,7 @@
 					"text": "Your Antique axe 1 items were bought by GGaulin.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "3d08dafd7f11ad2955fefd17",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -71118,10 +70801,7 @@
 					"text": "Your Ops-Core FAST Visor 1 items were bought by Frumorn.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "8e5b6eadf6803d58735abd5e",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -71132,10 +70812,7 @@
 					"text": "Your SJ12 TGLabs combat stimulant injector 1 items were bought by Nomad_420.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "8739e0cdc622a09cdc45af7a",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -71146,10 +70823,7 @@
 					"text": "Your 5.7x28mm R37.F 13 items were bought by Limbo.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "dcbec18baf61227fbd8926bd",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -71160,10 +70834,7 @@
 					"text": "Your 9x18mm PM BZhT gzh 19 items were bought by Bulld0z3r.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "add13557f1b2266193c5ee37",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -71174,10 +70845,7 @@
 					"text": "Your 5.7x28mm R37.F 3 items were bought by halik92.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "8e82c295053384c3581c5b62",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -71188,10 +70856,7 @@
 					"text": "Your SIG ALPHA4 30mm ring scope mount 1 items were bought by AssBlaster420.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "dc679dd9703220514d8930ab",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -71202,10 +70867,7 @@
 					"text": "Your 5.7x28mm R37.F 2 items were bought by skitles55.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "8abf1c13fec89c83bf1606ca",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -71216,10 +70878,7 @@
 					"text": "Your AR-15 PWS CQB 5.56x45 muzzle brake 1 items were bought by ChazLTK.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "89a2494bfacaa3f5f9e8dba4",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -71230,10 +70889,7 @@
 					"text": "Your Vltor CASV 4 inch rail 1 items were bought by Cloudy.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "6814373c08ede43c4edd3368",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -71244,10 +70900,7 @@
 					"text": "Your 5.45x39mm BP gs ammo pack (30 pcs) 1 items were bought by BuyingGF.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "cf8b054a6373ab27bb34f1dc",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -71258,10 +70911,7 @@
 					"text": "Your Medical tools 2 items were bought by ChazLTK.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "ddc9bc84b887307255132575",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -71272,10 +70922,7 @@
 					"text": "Your Crash Axe 1 items were bought by iDkGK.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "65d020480d64bc5861b56777",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -71286,10 +70933,7 @@
 					"text": "Your WZ Wallet 1 items were bought by Cthulhu.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "c7aa25d3b848122eba88cb74",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -71300,10 +70944,7 @@
 					"text": "Your Peltor Tactical Sport headset 1 items were bought by McDewgle.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "220b9da148de88473cc51eeb",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -71314,10 +70955,7 @@
 					"text": "Your Walker's Razor Digital headset 1 items were bought by Fiaf.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "a3bef907f7d5e44e9017eea3",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -71328,10 +70966,7 @@
 					"text": "Your Peltor ComTac 4 Hybrid headset (Coyote Brown) 1 items were bought by NiggerBeater.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "1def19f1339a2814824af6ee",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -71342,10 +70977,7 @@
 					"text": "Your Ibuprofen painkillers 1 items were bought by NikitaWaifu.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "6d9f8b5e1e2c01d99144779b",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -71356,10 +70988,7 @@
 					"text": "Your Atomic Defense CQCM ballistic mask (Black) 1 items were bought by Gatsu66.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "3ee5f415ae22e68962c8b7a4",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -71370,10 +70999,7 @@
 					"text": "Your 5.11 Tactical Hexgrid plate carrier 1 items were bought by l6uc6if6er.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "9975e035190aceaa0106863a",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -71384,10 +71010,7 @@
 					"text": "Your MP-155 Ultima polymer stock 1 items were bought by Lave.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "688b9f471412be9a7f1c6ec0",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -71398,10 +71021,7 @@
 					"text": "Your OKP-7 reflex sight 1 items were bought by aburiu.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "8f70758cef55232294297d4a",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -71412,10 +71032,7 @@
 					"text": "Your Strike Cigarettes 1 items were bought by Barlog_M.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "ba6f6d934fc9dd2aa8cc1f84",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -71426,10 +71043,7 @@
 					"text": "Your 3-(b-TG) stimulant injector 1 items were bought by kova.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "707d93cffbd6d8907716fd00",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -71440,10 +71054,7 @@
 					"text": "Your 5.56x45mm M855 5 items were bought by ItsRenke.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "1aecf198b1a19ec611904a1e",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -71454,10 +71065,7 @@
 					"text": "Your BakeEzy cook book 1 items were bought by R3.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "eb9fee65f336f27f7715445d",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -71468,10 +71076,7 @@
 					"text": "Your 5.56x45mm M855 1 items were bought by SamSWAT.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "064ab53ef1abb67a9cc70c0d",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -71482,10 +71087,7 @@
 					"text": "Your AHF1-M stimulant injector 1 items were bought by GodHimself.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "5c712219e3e5eaecdc587dbc",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -71496,10 +71098,7 @@
 					"text": "Your 5.56x45mm M855 2 items were bought by AsianLover69.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "0d0176da20a5c605ee8ba506",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -71510,10 +71109,7 @@
 					"text": "Your Propital regenerative stimulant injector 1 items were bought by Fontaine.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "452bc5786a3d8f66b34d4b8b",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -71524,10 +71120,7 @@
 					"text": "Your 5.56x45mm M855 1 items were bought by CWX.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "c350ad85e70e71f2227bd176",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -71538,10 +71131,7 @@
 					"text": "Your 5.56x45mm M855 2 items were bought by Bepis.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "26c3365db9bbc152e323b244",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -71552,10 +71142,7 @@
 					"text": "Your SR-2M 9x21 20-round magazine 2 items were bought by Jojo.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "e5e262b280af5f91280f4b41",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -71566,10 +71153,7 @@
 					"text": "Your SR-2M 9x21 20-round magazine 1 items were bought by alias.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "b37aedba2cf0496522aa19cd",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -71580,10 +71164,7 @@
 					"text": "Your 9x21mm P gzh 40 items were bought by 蘑菇汤.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "5ded42632a0b3caa162d054b",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -71594,10 +71175,7 @@
 					"text": "Your 9x21mm P gzh 33 items were bought by Digi.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "aa2cb0f406d1ea1d212bc468",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -71608,10 +71186,7 @@
 					"text": "Your 9x21mm P gzh 7 items were bought by TorturedChunk.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "a0d60e8d48132da2e5d767e8",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -71622,10 +71197,7 @@
 					"text": "Your Hazard 4 Drawbridge backpack (Coyote Tan) 1 items were bought by bllt.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "79c1b9cfaf812df6305a33a0",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -71636,10 +71208,7 @@
 					"text": "Your Video cassette with the Cyborg Killer movie 1 items were bought by KAcidi.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "30ea0d2cd56350c870cff202",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -71650,10 +71219,7 @@
 					"text": "Your RB-PSV2 key 1 items were bought by Jester_Stacks.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "81c5ebe3f0d79ddb58070200",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -71664,10 +71230,7 @@
 					"text": "Your Health Resort east wing room 209 key 1 items were bought by Emilia.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "7ba850a00c64ef7da6c7fe53",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -71678,10 +71241,7 @@
 					"text": "Your MCX/MPX Stock Locking Hinge Assembly 1 items were bought by kova.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "9581812b6f865647cb65343c",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -71692,10 +71252,7 @@
 					"text": "Your Dorm room 104 key 1 items were bought by Senko.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "7d9c161ee969d1b1362fbe0b",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -71706,10 +71263,7 @@
 					"text": "Your 5.45x39mm PP gs 27 items were bought by Nexus4880.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "fddfe83b2cc50e9c0efa37b4",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -71720,10 +71274,7 @@
 					"text": "Your 6.8x51mm SIG FMJ 22 items were bought by JaydanCan.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "ce0654699d247b2245f12c99",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -71734,10 +71285,7 @@
 					"text": "Your 5.45x39mm PP gs 11 items were bought by jfetko.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "84fb355ba35fbd470270e65a",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -71748,10 +71296,7 @@
 					"text": "Your .45 ACP Lasermatch FMJ 26 items were bought by Karyash.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "796caa1afbd3b9827d5638f6",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -71762,10 +71307,7 @@
 					"text": "Your 6.8x51mm SIG FMJ 13 items were bought by Fox.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "45d0a04534f0a7be51f8e6de",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -71776,10 +71318,7 @@
 					"text": "Your 5.45x39mm PP gs 8 items were bought by ixcetotis.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "2de6d948b8ee6e1e58fc6cb3",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -71790,10 +71329,7 @@
 					"text": "Your .45 ACP Lasermatch FMJ 11 items were bought by TheSparta.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "da94a92b3cdc4cf32bd08864",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -71804,10 +71340,7 @@
 					"text": "Your 6.8x51mm SIG FMJ 5 items were bought by 职业玩家.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "f8b120fa6f528c6221fe208a",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -71818,10 +71351,7 @@
 					"text": "Your 6.8x51mm SIG FMJ 4 items were bought by Tron.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "dc1f36e1f24ab41c866316db",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -71832,10 +71362,7 @@
 					"text": "Your 9x19mm QuakeMaker 36 items were bought by SaltyDroog.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "5d2fc78b8c8dfa3c3ad37beb",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -71846,10 +71373,7 @@
 					"text": "Your 7.62x39mm T-45M1 gzh 26 items were bought by Rekty.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "7713304ad9f6310317e5b966",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -71860,10 +71384,7 @@
 					"text": "Your 5.45x39mm PP gs 1 items were bought by M_conniptions.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "e943ad492165151e6137df83",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -71874,10 +71395,7 @@
 					"text": "Your 6.8x51mm SIG FMJ 4 items were bought by DaveyB0y.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "03389169b6a613cb6e461427",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -71888,10 +71406,7 @@
 					"text": "Your 9x19mm QuakeMaker 5 items were bought by Kronzky.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "905c92ff9eb186ddda72644e",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -71902,10 +71417,7 @@
 					"text": "Your 7.62x39mm T-45M1 gzh 2 items were bought by RaiRaiTheRaichu.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "72f70f357561122a28fab3e1",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -71916,10 +71428,7 @@
 					"text": "Your 5.56x45mm M856 4 items were bought by Grasyl.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "d7d2f0bbf66a7fd7aa236167",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -71930,10 +71439,7 @@
 					"text": "Your 20/70 Star slug 8 items were bought by gaylatea.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "bc9664e7d84be6bc21819a81",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -71944,10 +71450,7 @@
 					"text": "Your 5.45x39mm PP gs 1 items were bought by shep.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "695e3bce5c297291fb85c25b",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -71958,10 +71461,7 @@
 					"text": "Your 9x19mm QuakeMaker 4 items were bought by AgentMoulder.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "2b102b64a2b666b00e6c9455",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -71972,10 +71472,7 @@
 					"text": "Your 7.62x39mm T-45M1 gzh 18 items were bought by Arsanthania.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "82ff04a640cb4ca004b73578",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -71986,10 +71483,7 @@
 					"text": "Your 5.56x45mm M856 10 items were bought by Chomp.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "a7d0f709a59269604ff52666",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -72000,10 +71494,7 @@
 					"text": "Your 20/70 Star slug 5 items were bought by Shiro-chan.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "f0914b5b1cc04f3d0249328e",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -72014,10 +71505,7 @@
 					"text": "Your 6.8x51mm SIG FMJ 2 items were bought by Cthulhu.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "9afc9555b533634d8f54824e",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -72028,10 +71516,7 @@
 					"text": "Your 7.62x39mm T-45M1 gzh 3 items were bought by Echo55.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "d1cca6f98ae44def8f2536c8",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -72042,10 +71527,7 @@
 					"text": "Your 5.56x45mm M856 6 items were bought by _物是人非.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "e955c7d077713cb63ae894b3",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -72056,10 +71538,7 @@
 					"text": "Your 9x18mm PM SP8 gzh 26 items were bought by l6uc6if6er.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "d6f70e3396aa00d31c5addb2",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -72070,10 +71549,7 @@
 					"text": "Your Sewing kit 3 items were bought by 职业玩家.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "faa6e82e5abbb502a1140433",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -72084,10 +71560,7 @@
 					"text": "Your 9x19mm QuakeMaker 1 items were bought by Bobitec.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "131045d99529505ec745d403",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -72098,10 +71571,7 @@
 					"text": "Your 5.56x45mm M856 4 items were bought by ChazLTK.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "7759e50bbd8e3b72e880f1ee",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -72112,10 +71582,7 @@
 					"text": "Your 9x18mm PM SP8 gzh 6 items were bought by Mayoringram.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "38d17ab97274665201a2669d",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -72126,10 +71593,7 @@
 					"text": "Your Pressure gauge 1 items were bought by gansik.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "bf7eb3ac90f2cb2378c86bd3",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -72140,10 +71604,7 @@
 					"text": "Your Bottle of saline solution 1 items were bought by ThurmanMurman.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "9121a0e79545d68ce8010f65",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -72154,10 +71615,7 @@
 					"text": "Your 7.62x39mm T-45M1 gzh 1 items were bought by Kiki.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "7a74bab51bf687a587b5646e",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -72168,10 +71626,7 @@
 					"text": "Your 9x18mm PM SP8 gzh 2 items were bought by Limbo.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "6cd08425a5bb4d2c92f7751c",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -72182,10 +71637,7 @@
 					"text": "Your M700 AB Arms MOD*X buffer tube side folder adapter 1 items were bought by Ngst.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "8f34400e1894d92466a1d55a",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -72196,10 +71648,7 @@
 					"text": "Your SP-8 Survival Machete 1 items were bought by Jen14owns.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "f404274f8bca7820b5afe3cc",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -72210,10 +71659,7 @@
 					"text": "Your 5.56x45mm M856 6 items were bought by SerWolfik.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "20d3e18328ec874add8841fe",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -72224,10 +71670,7 @@
 					"text": "Your Meldonin injector 1 items were bought by Chameleon.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "421ea9ed118b4ba4502dee1d",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -72238,10 +71681,7 @@
 					"text": "Your Topographic survey maps 1 items were bought by Yakhmet.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "68bc5eae5dd3cd4772a995e3",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -72252,10 +71692,7 @@
 					"text": "Your 9x18mm PM SP8 gzh 1 items were bought by kova.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "b3a25ae1734d2a1d84a243bf",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -72266,10 +71703,7 @@
 					"text": "Your BelOMO PSO-1 4x24 scope 1 items were bought by PhantomInTime.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "5cfd90c828fbc03d692e07e7",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -72280,10 +71714,7 @@
 					"text": "Your Daniel Defense Enhanced M-LOK Vertical Foregrip (Coyote Brown) 1 items were bought by Sanote.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "98bcf74a134e3c2506072180",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -72294,10 +71725,7 @@
 					"text": "Your 9x18mm PM SP8 gzh 1 items were bought by Sinistar.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "b115d463e2fc8f2798241e2a",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -72308,10 +71736,7 @@
 					"text": "Your Stark SE-5 Express Forward foregrip (FDE) 1 items were bought by Swankyorc.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "c192c2b91e635df205006b07",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -72322,10 +71747,7 @@
 					"text": "Your 5.56x45mm FMJ 11 items were bought by Goewert.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "aad0a189c1346f4a6fcdda92",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -72336,10 +71758,7 @@
 					"text": "Your HK UMP B&T OEM .45 ACP sound suppressor 1 items were bought by bllt.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "ce10e455ac2abf60d335f989",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -72350,10 +71769,7 @@
 					"text": "Your Pack of sugar 1 items were bought by Chameleon.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "12f4f9e0043f760249e15212",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -72364,10 +71780,7 @@
 					"text": "Your 5.56x45mm FMJ 24 items were bought by Rhyufer.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "bd5c757c91db60be56007754",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -72378,10 +71791,7 @@
 					"text": "Your Ibuprofen painkillers 1 items were bought by Hubert.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "8b0ed53add510bb66fb53d3b",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -72392,10 +71802,7 @@
 					"text": "Your 5.56x45mm FMJ 7 items were bought by craink.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "e718c9e3e04d0eb8de1c6a81",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -72406,10 +71813,7 @@
 					"text": "Your AR-10 7.62x51 Lancer L7AWM 25-round magazine 1 items were bought by HiddenCirno.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "bb9b1997b99b16d011b5780e",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -72420,10 +71824,7 @@
 					"text": "Your Health Resort east wing room 310 key 1 items were bought by AssAssin.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "fa9f2314851741d926106138",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -72434,10 +71835,7 @@
 					"text": "Your 5.56x45mm FMJ 6 items were bought by Lavax.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "7d65ec0e1f9e86778990f53e",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -72448,10 +71846,7 @@
 					"text": "Your AR-10 7.62x51 Lancer L7AWM 25-round magazine 2 items were bought by SerWolfik.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "1fc9b86d74f1892ce98f11a2",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -72462,10 +71857,7 @@
 					"text": "Your 5.56x45mm FMJ 1 items were bought by SerWolfik.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "3ed74d0049dc41cadfa4935f",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -72476,10 +71868,7 @@
 					"text": "Your Dorm room 303 key 1 items were bought by craink.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "d8e46b482d59ce9b4f7c1b51",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -72490,10 +71879,7 @@
 					"text": "Your SPRTN Omega ballistic plate 1 items were bought by pitAlex.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "a7793f8dbf33d02d1e3a8218",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -72504,10 +71890,7 @@
 					"text": "Your HighCom Trooper TFO body armor (MultiCam) 1 items were bought by Grasyl.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "ec6048d049b3f50fd9377567",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -72518,10 +71901,7 @@
 					"text": "Your Global Armor’s Steel ballistic plate 1 items were bought by iDkGK.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "250cd8b1961ae6b7d47e0ca3",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -72532,10 +71912,7 @@
 					"text": "Your CAT hemostatic tourniquet 2 items were bought by nimbul.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "8da3758eb9e2426b097c43fa",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -72546,10 +71923,7 @@
 					"text": "Your AAC Illusion 9 9x19 sound suppressor 1 items were bought by Karma.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "274f2a39973cc99f9c60423f",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -72560,10 +71934,7 @@
 					"text": "Your EOTech 553 holographic sight 1 items were bought by Chomp.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "a9c87ce9167d842f91103fb0",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -72574,10 +71945,7 @@
 					"text": "Your Glock 9x19 19-round magazine (Coyote) 1 items were bought by _物是人非.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "c2be4d7e5cbe74604cadba11",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -72588,10 +71956,7 @@
 					"text": "Your SSAPI level III+ ballistic plate (Side) 1 items were bought by deathbricks.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "eeacecdfa881a35fa18d029e",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -72602,10 +71967,7 @@
 					"text": "Your OKP-7 reflex sight 1 items were bought by Carl.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "2bb852e13f0564352d09990e",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -72616,10 +71978,7 @@
 					"text": "Your HighCom Striker ACHHC IIIA helmet (Black) 1 items were bought by jbs4bmx.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "9a548b1ff95f562da39e047e",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -72630,10 +71989,7 @@
 					"text": "Your TP-200 TNT brick 1 items were bought by shep.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "bcf0ab1f30b35e43f2011f26",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -72644,10 +72000,7 @@
 					"text": "Your AK-74 5.45x39 6L31 60-round magazine 1 items were bought by SlejmUr.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "7a5a08254a11f95c561f1298",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -72658,10 +72011,7 @@
 					"text": "Your Pack of sugar 1 items were bought by Bingus.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "8ee19435a08e0eb0a036e66a",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -72672,10 +72022,7 @@
 					"text": "Your Alyonka chocolate bar 3 items were bought by 1nco.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "34f8dc07f9e4110b196c6a98",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -72686,10 +72033,7 @@
 					"text": "Your CAT hemostatic tourniquet 2 items were bought by HiddenCirno.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "c5de749b375c7ad08c12bec1",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -72700,10 +72044,7 @@
 					"text": "Your Rye croutons 1 items were bought by TGDelta2455.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "f8df4db9f896a83f712347cc",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -72714,10 +72055,7 @@
 					"text": "Your SR-2M 9x21 sound suppressor (SV-1381) 2 items were bought by Marchwin.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "42e3ced4eb9ca085bfb0f4df",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -72728,10 +72066,7 @@
 					"text": "Your SR-2M polymer handguard (Black) 1 items were bought by BeDaLek.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "d7fd236a55aa4606af2aa691",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -72742,10 +72077,7 @@
 					"text": "Your M.U.L.E. stimulant injector 1 items were bought by bearPhone.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "8b0a029509312718423509b3",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -72756,10 +72088,7 @@
 					"text": "Your SR-2M polymer handguard (Black) 1 items were bought by Goewert.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "a5e1f2938f32ca87266a2fa7",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -72770,10 +72099,7 @@
 					"text": "Your Aluminum splint 1 items were bought by Helldiver.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "f33f8c95548c728a9502cde9",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -72784,10 +72110,7 @@
 					"text": "Your Surv12 field surgical kit 2 items were bought by CharlieMike.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "ec835adee1c12417d145b876",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -72798,10 +72121,7 @@
 					"text": "Your Aluminum splint 1 items were bought by F1oridaMan.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "c6e48de38d8049479dd90f07",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -72812,10 +72132,7 @@
 					"text": "Your FN SCAR-H 7.62x51 20-round magazine 1 items were bought by JoshtheOG.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "432ee191a3d4fc683b45ad5d",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -72826,10 +72143,7 @@
 					"text": "Your SR-2M 9x21 20-round magazine 1 items were bought by ThatGuyXIV.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "3121435e654b783700d739f4",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -72840,10 +72154,7 @@
 					"text": "Your FN SCAR-H 7.62x51 20-round magazine 1 items were bought by 红衣抚琴染绛天涯.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "c9f56f933796e2a0a58dd3ae",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -72854,10 +72165,7 @@
 					"text": "Your FN SCAR-L 5.56x45 30-round magazine (FDE) 1 items were bought by CheekiBreeki.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "9bc386d336e5e8c6520b3143",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -72868,10 +72176,7 @@
 					"text": "Your SR-2M 9x21 20-round magazine 1 items were bought by Paulov.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "09e5afeaa8e1ca029b7902ba",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -72882,10 +72187,7 @@
 					"text": "Your Gingy keychain 1 items were bought by Belzedar.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "98fc39c343fd589bf545c0b9",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -72896,10 +72198,7 @@
 					"text": "Your FN SCAR-H 7.62x51 20-round magazine (FDE) 1 items were bought by alexkarpen.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "72c6ee343883a7305905e6a4",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -72910,10 +72209,7 @@
 					"text": "Your AHF1-M stimulant injector 1 items were bought by Digi.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "a4f80e8697bdce171a959e94",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -72924,10 +72220,7 @@
 					"text": "Your Surv12 field surgical kit 1 items were bought by Gleneth.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "227a16afced8a38a0cd9f594",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -72938,10 +72231,7 @@
 					"text": "Your SJ12 TGLabs combat stimulant injector 1 items were bought by VIPkiller17.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "4c6689909f0bee0706532061",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -72952,10 +72242,7 @@
 					"text": "Your SJ9 TGLabs combat stimulant injector 1 items were bought by Xsos.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "16fe5b75ff0637bd31569797",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -72966,10 +72253,7 @@
 					"text": "Your Meldonin injector 1 items were bought by Mako.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "cd39474a76c546f4fd7997b4",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -72980,10 +72264,7 @@
 					"text": "Your SJ9 TGLabs combat stimulant injector 1 items were bought by craink.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "786c7bbf63cea493918b2e1b",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -72994,10 +72275,7 @@
 					"text": "Your CMS surgical kit 2 items were bought by Chinaski.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "ffca66ac4847d3bbfd73071c",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -73008,10 +72286,7 @@
 					"text": "Your PNB (Product 16) stimulant injector 1 items were bought by li3raa.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "84bb3d7bcecd41513b998f9d",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -73022,10 +72297,7 @@
 					"text": "Your Army bandage 2 items were bought by SamSWAT.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "94a4456cb9ce94d7e8b419ea",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -73036,10 +72308,7 @@
 					"text": "Your Army crackers 1 items were bought by jbs4bmx.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "5bcd04cd413a26348c955799",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -73050,10 +72319,7 @@
 					"text": "Your Immobilizing splint 2 items were bought by Cheese.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "342d77f17a48c4e4b4bcb5b7",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -73064,10 +72330,7 @@
 					"text": "Your MRE ration pack 1 items were bought by NikitaWaifu.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "b80de315a42e72304e582cba",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -73078,10 +72341,7 @@
 					"text": "Your Army crackers 1 items were bought by itsMickle.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "4ed87bbab714fee4d7ec466f",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -73092,10 +72352,7 @@
 					"text": "Your PNB (Product 16) stimulant injector 1 items were bought by Bobitec.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "65bc7545330d38f3ee8bef88",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -73106,10 +72363,7 @@
 					"text": "Your Can of green peas 1 items were bought by Belette.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "b0488088598fefbdefdc6a7b",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -73120,10 +72374,7 @@
 					"text": "Your Can of humpback salmon 1 items were bought by captainfoam.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "14652b832939a3bd1c32b217",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -73134,10 +72385,7 @@
 					"text": "Your Esmarch tourniquet 1 items were bought by Nigger.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "9c4c65f3557404f29e6f5788",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -73148,10 +72396,7 @@
 					"text": "Your Can of sprats 1 items were bought by Maoci.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "8485a935e8f6e1059d4ebb4a",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -73186,10 +72431,7 @@
 					"text": "Your NFM HJELM helmet (Hellhound Grey) 1 items were bought by dspider.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "fb33942096f6d07b1ec81705",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -73200,10 +72442,7 @@
 					"text": "Your Propital regenerative stimulant injector 5 items were bought by Agnotology.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "f10d52bd1dec76663e879530",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -73214,10 +72453,7 @@
 					"text": "Your Propital regenerative stimulant injector 2 items were bought by Devraccoon.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "effbd7a532e4da8c30e5c15d",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -73228,10 +72464,7 @@
 					"text": "Your Metal fuel tank 1 items were bought by gansik.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "f1e8116801bac6289ac7e11f",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -73242,10 +72475,7 @@
 					"text": "Your Expeditionary fuel tank 1 items were bought by lennyrod.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "110d5f7be08f4ec528cad155",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -73654,10 +72884,7 @@
 					"text": "Your Stich Profi Chest Rig MK2 (Recon, A-TACS FG) 1 items were bought by gaylatea.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "fd23b0d82a9a975fdff3c5cf",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -73668,10 +72895,7 @@
 					"text": "Your AK Vezhlivyy Strelok VS-24 + VS-33c handguard & gas tube combo (White) 1 items were bought by iDkGK.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "6925849cf523fa4fd7424762",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -73682,10 +72906,7 @@
 					"text": "Your 5.45x39mm FMJ 7 items were bought by Colonel.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "dc61f4cf11d703838f628a41",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -73696,10 +72917,7 @@
 					"text": "Your 5.45x39mm T gs 20 items were bought by TricolorHen061.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "09c3694d0f8572e482afa602",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -73710,10 +72928,7 @@
 					"text": "Your .300 Blackout M62 Tracer 47 items were bought by Maoci.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "585319afd8b2e04a8700facd",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -73724,10 +72939,7 @@
 					"text": "Your 5.45x39mm FMJ 7 items were bought by Serakym.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "edcd8e7571305d4e91706485",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -73738,10 +72950,7 @@
 					"text": "Your 5.45x39mm T gs 4 items were bought by Archy.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "9ec826e04f0ba57a28103525",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -73752,10 +72961,7 @@
 					"text": "Your .300 Blackout M62 Tracer 3 items were bought by Fontaine.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "271c00348a30e5adbbfc1602",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -73766,10 +72972,7 @@
 					"text": "Your 5.45x39mm FMJ 21 items were bought by weardo98.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "931ffe09ac159f946237ef2e",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -73780,10 +72983,7 @@
 					"text": "Your 5.45x39mm T gs 26 items were bought by Acouthyt.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "ac3fe6da95941d37a8c5959d",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -73794,10 +72994,7 @@
 					"text": "Your 7.62x54mm R LPS gzh 1 items were bought by Maksim Petrov.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "dd72d646e909eca7bc1191d3",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -73808,10 +73005,7 @@
 					"text": "Your 9x19mm Luger CCI 19 items were bought by Mylu.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "16ec7b374c1cfe54f6471114",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -73822,10 +73016,7 @@
 					"text": "Your 9x18mm PM BZhT gzh 14 items were bought by MedDeatH.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "ba516e6d30df1a0e7dc0715b",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -73836,10 +73027,7 @@
 					"text": "Your 5.45x39mm FMJ 1 items were bought by Xsos.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "24b0da1a77cde701c69b8346",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -73850,10 +73038,7 @@
 					"text": "Your 5.45x39mm T gs 6 items were bought by Skwizzy.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "a04039c814da3c03b636f5dd",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -73864,10 +73049,7 @@
 					"text": "Your 7.62x54mm R LPS gzh 39 items were bought by Barlog_M.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "d48c7baadf6e41b11c98f3ec",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -73878,10 +73060,7 @@
 					"text": "Your 9x19mm Luger CCI 24 items were bought by Refringe.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "bd3b7ef599211fa8faf637cb",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -73892,10 +73071,7 @@
 					"text": "Your 9x18mm PM BZhT gzh 39 items were bought by electric.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "4182976b726b472551bc5cc8",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -73906,10 +73082,7 @@
 					"text": "Your 5.45x39mm FMJ 2 items were bought by Pycak.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "17a55e6c9232861c9dcdbe8a",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -73920,10 +73093,7 @@
 					"text": "Your 7.62x54mm R LPS gzh 17 items were bought by ThatGuyXIV.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "9abcc1339136eb3aacf55dbb",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -73934,10 +73104,7 @@
 					"text": "Your 9x19mm Luger CCI 26 items were bought by 红衣抚琴染绛天涯.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "41aa4ccf215c4aa5ca891265",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -73948,10 +73115,7 @@
 					"text": "Your 9x18mm PM BZhT gzh 6 items were bought by Marchwin.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "dafb7345a4045031ae6ab6fd",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -73962,10 +73126,7 @@
 					"text": "Your 7.62x54mm R T-46M gzh 4 items were bought by GeorgRavioli.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "bf31def115ae15faf658f832",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -73976,10 +73137,7 @@
 					"text": "Your 12/70 Poleva-6u slug 13 items were bought by Hupfi.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "f6aaf3af51ddb9dca185d160",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -73990,10 +73148,7 @@
 					"text": "Your 5.45x39mm T gs 5 items were bought by GhostFenixx.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "4cda3c4a87602f35a4041094",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -74004,10 +73159,7 @@
 					"text": "Your 9x19mm Luger CCI 1 items were bought by Solarint.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "f35bbb997befcc8f2b73969e",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -74018,10 +73170,7 @@
 					"text": "Your 7.62x54mm R T-46M gzh 2 items were bought by pitAlex.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "7bd5c5467601df7e5e1e8f1e",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -74032,10 +73181,7 @@
 					"text": "Your 12/70 Poleva-6u slug 17 items were bought by DatPhatAsian.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "e069c468855352af0d6c6d6f",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -74046,10 +73192,7 @@
 					"text": "Your 7.62x54mm R LPS gzh 3 items were bought by Mr_Pudlik.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "676f2c52a1be0e3d00ec7b8d",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -74060,10 +73203,7 @@
 					"text": "Your 9x18mm PM BZhT gzh 1 items were bought by Holynevil.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "40b1c4ad90e6e6e06591c04f",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -74074,10 +73214,7 @@
 					"text": "Your 12/70 Poleva-6u slug 8 items were bought by weardo98.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "3710b39c98fa7a317220af57",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -74088,10 +73225,7 @@
 					"text": "Your VOG-17 Khattabka improvised hand grenade 2 items were bought by TEOA.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "2f13f5d3785a0022c36bb0b2",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -74102,10 +73236,7 @@
 					"text": "Your Propital regenerative stimulant injector 6 items were bought by MechanicMan396.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "eb2a734f9f507c2597d0f91a",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -74116,10 +73247,7 @@
 					"text": "Your 7.62x54mm R LPS gzh 4 items were bought by jonkler.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "7bdf311a91a9fa913e806952",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -74130,10 +73258,7 @@
 					"text": "Your 12/70 Poleva-6u slug 2 items were bought by CheekiBreeki.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "fe943a8d8e403886af55f4c6",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -74144,10 +73269,7 @@
 					"text": "Your Propital regenerative stimulant injector 1 items were bought by Styrr.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "663bd9fcaba8892a7e51380c",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -74158,10 +73280,7 @@
 					"text": "Your 7.62x54mm R T-46M gzh 6 items were bought by GGaulin.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "2d1dca78a3f649ca98d8a70d",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -74172,10 +73291,7 @@
 					"text": "Your VOG-17 Khattabka improvised hand grenade 6 items were bought by ViolentAmbush.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "1589f67d316792f335386319",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -74186,10 +73302,7 @@
 					"text": "Your Glock 9x19 Lone Wolf LWD-COMP9 compensator 1 items were bought by Morgan.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "718136e31adc59f71434e718",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -74200,10 +73313,7 @@
 					"text": "Your 7.62x54mm R T-46M gzh 1 items were bought by LostQuasar.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "7c1ecfb8a14f4dc22d1d2dd5",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -74214,10 +73324,7 @@
 					"text": "Your Trijicon ACOG TA01NSN 4x32 scope (Black) 1 items were bought by JustAShepard.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "e21f78345e2be985aaad350d",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -74228,10 +73335,7 @@
 					"text": "Your Virtex programmable processor 1 items were bought by 野猪.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "35377f53253b2a58a3f32c5f",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -74242,10 +73346,7 @@
 					"text": "Your 7.62x54mm R T-46M gzh 1 items were bought by McDewgle.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "f77770f07499dd4cd522793d",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -74256,10 +73357,7 @@
 					"text": "Your SKS ATI Monte Carlo chassis 1 items were bought by AcidPhantasm.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "7715211b78c11c35f4227a34",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -74270,10 +73368,7 @@
 					"text": "Your 7.62x54mm R T-46M gzh 1 items were bought by Helldiver.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "33d675582cce07fb7f5ccaea",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -74284,10 +73379,7 @@
 					"text": "Your SIG Sauer ROMEO8T reflex sight 1 items were bought by PoppleO.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "2a588bef6098e1582a14c2f7",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -74298,10 +73390,7 @@
 					"text": "Your FN SCAR-H 7.62x51 20-round magazine 1 items were bought by 红衣抚琴染绛天涯.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "d3de33afd808df1fee657722",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -74312,10 +73401,7 @@
 					"text": "Your 7.62x54mm R T-46M gzh 1 items were bought by Cthulhu.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "f1e02fcc762f67821773f16d",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -74326,10 +73412,7 @@
 					"text": "Your PU 3.5x riflescope 1 items were bought by VampireKitten.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "31ed4eb14ee812d0206839d8",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -74340,10 +73423,7 @@
 					"text": "Your AR-15 SureFire SF4P 5.56x45 flash hider 1 items were bought by ChiNoel.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "2b397e8739a9fcfc898afbc5",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -74354,10 +73434,7 @@
 					"text": "Your 7.62x54mm R T-46M gzh 1 items were bought by Emilia.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "929ab639d79f169891f90134",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -74368,10 +73445,7 @@
 					"text": "Your PP-19-01 Vityaz 9x19 sound suppressor 1 items were bought by savid_dubs.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "9a673bcefaab8019dc1db899",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -74382,10 +73456,7 @@
 					"text": "Your RB-AO key 1 items were bought by DanCam38.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "a2fe4f20705d2378745085c7",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -74396,10 +73467,7 @@
 					"text": "Your Can of RatCola soda 1 items were bought by shep.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "ac8abfa0f5c6e73566c3d088",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -74410,10 +73478,7 @@
 					"text": "Your PP-19-01 Vityaz gas tube 1 items were bought by Shruggzilla.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "8ac653d9ff7ad7b681e4090d",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -74424,10 +73489,7 @@
 					"text": "Your BelOMO PK-AA dovetail reflex sight 1 items were bought by Agnotology.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "755ab40c9f6fa2ac43f32b21",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -74438,10 +73500,7 @@
 					"text": "Your AK KGB MG-47 pistol grip (Anodized Red) 1 items were bought by Andrudis.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "9d3ebd76a7fb09492b869a23",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -74452,10 +73511,7 @@
 					"text": "Your SureFire X400 Ultra tactical flashlight with laser 1 items were bought by MechanicMan396.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "f645587cf3859e3a7cf87db4",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -74466,10 +73522,7 @@
 					"text": "Your AK-12 dust cover 1 items were bought by Kiki.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "f06455a321c3d44a9ee71fb1",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -74480,10 +73533,7 @@
 					"text": "Your SOK-12 Leapers UTG PRO MTU002 Short Top aluminum handguard 1 items were bought by Helldiver.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "46a8dd2270750ae295623add",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -74494,10 +73544,7 @@
 					"text": "Your Signal Jammer 1 items were bought by Miraki.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "298f4ca408c656c9d970e016",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -74508,10 +73555,7 @@
 					"text": "Your Sewing kit 1 items were bought by MechanicMan396.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "b71ec9fc568ec3f39ff42a7e",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -74522,10 +73566,7 @@
 					"text": "Your ASh-12 vertical foregrip 1 items were bought by Clodan.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "80362956cd012a9684ffa160",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -74536,10 +73577,7 @@
 					"text": "Your Gear Craft GC-BSS-MK1 chest rig (A-TACS FG) 1 items were bought by K4_a.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "8fa2c6148fb430d7bdb3dea7",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -74550,10 +73588,7 @@
 					"text": "Your AK-12 handguard 1 items were bought by SovietWalrus.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "fac719779cfab881033582fb",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -74564,10 +73599,7 @@
 					"text": "Your Eberlestock F5 Switchblade backpack (Dry Earth) 1 items were bought by ODT.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "ffd812867c78f96cca6edbe0",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -74578,10 +73610,7 @@
 					"text": "Your Mosin Rifle ProMag Archangel OPFOR PRS chassis 1 items were bought by alphakiller.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "92733d26dade42e54cd7f9cf",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -74592,10 +73621,7 @@
 					"text": "Your KRISS Vector .45 ACP flash hider 1 items were bought by Fontaine.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "6577bdf0f5256e8a993455ab",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -74606,10 +73632,7 @@
 					"text": "Your Mesa Tactical Crosshair Hydraulic buffer tube 1 items were bought by NeCzar.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "4e31e164512dedda8a65e558",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -74620,10 +73643,7 @@
 					"text": "Your Grizzly medical kit 2 items were bought by pitAlex.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "31d1521dd7cf0b95b2f2ceb8",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -74634,10 +73654,7 @@
 					"text": "Your RB-PP key 1 items were bought by Kiobu.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "47955f50ff2b6bb0b3f58443",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 518400
 				},
 				{
@@ -85641,10 +84658,7 @@
 					"text": "Your RPK-16 5.45x39 95-round drum magazine 1 items were bought by Ngst.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "9969122be9b835bc71bf8781",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 172800
 				},
 				{
@@ -85655,10 +84669,7 @@
 					"text": "Your Magnet 1 items were bought by Barlog_M.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "6b2220bbf3cbbe1484291116",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 172800
 				},
 				{
@@ -85669,10 +84680,7 @@
 					"text": "Your 7.62x51mm TCW SP 4 items were bought by ColonelPeePantz.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "c97dcf560ed2eeee1ca7ee7a",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 172800
 				},
 				{
@@ -85683,10 +84691,7 @@
 					"text": "Your DoubleStar ACE recoil pad 1 items were bought by Drill.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "603556b92d9e9fea2689b4d9",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 172800
 				},
 				{
@@ -85697,10 +84702,7 @@
 					"text": "Your Spark plug 1 items were bought by ChiNoel.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "02752c572665f914d985989e",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 172800
 				},
 				{
@@ -85711,10 +84713,7 @@
 					"text": "Your Kalashnikov AK-12 5.45x39 assault rifle 1 items were bought by MacrossMX7167.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "3e149e3b20917bb8685d275f",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 172800
 				},
 				{
@@ -85725,10 +84724,7 @@
 					"text": "Your 7.62x51mm TCW SP 1 items were bought by Wrecker.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "1019a19f370f09c68dfd2072",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 172800
 				},
 				{
@@ -85739,10 +84735,7 @@
 					"text": "Your MP-133 12ga 8-shell magazine 1 items were bought by Bulld0z3r.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "139566769e2ed7e49e469bf4",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 172800
 				},
 				{
@@ -85753,10 +84746,7 @@
 					"text": "Your Hera Arms CQR tactical foregrip 1 items were bought by kmyuhkyuk.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "378050764fbd82ac091d6469",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 172800
 				},
 				{
@@ -85767,10 +84757,7 @@
 					"text": "Your AK-74 5.45x39 6L18 45-round magazine 1 items were bought by 3371.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "a0a7b32db8d37d3a09659ff6",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 172800
 				},
 				{
@@ -85781,10 +84768,7 @@
 					"text": "Your AK-74 5.45x39 6L26 45-round magazine 2 items were bought by Fontaine.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "b31c0a470a8be8b8c2e5d6e2",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 172800
 				},
 				{
@@ -85795,10 +84779,7 @@
 					"text": "Your 5.45x39mm PS gs 76 items were bought by Grasyl.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "f5b8ff88b932898ff3772e36",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 172800
 				},
 				{
@@ -85809,10 +84790,7 @@
 					"text": "Your 5.45x39mm PS gs 49 items were bought by Grasyl.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "c53453181a1a81436e539f75",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 172800
 				},
 				{
@@ -85823,10 +84801,7 @@
 					"text": "Your Printed circuit board 1 items were bought by DeadLeaves.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "99087e29d2ecf55695158216",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 172800
 				},
 				{
@@ -85837,10 +84812,7 @@
 					"text": "Your 5.45x39mm PS gs 1 items were bought by matt.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "a6293f6b32b6174a82fe523d",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 172800
 				},
 				{
@@ -85851,10 +84823,7 @@
 					"text": "Your Mosin Rifle Kochetov mount 1 items were bought by joshj5Hawk.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "838c83de8de7d12c899a882c",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 172800
 				},
 				{
@@ -85865,10 +84834,7 @@
 					"text": "Your Printed circuit board 1 items were bought by Senko.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "af6bcd4e1dfa10e993b24cd5",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 172800
 				},
 				{
@@ -85879,10 +84845,7 @@
 					"text": "Your Chain with Prokill medallion 1 items were bought by snapple.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "3b19a50a7bb4efae1456e281",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 172800
 				},
 				{
@@ -85893,10 +84856,7 @@
 					"text": "Your AK-74 TGP-A 5.45x39 sound suppressor 1 items were bought by zicoman.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "768336d727f721df9b84900e",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 172800
 				},
 				{
@@ -85907,10 +84867,7 @@
 					"text": "Your Health Resort east wing room 314 key 1 items were bought by Kobrakon.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "6b0e2127ed4a267600bf9e6c",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 172800
 				},
 				{
@@ -87516,65 +86473,7 @@
 		"location": "none",
 		"character": "pmc"
 	},
-	"insurance": [
-		{
-			"scheduledTime": 1717310456.8,
-			"traderId": "54cb50c76803fa8b248b4571",
-			"maxStorageTime": 345600,
-			"systemData": {
-				"date": "01.06.2024",
-				"time": "19:11",
-				"location": "bigmap"
-			},
-			"messageType": 8,
-			"messageTemplateId": "58fe0e4586f774728248ca13 0",
-			"items": [
-				{
-					"_id": "9f3f5c08132b24695f941b0e",
-					"_tpl": "5a7c4850e899ef00150be885",
-					"parentId": "120303aac7a90ec8495ac16d",
-					"slotId": "hideout",
-					"upd": {}
-				},
-				{
-					"_id": "c65cd9c1f65774c99399a02c",
-					"_tpl": "657baaf0b7e9ca9a02045c02",
-					"parentId": "9f3f5c08132b24695f941b0e",
-					"slotId": "Helmet_top",
-					"upd": {
-						"Repairable": {
-							"MaxDurability": 13.47,
-							"Durability": 13.47
-						}
-					}
-				},
-				{
-					"_id": "525e7b19b3bd573b26699fa1",
-					"_tpl": "657bab6ec6f689d3a205b85f",
-					"parentId": "9f3f5c08132b24695f941b0e",
-					"slotId": "Helmet_back",
-					"upd": {
-						"Repairable": {
-							"MaxDurability": 13.72,
-							"Durability": 13.72
-						}
-					}
-				},
-				{
-					"_id": "db3abac765e6d412c83a688b",
-					"_tpl": "657babc6f58ba5a6250107a2",
-					"parentId": "9f3f5c08132b24695f941b0e",
-					"slotId": "Helmet_ears",
-					"upd": {
-						"Repairable": {
-							"MaxDurability": 14.04,
-							"Durability": 14.04
-						}
-					}
-				}
-			]
-		}
-	],
+	"insurance": [],
 	"traderPurchases": {
 		"54cb50c76803fa8b248b4571": {},
 		"5935c25fb3acc3127c3d8cd9": {},

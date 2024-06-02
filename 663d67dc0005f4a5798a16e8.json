@@ -2319,7 +2319,7 @@
 				},
 				"Production": {},
 				"Seed": 1967588395,
-				"sptUpdateLastRunTimestamp": 1717272303
+				"sptUpdateLastRunTimestamp": 1717361432
 			},
 			"Info": {
 				"AccountType": 0,
@@ -26220,11 +26220,67 @@
 						"time": "17:37",
 						"location": "bigmap"
 					}
+				},
+				{
+					"_id": "e1840c125030e55610333c02",
+					"uid": "54cb50c76803fa8b248b4571",
+					"type": 8,
+					"dt": 1717361102,
+					"text": "",
+					"templateId": "58fe0e4586f774728248ca13 2",
+					"hasRewards": true,
+					"rewardCollected": false,
+					"systemData": {
+						"date": "01.06.2024",
+						"time": "01:12",
+						"location": "Shoreline"
+					},
+					"items": {
+						"stash": "78dff789ff2cc63c53887225",
+						"data": [
+							{
+								"_id": "b4f4cdf6b90cf13ab0ae1db5",
+								"_tpl": "5b099ac65acfc400186331e1",
+								"parentId": "78dff789ff2cc63c53887225",
+								"slotId": "main",
+								"upd": {}
+							}
+						]
+					},
+					"maxStorageTime": 345600
+				},
+				{
+					"_id": "8dcaffab97950ef71eabd4d0",
+					"uid": "54cb50c76803fa8b248b4571",
+					"type": 8,
+					"dt": 1717361102,
+					"text": "",
+					"templateId": "58fe0e4586f774728248ca13 3",
+					"hasRewards": true,
+					"rewardCollected": false,
+					"systemData": {
+						"date": "01.06.2024",
+						"time": "17:37",
+						"location": "bigmap"
+					},
+					"items": {
+						"stash": "98d28845255bcb2d34918cf8",
+						"data": [
+							{
+								"_id": "e998c297e823d8744cbce0dd",
+								"_tpl": "60a6220e953894617404b00a",
+								"parentId": "98d28845255bcb2d34918cf8",
+								"slotId": "main",
+								"upd": {}
+							}
+						]
+					},
+					"maxStorageTime": 345600
 				}
 			],
 			"pinned": true,
-			"new": 0,
-			"attachmentsNew": 0
+			"new": 2,
+			"attachmentsNew": 2
 		},
 		"54cb57776803fa99248b456e": {
 			"_id": "54cb57776803fa99248b456e",
@@ -27360,50 +27416,7 @@
 		"location": "none",
 		"character": "pmc"
 	},
-	"insurance": [
-		{
-			"scheduledTime": 1717326824,
-			"traderId": "54cb50c76803fa8b248b4571",
-			"maxStorageTime": 345600,
-			"systemData": {
-				"date": "01.06.2024",
-				"time": "01:12",
-				"location": "Shoreline"
-			},
-			"messageType": 8,
-			"messageTemplateId": "58fe0e4586f774728248ca13 2",
-			"items": [
-				{
-					"_id": "aa475f5c996e91b4acdf4cdd",
-					"_tpl": "5b099ac65acfc400186331e1",
-					"parentId": "78dff789ff2cc63c53887225",
-					"slotId": "hideout",
-					"upd": {}
-				}
-			]
-		},
-		{
-			"scheduledTime": 1717275163,
-			"traderId": "54cb50c76803fa8b248b4571",
-			"maxStorageTime": 345600,
-			"systemData": {
-				"date": "01.06.2024",
-				"time": "17:37",
-				"location": "bigmap"
-			},
-			"messageType": 8,
-			"messageTemplateId": "58fe0e4586f774728248ca13 3",
-			"items": [
-				{
-					"_id": "cefe58b523a04c5fb5de0966",
-					"_tpl": "60a6220e953894617404b00a",
-					"parentId": "98d28845255bcb2d34918cf8",
-					"slotId": "hideout",
-					"upd": {}
-				}
-			]
-		}
-	],
+	"insurance": [],
 	"traderPurchases": {
 		"54cb50c76803fa8b248b4571": {},
 		"5935c25fb3acc3127c3d8cd9": {},
