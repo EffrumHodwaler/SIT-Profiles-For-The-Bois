@@ -1697,41 +1697,11 @@
 					"sourceId": "6089743983426423753cd58a",
 					"type": "CounterCreator"
 				},
-				"6646440f7aea67e601000005": {
-					"id": "6646440f7aea67e601000005",
-					"value": 0,
-					"sourceId": "6646440f7aea67e601000001",
-					"type": "CounterCreator"
-				},
-				"664a914dfeba0efd17000012": {
-					"id": "664a914dfeba0efd17000012",
-					"value": 1,
-					"sourceId": "664a914dfeba0efd1700000f",
-					"type": "CounterCreator"
-				},
-				"664be65a3af2e67ccb000010": {
-					"id": "664be65a3af2e67ccb000010",
-					"value": 0,
-					"sourceId": "664be65a3af2e67ccb00000d",
-					"type": "CounterCreator"
-				},
-				"664d39261e129b476500000b": {
-					"id": "664d39261e129b476500000b",
-					"value": 1,
-					"sourceId": "664d39261e129b4765000007",
-					"type": "CounterCreator"
-				},
-				"664eb9b582a48e818d000015": {
-					"id": "664eb9b582a48e818d000015",
-					"value": 2,
-					"sourceId": "664eb9b582a48e818d000012",
-					"type": "CounterCreator"
-				},
-				"665941758e0b742db4000012": {
-					"id": "665941758e0b742db4000012",
-					"value": 0,
-					"sourceId": "665941758e0b742db400000e",
-					"type": "CounterCreator"
+				"CounterHoursCrafting": {
+					"id": "5ffcaa60f3fdc212a91d552b",
+					"type": "CounterHoursCrafting",
+					"sourceId": "CounterCrafting",
+					"value": 3980
 				}
 			},
 			"Bonuses": [
@@ -2993,7 +2963,7 @@
 					"Current": 40,
 					"Maximum": 40
 				},
-				"UpdateTime": 1717362397
+				"UpdateTime": 1717362824
 			},
 			"Hideout": {
 				"Areas": [
@@ -3031,7 +3001,7 @@
 						"active": true,
 						"completeTime": 0,
 						"constructing": false,
-						"lastRecipe": "62a11415c30cfa1d366aeb83",
+						"lastRecipe": "5ffcaa60f3fdc212a91d552b",
 						"level": 3,
 						"passiveBonusesEnabled": true,
 						"slots": [],
@@ -3105,8 +3075,8 @@
 										"upd": {
 											"StackObjectsCount": 1,
 											"Resource": {
-												"Value": 46.0414,
-												"UnitsConsumed": 3.9586
+												"Value": 45.4923,
+												"UnitsConsumed": 4.5077
 											},
 											"SpawnedInSession": false
 										}
@@ -3192,7 +3162,7 @@
 						"active": true,
 						"completeTime": 0,
 						"constructing": false,
-						"lastRecipe": "5dd11303b78bb413d5133f79",
+						"lastRecipe": "5de951483c52683d810b4a10",
 						"level": 2,
 						"passiveBonusesEnabled": true,
 						"slots": [],
@@ -3535,52 +3505,8 @@
 					}
 				},
 				"Production": {
-					"5de951483c52683d810b4a10": {
-						"Progress": 1861.2,
-						"inProgress": true,
-						"RecipeId": "5de951483c52683d810b4a10",
-						"StartTimestamp": 1717357041,
-						"ProductionTime": 1861.2,
-						"Products": [],
-						"GivenItemsInStart": [],
-						"Interrupted": false,
-						"NeedFuelForAllProductionTime": false,
-						"needFuelForAllProductionTime": false,
-						"SkipTime": 0,
-						"sptRequiredTools": [
-							{
-								"_id": "28cf25a58fcc286c20cbdbcc",
-								"_tpl": "5d63d33b86f7746ea9275524",
-								"upd": {
-									"StackObjectsCount": 1
-								}
-							}
-						]
-					},
-					"5ffcaa60f3fdc212a91d552b": {
-						"Progress": 1880,
-						"inProgress": true,
-						"RecipeId": "5ffcaa60f3fdc212a91d552b",
-						"StartTimestamp": 1717357051,
-						"ProductionTime": 1880,
-						"Products": [],
-						"GivenItemsInStart": [],
-						"Interrupted": false,
-						"NeedFuelForAllProductionTime": false,
-						"needFuelForAllProductionTime": false,
-						"SkipTime": 0,
-						"sptRequiredTools": [
-							{
-								"_id": "e2669543f392213bc0a1ebc1",
-								"_tpl": "544fb5454bdc2df8738b456a",
-								"upd": {
-									"StackObjectsCount": 1
-								}
-							}
-						]
-					},
 					"5f240f45f4a9420a8c328ee0": {
-						"Progress": 5336,
+						"Progress": 5791,
 						"inProgress": true,
 						"RecipeId": "5f240f45f4a9420a8c328ee0",
 						"StartTimestamp": 1717357066,
@@ -3614,10 +3540,54 @@
 						"NeedFuelForAllProductionTime": false,
 						"needFuelForAllProductionTime": false,
 						"SkipTime": 0
+					},
+					"5df8ffcbaab5f257bd7ff3a8": {
+						"Progress": 60,
+						"inProgress": true,
+						"RecipeId": "5df8ffcbaab5f257bd7ff3a8",
+						"StartTimestamp": 1717362799,
+						"ProductionTime": 8392.5,
+						"Products": [],
+						"GivenItemsInStart": [],
+						"Interrupted": false,
+						"NeedFuelForAllProductionTime": false,
+						"needFuelForAllProductionTime": false,
+						"SkipTime": 0,
+						"sptRequiredTools": [
+							{
+								"_id": "4bf32f22a86742c666759571",
+								"_tpl": "5d40419286f774318526545f",
+								"upd": {
+									"StackObjectsCount": 1
+								}
+							}
+						]
+					},
+					"6002e26ac6b84d04cc62045e": {
+						"Progress": 45,
+						"inProgress": true,
+						"RecipeId": "6002e26ac6b84d04cc62045e",
+						"StartTimestamp": 1717362814,
+						"ProductionTime": 2424.5,
+						"Products": [],
+						"GivenItemsInStart": [],
+						"Interrupted": false,
+						"NeedFuelForAllProductionTime": false,
+						"needFuelForAllProductionTime": false,
+						"SkipTime": 0,
+						"sptRequiredTools": [
+							{
+								"_id": "8a933db9567bd787fb20580c",
+								"_tpl": "590c2d8786f774245b1f03f3",
+								"upd": {
+									"StackObjectsCount": 1
+								}
+							}
+						]
 					}
 				},
 				"Seed": 1967507699,
-				"sptUpdateLastRunTimestamp": 1717362394
+				"sptUpdateLastRunTimestamp": 1717362849
 			},
 			"Info": {
 				"AccountType": 0,
@@ -4160,7 +4130,7 @@
 				}
 			],
 			"Inventory": {
-				"equipment": "0ac0cd8377e5114e5f6e2ece",
+				"equipment": "6bec016a7cc2e56deaa90c94",
 				"fastPanel": {
 					"Item4": "8547be0321b7a7d14dd685ad",
 					"Item7": "2ab9e38e698d36a36e57a680",
@@ -4174,7 +4144,7 @@
 				},
 				"items": [
 					{
-						"_id": "0ac0cd8377e5114e5f6e2ece",
+						"_id": "6bec016a7cc2e56deaa90c94",
 						"_tpl": "55d7217a4bdc2d86028b456d"
 					},
 					{
@@ -4188,7 +4158,7 @@
 					{
 						"_id": "e95a605d75b18d35c7dc9969",
 						"_tpl": "56dee2bdd2720bc8328b4567",
-						"parentId": "0ac0cd8377e5114e5f6e2ece",
+						"parentId": "6bec016a7cc2e56deaa90c94",
 						"slotId": "FirstPrimaryWeapon",
 						"upd": {
 							"Repairable": {
@@ -4203,7 +4173,7 @@
 					{
 						"_id": "6295aa9df69630423e88d7ec",
 						"_tpl": "5b1fa9b25acfc40018633c01",
-						"parentId": "0ac0cd8377e5114e5f6e2ece",
+						"parentId": "6bec016a7cc2e56deaa90c94",
 						"slotId": "Holster",
 						"upd": {
 							"Repairable": {
@@ -4218,7 +4188,7 @@
 					{
 						"_id": "a623bcacf9a07c1d24a815fb",
 						"_tpl": "5c0126f40db834002a125382",
-						"parentId": "0ac0cd8377e5114e5f6e2ece",
+						"parentId": "6bec016a7cc2e56deaa90c94",
 						"slotId": "Scabbard",
 						"upd": {
 							"Repairable": {
@@ -4230,49 +4200,49 @@
 					{
 						"_id": "4074daf250f0be8b181abe7d",
 						"_tpl": "59e7708286f7742cbd762753",
-						"parentId": "0ac0cd8377e5114e5f6e2ece",
+						"parentId": "6bec016a7cc2e56deaa90c94",
 						"slotId": "Headwear"
 					},
 					{
 						"_id": "63898e72d75548131e97b301",
 						"_tpl": "572b7adb24597762ae139821",
-						"parentId": "0ac0cd8377e5114e5f6e2ece",
+						"parentId": "6bec016a7cc2e56deaa90c94",
 						"slotId": "TacticalVest"
 					},
 					{
 						"_id": "051c91fb0e115628b475bc3b",
 						"_tpl": "5857a8bc2459772bad15db29",
-						"parentId": "0ac0cd8377e5114e5f6e2ece",
+						"parentId": "6bec016a7cc2e56deaa90c94",
 						"slotId": "SecuredContainer"
 					},
 					{
 						"_id": "407a61fba08ea8d3889d903e",
 						"_tpl": "59e763f286f7742ee57895da",
-						"parentId": "0ac0cd8377e5114e5f6e2ece",
+						"parentId": "6bec016a7cc2e56deaa90c94",
 						"slotId": "Backpack"
 					},
 					{
 						"_id": "47cb97dda36c63a153e2674f",
 						"_tpl": "5ab8e79e86f7742d8b372e78",
-						"parentId": "0ac0cd8377e5114e5f6e2ece",
+						"parentId": "6bec016a7cc2e56deaa90c94",
 						"slotId": "ArmorVest"
 					},
 					{
 						"_id": "436a5948bb7cc32443cf2e20",
 						"_tpl": "627a4e6b255f7527fb05a0f6",
-						"parentId": "0ac0cd8377e5114e5f6e2ece",
+						"parentId": "6bec016a7cc2e56deaa90c94",
 						"slotId": "Pockets"
 					},
 					{
 						"_id": "0c8d17aa8f3ea414d44e5055",
 						"_tpl": "5f60cd6cf2bcbb675b00dac6",
-						"parentId": "0ac0cd8377e5114e5f6e2ece",
+						"parentId": "6bec016a7cc2e56deaa90c94",
 						"slotId": "Earpiece"
 					},
 					{
 						"_id": "ec6f69c3fce53836bc14dd19",
 						"_tpl": "59f32bb586f774757e1e8442",
-						"parentId": "0ac0cd8377e5114e5f6e2ece",
+						"parentId": "6bec016a7cc2e56deaa90c94",
 						"slotId": "Dogtag",
 						"upd": {
 							"Resource": {
@@ -4297,7 +4267,7 @@
 					{
 						"_id": "dc4c3e38f03322077b9db3eb",
 						"_tpl": "5b432be65acfc433000ed01f",
-						"parentId": "0ac0cd8377e5114e5f6e2ece",
+						"parentId": "6bec016a7cc2e56deaa90c94",
 						"slotId": "Eyewear",
 						"upd": {
 							"SpawnedInSession": true
@@ -13736,11 +13706,11 @@
 					{
 						"_id": "1bdd0b046b74dc260681a6e6",
 						"_tpl": "64ccc25f95763a1ae376e447",
-						"parentId": "842b3d52861701df7a5ea425",
-						"slotId": "main",
+						"parentId": "5fe49444ae6628187a2e78b8",
+						"slotId": "hideout",
 						"location": {
-							"x": 0,
-							"y": 1,
+							"x": 7,
+							"y": 2,
 							"r": "Horizontal",
 							"isSearched": true
 						},
@@ -26985,7 +26955,7 @@
 							"StackObjectsCount": 1,
 							"Tag": {
 								"Color": 2,
-								"Name": "$$$$"
+								"Name": "RUB"
 							}
 						},
 						"location": {
@@ -29902,7 +29872,7 @@
 						"_id": "4aafb808fdc6529ce0b004c7",
 						"_tpl": "5449016a4bdc2d6f028b456f",
 						"upd": {
-							"StackObjectsCount": 500000
+							"StackObjectsCount": 473149
 						},
 						"parentId": "8361782a98a92b0e4cf78825",
 						"slotId": "main",
@@ -30182,21 +30152,6 @@
 						"location": {
 							"x": 5,
 							"y": 2,
-							"r": "Horizontal",
-							"isSearched": true
-						}
-					},
-					{
-						"_id": "54bb5b55b6f432edb18af15b",
-						"_tpl": "5d40419286f774318526545f",
-						"upd": {
-							"StackObjectsCount": 1
-						},
-						"parentId": "bf1d94268a0563ba1a5cccbd",
-						"slotId": "main",
-						"location": {
-							"x": 13,
-							"y": 4,
 							"r": "Horizontal",
 							"isSearched": true
 						}
@@ -31854,21 +31809,6 @@
 						}
 					},
 					{
-						"_id": "a4271ed81d0aedab3a4c9ec6",
-						"_tpl": "590c2d8786f774245b1f03f3",
-						"upd": {
-							"StackObjectsCount": 1
-						},
-						"parentId": "bf1d94268a0563ba1a5cccbd",
-						"slotId": "main",
-						"location": {
-							"x": 12,
-							"y": 2,
-							"r": "Horizontal",
-							"isSearched": true
-						}
-					},
-					{
 						"_id": "e0134168edad8acd53027a8b",
 						"_tpl": "591afe0186f77431bd616a11",
 						"upd": {
@@ -32329,7 +32269,7 @@
 						"_id": "973fdf9bd14b4daf396091d6",
 						"_tpl": "5449016a4bdc2d6f028b456f",
 						"upd": {
-							"StackObjectsCount": 32445
+							"StackObjectsCount": 193863
 						},
 						"parentId": "25118a76678b5dc9a9e53f46",
 						"slotId": "main",
@@ -32463,11 +32403,11 @@
 					{
 						"_id": "04a2d03b22b60aeba3f47750",
 						"_tpl": "64d4b23dc1b37504b41ac2b6",
-						"parentId": "5fe49444ae6628187a2e78b8",
-						"slotId": "hideout",
+						"parentId": "842b3d52861701df7a5ea425",
+						"slotId": "main",
 						"location": {
-							"x": 7,
-							"y": 2,
+							"x": 0,
+							"y": 1,
 							"r": "Horizontal",
 							"isSearched": true
 						},
@@ -32553,7 +32493,7 @@
 						"location": {
 							"x": 0,
 							"y": 6,
-							"r": "Vertical",
+							"r": "Horizontal",
 							"isSearched": true
 						},
 						"upd": {
@@ -32568,8 +32508,8 @@
 						"parentId": "5fe49444ae6628187a2e78b8",
 						"slotId": "hideout",
 						"location": {
-							"x": 1,
-							"y": 6,
+							"x": 2,
+							"y": 5,
 							"r": "Horizontal",
 							"isSearched": true
 						},
@@ -32578,6 +32518,96 @@
 							"MedKit": {
 								"HpResource": 15
 							}
+						}
+					},
+					{
+						"_id": "e2669543f392213bc0a1ebc1",
+						"_tpl": "544fb5454bdc2df8738b456a",
+						"upd": {
+							"StackObjectsCount": 1
+						},
+						"parentId": "5fe49444ae6628187a2e78b8",
+						"slotId": "hideout",
+						"location": {
+							"x": 8,
+							"y": 2,
+							"r": 0,
+							"rotation": false
+						}
+					},
+					{
+						"_id": "03ecc34c135a27795e0fec47",
+						"_tpl": "5e2af4d286f7746d4159f07a",
+						"parentId": "5fe49444ae6628187a2e78b8",
+						"slotId": "hideout",
+						"location": {
+							"x": 2,
+							"y": 3,
+							"r": 0,
+							"rotation": false
+						},
+						"upd": {
+							"SpawnedInSession": true
+						}
+					},
+					{
+						"_id": "fabc5ab0bec398f9d3cbe7ea",
+						"_tpl": "5e2af4d286f7746d4159f07a",
+						"parentId": "5fe49444ae6628187a2e78b8",
+						"slotId": "hideout",
+						"location": {
+							"x": 4,
+							"y": 3,
+							"r": 0,
+							"rotation": false
+						},
+						"upd": {
+							"SpawnedInSession": true
+						}
+					},
+					{
+						"_id": "28cf25a58fcc286c20cbdbcc",
+						"_tpl": "5d63d33b86f7746ea9275524",
+						"upd": {
+							"StackObjectsCount": 1
+						},
+						"parentId": "5fe49444ae6628187a2e78b8",
+						"slotId": "hideout",
+						"location": {
+							"x": 6,
+							"y": 3,
+							"r": 0,
+							"rotation": false
+						}
+					},
+					{
+						"_id": "feb4b4372e13ad5ad6d6ed35",
+						"_tpl": "590a3b0486f7743954552bdb",
+						"parentId": "5fe49444ae6628187a2e78b8",
+						"slotId": "hideout",
+						"location": {
+							"x": 7,
+							"y": 3,
+							"r": 0,
+							"rotation": false
+						},
+						"upd": {
+							"SpawnedInSession": true
+						}
+					},
+					{
+						"_id": "7a43c03fe10dc4203c8bd986",
+						"_tpl": "590a3b0486f7743954552bdb",
+						"parentId": "5fe49444ae6628187a2e78b8",
+						"slotId": "hideout",
+						"location": {
+							"x": 8,
+							"y": 3,
+							"r": 0,
+							"rotation": false
+						},
+						"upd": {
+							"SpawnedInSession": true
 						}
 					}
 				],
@@ -34291,9 +34321,9 @@
 					},
 					{
 						"Id": "Intellect",
-						"Progress": 172.54676226100003,
+						"Progress": 173.54676226100003,
 						"PointsEarnedDuringSession": 0,
-						"LastAccess": 1717361199
+						"LastAccess": 1717362802
 					},
 					{
 						"Id": "Attention",
@@ -34543,15 +34573,15 @@
 					},
 					{
 						"Id": "Crafting",
-						"Progress": 913,
+						"Progress": 933,
 						"PointsEarnedDuringSession": 0,
-						"LastAccess": 1717357055
+						"LastAccess": 1717362802
 					},
 					{
 						"Id": "HideoutManagement",
-						"Progress": 775,
+						"Progress": 775.8,
 						"PointsEarnedDuringSession": 0,
-						"LastAccess": 1717359123
+						"LastAccess": 1717362802
 					}
 				],
 				"Mastering": [
@@ -39663,7 +39693,7 @@
 				"ragfair": {
 					"disabled": false,
 					"loyaltyLevel": 1,
-					"salesSum": 39828342,
+					"salesSum": 39855193,
 					"standing": 0.2,
 					"nextResupply": 1576762923,
 					"unlocked": false
@@ -40705,7 +40735,7 @@
 									"count": 5000
 								}
 							],
-							"changeStandingCost": 0.01
+							"changeStandingCost": 0
 						},
 						"665c9a9bec8f8bd971000003": {
 							"changeCost": [
@@ -40714,7 +40744,7 @@
 									"count": 5000
 								}
 							],
-							"changeStandingCost": 0.01
+							"changeStandingCost": 0
 						},
 						"665c9a9bec8f8bd971000006": {
 							"changeCost": [
@@ -41319,7 +41349,7 @@
 									"count": 5000
 								}
 							],
-							"changeStandingCost": 0.01
+							"changeStandingCost": 0
 						}
 					}
 				}
@@ -57215,10 +57245,7 @@
 					"text": "Your Soap 2 items were bought by alias.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "71725a58b8d2998835b34c76",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 172800
 				},
 				{
@@ -57229,10 +57256,7 @@
 					"text": "Your Soap 2 items were bought by IvanTheThicc.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "8de325e295c6590a39f2aecc",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 172800
 				},
 				{
@@ -57243,10 +57267,7 @@
 					"text": "Your Silver Badge 3 items were bought by Baliston.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "03fa1ae7a2ad35fadc97d96a",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 172800
 				},
 				{
@@ -57257,10 +57278,7 @@
 					"text": "Your Soap 2 items were bought by Cheese.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "9e3113117072f67108443fcf",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 172800
 				},
 				{
@@ -57271,10 +57289,7 @@
 					"text": "Your Weapon parts 1 items were bought by itsMickle.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "c774eadc06ee42a4ed1222ab",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 172800
 				},
 				{
@@ -57285,10 +57300,7 @@
 					"text": "Your Weapon parts 3 items were bought by Platinum.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "aa0028e9e5af3fc1e98d6b20",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 172800
 				},
 				{
@@ -57299,10 +57311,7 @@
 					"text": "Your Golden rooster figurine 1 items were bought by OXIdiezd.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "deabce7e7bf1c76aec5d3783",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 172800
 				},
 				{
@@ -57313,10 +57322,7 @@
 					"text": "Your Secure Flash drive 3 items were bought by Bobitec.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "d3e454fe2c10ff86e55405ec",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 172800
 				},
 				{
@@ -57327,10 +57333,7 @@
 					"text": "Your Secure Flash drive 1 items were bought by wara.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "d5e90ca458fac48e6b331a88",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 172800
 				},
 				{
@@ -57341,10 +57344,7 @@
 					"text": "Your Secure Flash drive 1 items were bought by OXIdiezd.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "257f05709356e26d72d1fea5",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 172800
 				},
 				{
@@ -57355,10 +57355,7 @@
 					"text": "Your Aramid fiber fabric 1 items were bought by ChiNoel.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "ee5d8400fa568e967072acea",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 172800
 				},
 				{
@@ -57369,10 +57366,7 @@
 					"text": "Your Tetriz portable game console 2 items were bought by Doge.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "fed6ead0d0be2625156f2fc5",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 172800
 				},
 				{
@@ -57383,10 +57377,7 @@
 					"text": "Your Aramid fiber fabric 1 items were bought by Pettan.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "817b15c46fa363670effe36d",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 172800
 				},
 				{
@@ -57397,10 +57388,7 @@
 					"text": "Your HighCom Striker ULACH IIIA helmet (Desert Tan) 1 items were bought by pitAlex.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "386a778586f2b942bded0a87",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 172800
 				},
 				{
@@ -59139,28 +59127,18 @@
 					"dt": 1717362369,
 					"text": "",
 					"templateId": "64648f64063abf54100f587b 0",
-					"hasRewards": true,
-					"rewardCollected": false,
+					"hasRewards": false,
+					"rewardCollected": true,
 					"items": {
 						"stash": "631633a99f31f9ce56513984",
-						"data": [
-							{
-								"_id": "d1edc7e36f627aea4aecfb30",
-								"_tpl": "5449016a4bdc2d6f028b456f",
-								"upd": {
-									"StackObjectsCount": 161418
-								},
-								"parentId": "631633a99f31f9ce56513984",
-								"slotId": "main"
-							}
-						]
+						"data": []
 					},
 					"maxStorageTime": 259200
 				}
 			],
 			"pinned": false,
-			"new": 1,
-			"attachmentsNew": 1
+			"new": 0,
+			"attachmentsNew": 0
 		},
 		"Crackbone": {
 			"_id": "Crackbone",
