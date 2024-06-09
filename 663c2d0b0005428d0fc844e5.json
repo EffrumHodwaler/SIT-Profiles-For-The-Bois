@@ -4367,8 +4367,8 @@
 										"upd": {
 											"StackObjectsCount": 1,
 											"Resource": {
-												"Value": 15.1505,
-												"UnitsConsumed": 4.8495
+												"Value": 15.0983,
+												"UnitsConsumed": 4.9017
 											},
 											"SpawnedInSession": true
 										}
@@ -4488,8 +4488,8 @@
 										"upd": {
 											"StackObjectsCount": 1,
 											"Resource": {
-												"Value": 95.694,
-												"UnitsConsumed": 4.306
+												"Value": 95.565,
+												"UnitsConsumed": 4.435
 											},
 											"SpawnedInSession": true
 										}
@@ -5384,10 +5384,10 @@
 				},
 				"Production": {
 					"5d5c205bd582a50d042a3c0e": {
-						"Progress": 21505,
+						"Progress": 21640,
 						"inProgress": true,
 						"RecipeId": "5d5c205bd582a50d042a3c0e",
-						"StartTimestamp": 1717973735,
+						"StartTimestamp": 1717973780,
 						"ProductionTime": 145000,
 						"Products": [],
 						"GivenItemsInStart": [],
@@ -5397,7 +5397,7 @@
 						"SkipTime": 0
 					},
 					"5d5589c1f934db045e6c5492": {
-						"Progress": 1503,
+						"Progress": 1548,
 						"inProgress": true,
 						"RecipeId": "5d5589c1f934db045e6c5492",
 						"StartTimestamp": 1717972232,
@@ -5412,7 +5412,7 @@
 						"sptIsContinuous": true
 					},
 					"5dceeaf100b3815535149f5a": {
-						"Progress": 11974,
+						"Progress": 12019,
 						"inProgress": true,
 						"RecipeId": "5dceeaf100b3815535149f5a",
 						"StartTimestamp": 1717961765,
@@ -5438,7 +5438,7 @@
 						]
 					},
 					"62710a0e436dcc0b9c55f4ec": {
-						"Progress": 1632,
+						"Progress": 1677,
 						"inProgress": true,
 						"RecipeId": "62710a0e436dcc0b9c55f4ec",
 						"StartTimestamp": 1717972103,
@@ -5452,7 +5452,7 @@
 						"sptIsScavCase": true
 					},
 					"5dd11303b78bb413d5133f79": {
-						"Progress": 1515,
+						"Progress": 1560,
 						"inProgress": true,
 						"RecipeId": "5dd11303b78bb413d5133f79",
 						"StartTimestamp": 1717972221,
@@ -5478,7 +5478,7 @@
 						]
 					},
 					"5d5c1fd4d582a500650132f0": {
-						"Progress": 1500,
+						"Progress": 1545,
 						"inProgress": true,
 						"RecipeId": "5d5c1fd4d582a500650132f0",
 						"StartTimestamp": 1717972244,
@@ -5491,7 +5491,7 @@
 						"SkipTime": 0
 					},
 					"5e13301cc7049d4d9738e1a7": {
-						"Progress": 198,
+						"Progress": 243,
 						"inProgress": true,
 						"RecipeId": "5e13301cc7049d4d9738e1a7",
 						"StartTimestamp": 1717973547,
@@ -5505,7 +5505,7 @@
 					}
 				},
 				"Seed": 1967507794,
-				"sptUpdateLastRunTimestamp": 1717973735
+				"sptUpdateLastRunTimestamp": 1717973780
 			},
 			"Info": {
 				"AccountType": 0,
