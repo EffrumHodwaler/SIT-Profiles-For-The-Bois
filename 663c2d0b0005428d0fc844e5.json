@@ -2944,12 +2944,6 @@
 					"sourceId": "5ae4490786f7744ca822adcc",
 					"type": "HandoverItem",
 					"value": 2
-				},
-				"CounterHoursCrafting": {
-					"id": "5d5c1f5ed582a543983ee82e",
-					"type": "CounterHoursCrafting",
-					"sourceId": "CounterCrafting",
-					"value": 1320
 				}
 			},
 			"Bonuses": [
@@ -4259,44 +4253,44 @@
 				"BodyParts": {
 					"Chest": {
 						"Health": {
-							"Current": 5000,
-							"Maximum": 5000
+							"Current": 85,
+							"Maximum": 85
 						}
 					},
 					"Head": {
 						"Health": {
-							"Current": 5000,
-							"Maximum": 5000
+							"Current": 35,
+							"Maximum": 35
 						}
 					},
 					"LeftArm": {
 						"Health": {
-							"Current": 5000,
-							"Maximum": 5000
+							"Current": 60,
+							"Maximum": 60
 						}
 					},
 					"LeftLeg": {
 						"Health": {
-							"Current": 5000,
-							"Maximum": 5000
+							"Current": 65,
+							"Maximum": 65
 						}
 					},
 					"RightArm": {
 						"Health": {
-							"Current": 5000,
-							"Maximum": 5000
+							"Current": 60,
+							"Maximum": 60
 						}
 					},
 					"RightLeg": {
 						"Health": {
-							"Current": 5000,
-							"Maximum": 5000
+							"Current": 65,
+							"Maximum": 65
 						}
 					},
 					"Stomach": {
 						"Health": {
-							"Current": 5000,
-							"Maximum": 5000
+							"Current": 70,
+							"Maximum": 70
 						}
 					}
 				},
@@ -4312,7 +4306,7 @@
 					"Current": 40,
 					"Maximum": 40
 				},
-				"UpdateTime": 1717973586
+				"UpdateTime": 1717973747
 			},
 			"Hideout": {
 				"Areas": [
@@ -4373,8 +4367,8 @@
 										"upd": {
 											"StackObjectsCount": 1,
 											"Resource": {
-												"Value": 15.327,
-												"UnitsConsumed": 4.673
+												"Value": 15.1505,
+												"UnitsConsumed": 4.8495
 											},
 											"SpawnedInSession": true
 										}
@@ -4494,8 +4488,8 @@
 										"upd": {
 											"StackObjectsCount": 1,
 											"Resource": {
-												"Value": 96.127,
-												"UnitsConsumed": 3.873
+												"Value": 95.694,
+												"UnitsConsumed": 4.306
 											},
 											"SpawnedInSession": true
 										}
@@ -5390,10 +5384,10 @@
 				},
 				"Production": {
 					"5d5c205bd582a50d042a3c0e": {
-						"Progress": 21047,
+						"Progress": 21505,
 						"inProgress": true,
 						"RecipeId": "5d5c205bd582a50d042a3c0e",
-						"StartTimestamp": 1717973583,
+						"StartTimestamp": 1717973735,
 						"ProductionTime": 145000,
 						"Products": [],
 						"GivenItemsInStart": [],
@@ -5403,7 +5397,7 @@
 						"SkipTime": 0
 					},
 					"5d5589c1f934db045e6c5492": {
-						"Progress": 1351,
+						"Progress": 1503,
 						"inProgress": true,
 						"RecipeId": "5d5589c1f934db045e6c5492",
 						"StartTimestamp": 1717972232,
@@ -5418,7 +5412,7 @@
 						"sptIsContinuous": true
 					},
 					"5dceeaf100b3815535149f5a": {
-						"Progress": 11822,
+						"Progress": 11974,
 						"inProgress": true,
 						"RecipeId": "5dceeaf100b3815535149f5a",
 						"StartTimestamp": 1717961765,
@@ -5444,7 +5438,7 @@
 						]
 					},
 					"62710a0e436dcc0b9c55f4ec": {
-						"Progress": 1480,
+						"Progress": 1632,
 						"inProgress": true,
 						"RecipeId": "62710a0e436dcc0b9c55f4ec",
 						"StartTimestamp": 1717972103,
@@ -5458,7 +5452,7 @@
 						"sptIsScavCase": true
 					},
 					"5dd11303b78bb413d5133f79": {
-						"Progress": 1363,
+						"Progress": 1515,
 						"inProgress": true,
 						"RecipeId": "5dd11303b78bb413d5133f79",
 						"StartTimestamp": 1717972221,
@@ -5484,7 +5478,7 @@
 						]
 					},
 					"5d5c1fd4d582a500650132f0": {
-						"Progress": 1348,
+						"Progress": 1500,
 						"inProgress": true,
 						"RecipeId": "5d5c1fd4d582a500650132f0",
 						"StartTimestamp": 1717972244,
@@ -5497,7 +5491,7 @@
 						"SkipTime": 0
 					},
 					"5e13301cc7049d4d9738e1a7": {
-						"Progress": 46,
+						"Progress": 198,
 						"inProgress": true,
 						"RecipeId": "5e13301cc7049d4d9738e1a7",
 						"StartTimestamp": 1717973547,
@@ -5511,7 +5505,7 @@
 					}
 				},
 				"Seed": 1967507794,
-				"sptUpdateLastRunTimestamp": 1717973583
+				"sptUpdateLastRunTimestamp": 1717973735
 			},
 			"Info": {
 				"AccountType": 0,
@@ -6822,7 +6816,7 @@
 				}
 			],
 			"Inventory": {
-				"equipment": "f6ab317484634b359505bb16",
+				"equipment": "4d7b13aa71017c9afb7c59a0",
 				"fastPanel": {
 					"Item10": "aa5fc3678476579040365367"
 				},
@@ -6833,7 +6827,7 @@
 				},
 				"items": [
 					{
-						"_id": "f6ab317484634b359505bb16",
+						"_id": "4d7b13aa71017c9afb7c59a0",
 						"_tpl": "55d7217a4bdc2d86028b456d"
 					},
 					{
@@ -6847,7 +6841,7 @@
 					{
 						"_id": "c535120798716a60bbc19727",
 						"_tpl": "57dc2fa62459775949412633",
-						"parentId": "f6ab317484634b359505bb16",
+						"parentId": "4d7b13aa71017c9afb7c59a0",
 						"slotId": "FirstPrimaryWeapon",
 						"upd": {
 							"Repairable": {
@@ -6865,7 +6859,7 @@
 					{
 						"_id": "7fb12c072ee47b158dcbc0aa",
 						"_tpl": "5c0126f40db834002a125382",
-						"parentId": "f6ab317484634b359505bb16",
+						"parentId": "4d7b13aa71017c9afb7c59a0",
 						"slotId": "Scabbard",
 						"upd": {
 							"Repairable": {
@@ -6877,43 +6871,43 @@
 					{
 						"_id": "7c00016e2c09d617cfdcdfb3",
 						"_tpl": "59e7715586f7742ee5789605",
-						"parentId": "f6ab317484634b359505bb16",
+						"parentId": "4d7b13aa71017c9afb7c59a0",
 						"slotId": "FaceCover"
 					},
 					{
 						"_id": "c1177131a827bcc16ef9e10a",
 						"_tpl": "5c0e6a1586f77404597b4965",
-						"parentId": "f6ab317484634b359505bb16",
+						"parentId": "4d7b13aa71017c9afb7c59a0",
 						"slotId": "TacticalVest"
 					},
 					{
 						"_id": "6918c0948620b99358ad8f94",
 						"_tpl": "5857a8bc2459772bad15db29",
-						"parentId": "f6ab317484634b359505bb16",
+						"parentId": "4d7b13aa71017c9afb7c59a0",
 						"slotId": "SecuredContainer"
 					},
 					{
 						"_id": "4c0c8705162b8d1fd3ac5ce7",
 						"_tpl": "5f5e46b96bdad616ad46d613",
-						"parentId": "f6ab317484634b359505bb16",
+						"parentId": "4d7b13aa71017c9afb7c59a0",
 						"slotId": "Backpack"
 					},
 					{
 						"_id": "3d687756913a0fe09a3d287d",
-						"_tpl": "CustomPocket",
-						"parentId": "f6ab317484634b359505bb16",
+						"_tpl": "627a4e6b255f7527fb05a0f6",
+						"parentId": "4d7b13aa71017c9afb7c59a0",
 						"slotId": "Pockets"
 					},
 					{
 						"_id": "d8afc32313acfc559ed45947",
 						"_tpl": "5b432b965acfc47a8774094e",
-						"parentId": "f6ab317484634b359505bb16",
+						"parentId": "4d7b13aa71017c9afb7c59a0",
 						"slotId": "Earpiece"
 					},
 					{
 						"_id": "847297d734ef20609adbba57",
 						"_tpl": "59f32bb586f774757e1e8442",
-						"parentId": "f6ab317484634b359505bb16",
+						"parentId": "4d7b13aa71017c9afb7c59a0",
 						"slotId": "Dogtag",
 						"upd": {
 							"Resource": {
@@ -6938,7 +6932,7 @@
 					{
 						"_id": "45aae37da621777d7342761b",
 						"_tpl": "5b3f16c486f7747c327f55f7",
-						"parentId": "f6ab317484634b359505bb16",
+						"parentId": "4d7b13aa71017c9afb7c59a0",
 						"slotId": "ArmBand"
 					},
 					{
@@ -67744,7 +67738,7 @@
 									"count": 5000
 								}
 							],
-							"changeStandingCost": 0.01
+							"changeStandingCost": 0
 						},
 						"6664f8ec862d3de126000006": {
 							"changeCost": [
@@ -68626,7 +68620,7 @@
 									"count": 5000
 								}
 							],
-							"changeStandingCost": 0.01
+							"changeStandingCost": 0
 						}
 					}
 				}
